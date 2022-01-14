@@ -1,0 +1,38 @@
+# Where the library lives and how the report groups it.
+cases_dir: cases
+fast_every: 5            # in fast mode only every n-th case is simulated
+fast_families: [junction_, ring_second_kick185, collision_odd]   # always simulated: the junction table and the overview need them
+
+families:
+  single pillar: [single_]
+  dark regime: [linear_]
+  chains: [chain_]
+  defects: [defect_]
+  collisions: [collision_]
+  rings: [ring_]
+  junctions: [junction_]
+  lattices: [grid_]
+  diode: [diode_]
+  pulse trains: [train_]
+
+# The laser of the studies: pump, absorption, saturation ratio, carrier rate, linewidth factor.
+laser: {A: 6.5, B: 5.8, a: 1.8, gamma: 0.01, alpha: 2.0}
+
+speed_couplings: [0.042, 0.044, 0.046, 0.05, 0.055, 0.06, 0.07, 0.08, 0.09, 0.1, 0.12]
+fast_speed_couplings: [0.044, 0.05, 0.06, 0.08, 0.1]
+critical_pumps: [6.4, 6.45, 6.5, 6.55, 6.6, 6.65, 6.7]
+fast_critical_pumps: [6.4, 6.5, 6.6]
+critical_kicks: [1.6, 2.0, 2.5, 3.0, 4.0]
+fast_critical_kicks: [2.0, 3.0]
+refractory_kicks: [1.6, 2.0, 2.5, 3.0, 4.0, 6.0]
+fast_refractory_kicks: [2.0, 4.0]
+
+# Rings holding a pulse: sizes, and the time of the second kick that leaves it (first kick on site 1, second on the last site).
+ring_sizes: [10, 12, 16, 20, 30]
+fast_ring_sizes: [12, 20]
+ring_second_kick: 185
+
+# Rasters shown in the overview figure: title and case.
+overview:
+  Two pulses annihilate: collision_odd
+  A ring holds a pulse: ring_second_kick185
