@@ -1,0 +1,35 @@
+# A flat front launched by kicking a whole column travels like a pulse in a chain. One pillar just behind the kicked column fires twice.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Strip 3 wide and 10 long kicked across one end
+grid 10 3 kappa=0.06
+kick 1 amplitude=2
+kick 11 amplitude=2
+kick 21 amplitude=2
+run 1200
+expect total 31
+expect last 187.24420 0.003
+expect count 1 1
+expect arrival 1 13.32608 0.003
+expect peak 1 53.137531 2e-4
+expect count 11 1
+expect arrival 11 12.24817 0.003
+expect peak 11 58.352540 2e-4
+expect count 5 1
+expect arrival 5 92.46571 0.003
+expect peak 5 58.874716 2e-4
+expect count 15 1
+expect arrival 15 84.93301 0.003
+expect peak 15 56.678752 2e-4
+expect count 10 1
+expect arrival 10 187.24420 0.003
+expect peak 10 53.703781 2e-4
+expect count 20 1
+expect arrival 20 181.40522 0.003
+expect peak 20 59.755562 2e-4
+expect count 30 1
+expect arrival 30 187.24420 0.003
+expect peak 30 53.703781 2e-4
+expect each 1 11 1
+expect count 12 2
+expect each 13 30 1
+expect together 10 30 1e-6
