@@ -1,0 +1,38 @@
+# The chain carries pulses no closer together than its refractory time: kicks that come sooner are dropped at the first site, or fire it without firing the second.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Four kicks 300 photon lifetimes apart
+sites 8
+path 1 8 kappa=0.06
+kick 1 time=0 amplitude=2
+kick 1 time=300 amplitude=2
+kick 1 time=600 amplitude=2
+kick 1 time=900 amplitude=2
+run 1850
+expect total 32
+expect last 1064.12211 0.003
+expect count 1 4
+expect arrival 1 12.96038 0.003
+expect peak 1 58.059000 2e-4
+expect count 2 4
+expect arrival 2 30.97745 0.003
+expect peak 2 56.589824 2e-4
+expect count 3 4
+expect arrival 3 48.19817 0.003
+expect peak 3 56.712156 2e-4
+expect count 4 4
+expect arrival 4 65.44909 0.003
+expect peak 4 56.707651 2e-4
+expect count 5 4
+expect arrival 5 82.68565 0.003
+expect peak 5 56.709544 2e-4
+expect count 6 4
+expect arrival 6 99.92155 0.003
+expect peak 6 56.711250 2e-4
+expect count 7 4
+expect arrival 7 117.18481 0.003
+expect peak 7 56.687880 2e-4
+expect count 8 4
+expect arrival 8 133.27745 0.003
+expect peak 8 57.541762 2e-4
+expect each 2 8 4
+expect count 1 4
