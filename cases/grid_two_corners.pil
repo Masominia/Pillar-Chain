@@ -1,0 +1,33 @@
+# Two fronts meet on the diagonal and annihilate: still exactly one spike per pillar.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Lattice of 6 by 6 kicked at opposite corners
+grid 6 6 kappa=0.06
+kick 1 amplitude=2
+kick 36 amplitude=2
+run 1200
+expect total 36
+expect last 97.32757 0.003
+expect count 1 1
+expect arrival 1 13.37378 0.003
+expect peak 1 57.325431 2e-4
+expect count 8 1
+expect arrival 8 41.33954 0.003
+expect peak 8 60.838949 2e-4
+expect count 15 1
+expect arrival 15 65.89734 0.003
+expect peak 15 61.027844 2e-4
+expect count 6 1
+expect arrival 6 97.32757 0.003
+expect peak 6 61.698736 2e-4
+expect count 31 1
+expect arrival 31 97.32757 0.003
+expect peak 31 61.698736 2e-4
+expect count 22 1
+expect arrival 22 65.89734 0.003
+expect peak 22 61.027844 2e-4
+expect count 36 1
+expect arrival 36 13.37378 0.003
+expect peak 36 57.325431 2e-4
+expect each 1 36 1
+expect together 1 36 1e-6
+expect together 6 31 1e-6
