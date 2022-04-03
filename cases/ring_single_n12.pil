@@ -1,0 +1,41 @@
+# One kick sends a pulse each way round; they annihilate on the far side. Every site fires once.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Ring of 12, one kick
+sites 12
+path 1 12 kappa=0.06
+link 12 1 kappa=0.06
+kick 1 amplitude=2
+run 1500
+expect total 12
+expect last 108.44071 0.003
+expect count 1 1
+expect arrival 1 13.36751 0.003
+expect peak 1 57.331798 2e-4
+expect count 2 1
+expect arrival 2 31.69868 0.003
+expect peak 2 56.118360 2e-4
+expect count 3 1
+expect arrival 3 49.04076 0.003
+expect peak 3 56.716878 2e-4
+expect count 5 1
+expect arrival 5 83.54564 0.003
+expect peak 5 56.730037 2e-4
+expect count 6 1
+expect arrival 6 102.33548 0.003
+expect peak 6 55.685603 2e-4
+expect count 7 1
+expect arrival 7 108.44071 0.003
+expect peak 7 61.230977 2e-4
+expect count 8 1
+expect arrival 8 102.33548 0.003
+expect peak 8 55.685603 2e-4
+expect count 10 1
+expect arrival 10 66.32990 0.003
+expect peak 10 56.699942 2e-4
+expect count 11 1
+expect arrival 11 49.04076 0.003
+expect peak 11 56.716878 2e-4
+expect count 12 1
+expect arrival 12 31.69868 0.003
+expect peak 12 56.118360 2e-4
+expect each 1 12 1
