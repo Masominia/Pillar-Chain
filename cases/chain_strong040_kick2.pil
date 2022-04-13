@@ -1,0 +1,16 @@
+# Strong coupling is not simply faster. The kick spreads over the neighbours before it can fire its own site, so a stronger kick is needed, and each site then fires more than once.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Chain of 8, strong coupling 0.4, kick 2
+sites 8
+path 1 8 kappa=0.4
+kick 1 amplitude=2
+run 1500
+expect total 0
+expect count 1 0
+expect count 2 0
+expect count 3 0
+expect count 4 0
+expect count 5 0
+expect count 6 0
+expect count 7 0
+expect count 8 0
