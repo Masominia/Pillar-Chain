@@ -1,0 +1,33 @@
+# Strong coupling is not simply faster. The kick spreads over the neighbours before it can fire its own site, so a stronger kick is needed, and each site then fires more than once.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Chain of 8, strong coupling 0.2, kick 4
+sites 8
+path 1 8 kappa=0.2
+kick 1 amplitude=4
+run 1500
+expect total 15
+expect last 30.81708 0.003
+expect count 1 2
+expect arrival 1 5.03104 0.003
+expect peak 1 58.941256 2e-4
+expect count 2 2
+expect arrival 2 8.10936 0.003
+expect peak 2 80.911083 2e-4
+expect count 3 2
+expect arrival 3 11.60582 0.003
+expect peak 3 69.392706 2e-4
+expect count 4 2
+expect arrival 4 15.17863 0.003
+expect peak 4 76.246131 2e-4
+expect count 5 2
+expect arrival 5 18.57752 0.003
+expect peak 5 73.954492 2e-4
+expect count 6 2
+expect arrival 6 22.07347 0.003
+expect peak 6 74.966461 2e-4
+expect count 7 2
+expect arrival 7 25.51388 0.003
+expect peak 7 75.032517 2e-4
+expect count 8 1
+expect arrival 8 29.00541 0.003
+expect peak 8 85.942967 2e-4
