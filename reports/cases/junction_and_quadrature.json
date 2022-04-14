@@ -1,0 +1,304 @@
+{
+ "title": "Weak junction, both inputs in quadrature",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 16,
+ "links": 15,
+ "duration": 1200.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  },
+  {
+   "site": 6,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 90.0
+  }
+ ],
+ "total": 16,
+ "last_spike": 215.47094447890498,
+ "spikes": {
+  "1": [
+   [
+    12.960318569023727,
+    58.058982799983596
+   ]
+  ],
+  "2": [
+   [
+    30.977431278467783,
+    56.58979520339815
+   ]
+  ],
+  "3": [
+   [
+    48.196602586420425,
+    56.713808339254854
+   ]
+  ],
+  "4": [
+   [
+    65.4814014689398,
+    56.69103165950382
+   ]
+  ],
+  "5": [
+   [
+    81.67997757296254,
+    57.6331962914992
+   ]
+  ],
+  "6": [
+   [
+    12.960318568075145,
+    58.05898281341597
+   ]
+  ],
+  "7": [
+   [
+    30.977427327709528,
+    56.589814530552786
+   ]
+  ],
+  "8": [
+   [
+    48.197935555328634,
+    56.713093429776976
+   ]
+  ],
+  "9": [
+   [
+    65.45594624801389,
+    56.69215956254629
+   ]
+  ],
+  "10": [
+   [
+    81.97671487816505,
+    57.03707618671181
+   ]
+  ],
+  "11": [
+   [
+    129.82504738142921,
+    55.174625813347895
+   ]
+  ],
+  "12": [
+   [
+    147.51843270083694,
+    56.63672751902827
+   ]
+  ],
+  "13": [
+   [
+    164.85548975008092,
+    56.69648167610326
+   ]
+  ],
+  "14": [
+   [
+    182.1095103198199,
+    56.70888746946877
+   ]
+  ],
+  "15": [
+   [
+    199.37672080449394,
+    56.68742353457858
+   ]
+  ],
+  "16": [
+   [
+    215.47094447890498,
+    57.54157049659717
+   ]
+  ]
+ },
+ "case": "junction_and_quadrature",
+ "checks": [
+  {
+   "check": "total 16",
+   "status": "PASS",
+   "detail": "16 spike(s)"
+  },
+  {
+   "check": "last 215.47098 0.003",
+   "status": "PASS",
+   "detail": "215.470944, expected 215.470980"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 12.96038 0.003",
+   "status": "PASS",
+   "detail": "12.960319, expected 12.960380, off by -6.14e-05"
+  },
+  {
+   "check": "peak 1 58.059000 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.059, relative error -2.96e-07"
+  },
+  {
+   "check": "count 3 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 3 48.19667 0.003",
+   "status": "PASS",
+   "detail": "48.196603, expected 48.196670, off by -6.74e-05"
+  },
+  {
+   "check": "peak 3 56.713803 2e-4",
+   "status": "PASS",
+   "detail": "56.713808, expected 56.713803, relative error 9.41e-08"
+  },
+  {
+   "check": "count 4 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 4 65.48145 0.003",
+   "status": "PASS",
+   "detail": "65.481401, expected 65.481450, off by -4.85e-05"
+  },
+  {
+   "check": "peak 4 56.691001 2e-4",
+   "status": "PASS",
+   "detail": "56.691032, expected 56.691001, relative error 5.41e-07"
+  },
+  {
+   "check": "count 6 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 6 12.96038 0.003",
+   "status": "PASS",
+   "detail": "12.960319, expected 12.960380, off by -6.14e-05"
+  },
+  {
+   "check": "peak 6 58.059000 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.059, relative error -2.96e-07"
+  },
+  {
+   "check": "count 8 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 8 48.19801 0.003",
+   "status": "PASS",
+   "detail": "48.197936, expected 48.198010, off by -7.44e-05"
+  },
+  {
+   "check": "peak 8 56.713090 2e-4",
+   "status": "PASS",
+   "detail": "56.713093, expected 56.71309, relative error 6.05e-08"
+  },
+  {
+   "check": "count 9 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 9 65.45601 0.003",
+   "status": "PASS",
+   "detail": "65.455946, expected 65.456010, off by -6.38e-05"
+  },
+  {
+   "check": "peak 9 56.692169 2e-4",
+   "status": "PASS",
+   "detail": "56.69216, expected 56.692169, relative error -1.66e-07"
+  },
+  {
+   "check": "count 11 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 11 129.82507 0.003",
+   "status": "PASS",
+   "detail": "129.825047, expected 129.825070, off by -2.26e-05"
+  },
+  {
+   "check": "peak 11 55.174592 2e-4",
+   "status": "PASS",
+   "detail": "55.174626, expected 55.174592, relative error 6.13e-07"
+  },
+  {
+   "check": "count 13 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 13 164.85556 0.003",
+   "status": "PASS",
+   "detail": "164.855490, expected 164.855560, off by -7.02e-05"
+  },
+  {
+   "check": "peak 13 56.696490 2e-4",
+   "status": "PASS",
+   "detail": "56.696482, expected 56.69649, relative error -1.47e-07"
+  },
+  {
+   "check": "count 14 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 14 182.10957 0.003",
+   "status": "PASS",
+   "detail": "182.109510, expected 182.109570, off by -5.97e-05"
+  },
+  {
+   "check": "peak 14 56.708901 2e-4",
+   "status": "PASS",
+   "detail": "56.708887, expected 56.708901, relative error -2.39e-07"
+  },
+  {
+   "check": "count 16 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 16 215.47098 0.003",
+   "status": "PASS",
+   "detail": "215.470944, expected 215.470980, off by -3.55e-05"
+  },
+  {
+   "check": "peak 16 57.541597 2e-4",
+   "status": "PASS",
+   "detail": "57.54157, expected 57.541597, relative error -4.61e-07"
+  },
+  {
+   "check": "each 1 16 1",
+   "status": "PASS",
+   "detail": "all as expected"
+  }
+ ],
+ "notes": [
+  "Two input arms (sites 1 to 5 and 6 to 10) meet at site 11; the output arm runs from 11 to 16. A quarter-turn between the inputs still fires the junction, later.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 7.169068620527241e-05,
+  "spike peak": 6.637283411770056e-07,
+  "dark intensity": 1.751372098664039e-08
+ }
+}
