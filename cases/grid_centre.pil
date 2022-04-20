@@ -1,0 +1,35 @@
+# A ring-shaped front; the four corners fire together. The kicked pillar itself fires a second time, re-excited by its four neighbours.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Lattice of 7 by 7 kicked at the centre
+grid 7 7 kappa=0.06
+kick 25 amplitude=2
+run 1200
+expect total 50
+expect last 103.45761 0.003
+expect count 25 2
+expect arrival 25 14.31757 0.003
+expect peak 25 55.876510 2e-4
+expect count 24 1
+expect arrival 24 43.55809 0.003
+expect peak 24 51.718317 2e-4
+expect count 18 1
+expect arrival 18 43.55809 0.003
+expect peak 18 51.718317 2e-4
+expect count 17 1
+expect arrival 17 50.57823 0.003
+expect peak 17 60.326179 2e-4
+expect count 4 1
+expect arrival 4 85.90945 0.003
+expect peak 4 57.029747 2e-4
+expect count 1 1
+expect arrival 1 103.45761 0.003
+expect peak 1 61.987394 2e-4
+expect count 49 1
+expect arrival 49 103.45761 0.003
+expect peak 49 61.987394 2e-4
+expect each 1 24 1
+expect each 26 49 1
+expect count 25 2
+expect together 1 49 1e-6
+expect together 7 43 1e-6
+expect together 1 7 1e-6
