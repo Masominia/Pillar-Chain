@@ -1,0 +1,41 @@
+# The same trick on a longer ring: the round trip takes 20 delays, so each site fires less often.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Ring of 20 holding a circulating pulse
+sites 20
+path 1 20 kappa=0.06
+link 20 1 kappa=0.06
+kick 1 amplitude=2
+kick 20 time=185 amplitude=2
+run 1850
+expect total 104
+expect last 1847.00525 0.003
+expect count 1 6
+expect arrival 1 13.36751 0.003
+expect peak 1 57.331798 2e-4
+expect count 3 6
+expect arrival 3 49.04074 0.003
+expect peak 3 56.716871 2e-4
+expect count 5 5
+expect arrival 5 83.57282 0.003
+expect peak 5 56.708837 2e-4
+expect count 7 5
+expect arrival 7 118.04592 0.003
+expect peak 7 56.709718 2e-4
+expect count 9 5
+expect arrival 9 152.48804 0.003
+expect peak 9 56.731273 2e-4
+expect count 12 5
+expect arrival 12 171.27789 0.003
+expect peak 12 55.685564 2e-4
+expect count 14 5
+expect arrival 14 135.28085 0.003
+expect peak 14 56.708212 2e-4
+expect count 16 5
+expect arrival 16 100.81022 0.003
+expect peak 16 56.709509 2e-4
+expect count 18 5
+expect arrival 18 66.33062 0.003
+expect peak 18 56.701317 2e-4
+expect count 20 6
+expect arrival 20 31.69868 0.003
+expect peak 20 56.118361 2e-4
