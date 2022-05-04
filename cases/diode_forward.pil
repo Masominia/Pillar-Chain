@@ -1,0 +1,21 @@
+# A chain (sites 1 to 5) feeds the middle row of a strip three pillars wide (sites 6 to 17). The last pillar of the chain must fire a pillar that loses light to three other neighbours, and fails.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Chain into strip at coupling 0.043: blocked
+sites 5
+path 1 5 kappa=0.043
+grid 4 3 kappa=0.043
+link 5 10 kappa=0.043
+kick 1 amplitude=2
+run 2500
+expect total 5
+expect last 231.34194 0.003
+expect count 1 1
+expect arrival 1 12.77173 0.003
+expect peak 1 58.401923 2e-4
+expect count 5 1
+expect arrival 5 231.34194 0.003
+expect peak 5 55.360062 2e-4
+expect count 10 0
+expect count 13 0
+expect each 1 5 1
+expect silent 6 17
