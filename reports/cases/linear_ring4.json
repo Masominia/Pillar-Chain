@@ -1,0 +1,89 @@
+{
+ "title": "Dark regime: ring4",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 4,
+ "links": 4,
+ "duration": 45.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 0.001,
+   "phase": 0.0
+  }
+ ],
+ "total": 0,
+ "last_spike": null,
+ "spikes": {},
+ "case": "linear_ring4",
+ "checks": [
+  {
+   "check": "total 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 1 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 2 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 3 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 4 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "intensity 1 6 7.66994549e-08 2e-3",
+   "status": "PASS",
+   "detail": "7.669949e-08, expected 7.6699455e-08, relative error 4.51e-07"
+  },
+  {
+   "check": "intensity 2 6 3.58986562e-08 2e-3",
+   "status": "PASS",
+   "detail": "3.5898662e-08, expected 3.5898656e-08, relative error 1.74e-07"
+  },
+  {
+   "check": "intensity 3 6 1.68021209e-08 2e-3",
+   "status": "PASS",
+   "detail": "1.6802122e-08, expected 1.6802121e-08, relative error 7.37e-08"
+  },
+  {
+   "check": "intensity 4 6 3.58986562e-08 2e-3",
+   "status": "PASS",
+   "detail": "3.5898662e-08, expected 3.5898656e-08, relative error 1.74e-07"
+  },
+  {
+   "check": "intensity 3 14 1.41416823e-08 2e-3",
+   "status": "PASS",
+   "detail": "1.4141688e-08, expected 1.4141682e-08, relative error 3.68e-07"
+  },
+  {
+   "check": "total 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  }
+ ],
+ "notes": [
+  "A kick far too weak to bleach anything: the fields obey linear equations with constant coefficients, and light sloshes between the cavities at the coupling rate while it decays.",
+  "Reference: the closed form from the eigenmodes of the coupled cavities, within 0.2%."
+ ],
+ "against_reference": {
+  "dark intensity": 5.76652345921309e-07
+ }
+}
