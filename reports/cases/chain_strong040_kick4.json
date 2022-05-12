@@ -1,0 +1,267 @@
+{
+ "title": "Chain of 8, strong coupling 0.4, kick 4",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 8,
+ "links": 7,
+ "duration": 1500.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 4.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 21,
+ "last_spike": 19.86961358171733,
+ "spikes": {
+  "1": [
+   [
+    5.527850331277711,
+    13.921109211009215
+   ],
+   [
+    9.072631778578023,
+    35.02928820445493
+   ],
+   [
+    12.975255036378039,
+    9.1140193800004
+   ]
+  ],
+  "2": [
+   [
+    7.101050303446228,
+    56.612265529553525
+   ],
+   [
+    10.697739763346789,
+    38.95963927256735
+   ],
+   [
+    15.222647561097606,
+    8.751043057851518
+   ]
+  ],
+  "3": [
+   [
+    8.629313922114795,
+    102.53091386108173
+   ],
+   [
+    12.535823401197634,
+    25.41867789289292
+   ],
+   [
+    17.333176306000826,
+    5.000710213610944
+   ]
+  ],
+  "4": [
+   [
+    10.218269549038364,
+    121.45608007871004
+   ],
+   [
+    13.549667247369195,
+    10.586902545434832
+   ],
+   [
+    14.665169576085667,
+    10.231505944324354
+   ]
+  ],
+  "5": [
+   [
+    11.809578293883563,
+    118.17888737997961
+   ],
+   [
+    14.665292388932949,
+    10.396395820288935
+   ],
+   [
+    16.834577809566905,
+    6.160603180465489
+   ]
+  ],
+  "6": [
+   [
+    13.35316585774744,
+    121.42280246698766
+   ],
+   [
+    16.017928842288736,
+    17.230001001413047
+   ],
+   [
+    19.86961358171733,
+    8.712246498351622
+   ]
+  ],
+  "7": [
+   [
+    14.850691054518697,
+    116.77006349062253
+   ],
+   [
+    18.31614580060447,
+    26.522969539516247
+   ]
+  ],
+  "8": [
+   [
+    16.34771521358035,
+    166.1220216873513
+   ]
+  ]
+ },
+ "case": "chain_strong040_kick4",
+ "checks": [
+  {
+   "check": "total 21",
+   "status": "PASS",
+   "detail": "21 spike(s)"
+  },
+  {
+   "check": "last 19.86969 0.003",
+   "status": "PASS",
+   "detail": "19.869614, expected 19.869690"
+  },
+  {
+   "check": "count 1 3",
+   "status": "PASS",
+   "detail": "3 spike(s)"
+  },
+  {
+   "check": "arrival 1 5.52783 0.003",
+   "status": "PASS",
+   "detail": "5.527850, expected 5.527830, off by 2.03e-05"
+  },
+  {
+   "check": "peak 1 13.921111 2e-4",
+   "status": "PASS",
+   "detail": "13.921109, expected 13.921111, relative error -1.29e-07"
+  },
+  {
+   "check": "count 2 3",
+   "status": "PASS",
+   "detail": "3 spike(s)"
+  },
+  {
+   "check": "arrival 2 7.10074 0.003",
+   "status": "PASS",
+   "detail": "7.101050, expected 7.100740, off by 3.10e-04"
+  },
+  {
+   "check": "peak 2 56.612251 2e-4",
+   "status": "PASS",
+   "detail": "56.612266, expected 56.612251, relative error 2.57e-07"
+  },
+  {
+   "check": "count 3 3",
+   "status": "PASS",
+   "detail": "3 spike(s)"
+  },
+  {
+   "check": "arrival 3 8.62926 0.003",
+   "status": "PASS",
+   "detail": "8.629314, expected 8.629260, off by 5.39e-05"
+  },
+  {
+   "check": "peak 3 102.531188 2e-4",
+   "status": "PASS",
+   "detail": "102.53091, expected 102.53119, relative error -2.67e-06"
+  },
+  {
+   "check": "count 4 3",
+   "status": "PASS",
+   "detail": "3 spike(s)"
+  },
+  {
+   "check": "arrival 4 10.21825 0.003",
+   "status": "PASS",
+   "detail": "10.218270, expected 10.218250, off by 1.95e-05"
+  },
+  {
+   "check": "peak 4 121.455921 2e-4",
+   "status": "PASS",
+   "detail": "121.45608, expected 121.45592, relative error 1.31e-06"
+  },
+  {
+   "check": "count 5 3",
+   "status": "PASS",
+   "detail": "3 spike(s)"
+  },
+  {
+   "check": "arrival 5 11.80955 0.003",
+   "status": "PASS",
+   "detail": "11.809578, expected 11.809550, off by 2.83e-05"
+  },
+  {
+   "check": "peak 5 118.178808 2e-4",
+   "status": "PASS",
+   "detail": "118.17889, expected 118.17881, relative error 6.72e-07"
+  },
+  {
+   "check": "count 6 3",
+   "status": "PASS",
+   "detail": "3 spike(s)"
+  },
+  {
+   "check": "arrival 6 13.35315 0.003",
+   "status": "PASS",
+   "detail": "13.353166, expected 13.353150, off by 1.59e-05"
+  },
+  {
+   "check": "peak 6 121.422790 2e-4",
+   "status": "PASS",
+   "detail": "121.4228, expected 121.42279, relative error 1.03e-07"
+  },
+  {
+   "check": "count 7 2",
+   "status": "PASS",
+   "detail": "2 spike(s)"
+  },
+  {
+   "check": "arrival 7 14.85060 0.003",
+   "status": "PASS",
+   "detail": "14.850691, expected 14.850600, off by 9.11e-05"
+  },
+  {
+   "check": "peak 7 116.770051 2e-4",
+   "status": "PASS",
+   "detail": "116.77006, expected 116.77005, relative error 1.07e-07"
+  },
+  {
+   "check": "count 8 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 8 16.34806 0.003",
+   "status": "PASS",
+   "detail": "16.347715, expected 16.348060, off by -3.45e-04"
+  },
+  {
+   "check": "peak 8 166.121829 2e-4",
+   "status": "PASS",
+   "detail": "166.12202, expected 166.12183, relative error 1.16e-06"
+  }
+ ],
+ "notes": [
+  "Strong coupling is not simply faster. The kick spreads over the neighbours before it can fire its own site, so a stronger kick is needed, and each site then fires more than once.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 0.00320550127259267,
+  "spike peak": 6.6265942102461395e-06,
+  "dark intensity": 1.30138114992377e-08
+ }
+}
