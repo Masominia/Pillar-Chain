@@ -1,0 +1,113 @@
+{
+ "title": "Chain of 8, coupling 0.04",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 8,
+ "links": 7,
+ "duration": 2500.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 1,
+ "last_spike": 12.745643256450842,
+ "spikes": {
+  "1": [
+   [
+    12.745643256450842,
+    58.44984663633814
+   ]
+  ]
+ },
+ "case": "chain_kappa040",
+ "checks": [
+  {
+   "check": "total 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "last 12.74573 0.003",
+   "status": "PASS",
+   "detail": "12.745643, expected 12.745730"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 12.74573 0.003",
+   "status": "PASS",
+   "detail": "12.745643, expected 12.745730, off by -8.67e-05"
+  },
+  {
+   "check": "peak 1 58.449838 2e-4",
+   "status": "PASS",
+   "detail": "58.449847, expected 58.449838, relative error 1.48e-07"
+  },
+  {
+   "check": "count 2 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 3 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 4 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 5 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 6 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 7 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 8 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "fired 1 yes",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "silent 2 8",
+   "status": "PASS",
+   "detail": "all as expected"
+  }
+ ],
+ "notes": [
+  "A pulse launched at one end either dies there or travels the whole chain: there is a critical coupling, near 0.0419 for this laser. Above it the delay per site shortens as the coupling grows.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 8.178182004847656e-05,
+  "spike peak": 1.494863266504609e-07,
+  "dark intensity": 2.127264853579658e-08
+ }
+}
