@@ -1,0 +1,73 @@
+{
+ "title": "One pillar, kick of amplitude 1.4",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 1,
+ "links": 0,
+ "duration": 600.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 1.4,
+   "phase": 0.0
+  }
+ ],
+ "total": 1,
+ "last_spike": 28.98153489965633,
+ "spikes": {
+  "1": [
+   [
+    28.98153489965633,
+    56.56075710074022
+   ]
+  ]
+ },
+ "case": "single_kick14",
+ "checks": [
+  {
+   "check": "total 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "last 28.98159 0.003",
+   "status": "PASS",
+   "detail": "28.981535, expected 28.981590"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 28.98159 0.003",
+   "status": "PASS",
+   "detail": "28.981535, expected 28.981590, off by -5.51e-05"
+  },
+  {
+   "check": "peak 1 56.560724 2e-4",
+   "status": "PASS",
+   "detail": "56.560757, expected 56.560724, relative error 5.85e-07"
+  },
+  {
+   "check": "fired 1 yes",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  }
+ ],
+ "notes": [
+  "A kick of light on a resting pillar: below a threshold amplitude it dies out, above it the pillar answers with one full pulse, sooner for a stronger kick.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 5.136750927192679e-05,
+  "spike peak": 5.785310046579895e-07,
+  "dark intensity": 1.3148078190400827e-09
+ }
+}
