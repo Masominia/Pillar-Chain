@@ -1,0 +1,55 @@
+{
+ "title": "Two sub-threshold kicks 100 photon lifetimes apart",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 1,
+ "links": 0,
+ "duration": 700.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 1.0,
+   "phase": 0.0
+  },
+  {
+   "site": 1,
+   "time": 100.0,
+   "amplitude": 1.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 0,
+ "last_spike": null,
+ "spikes": {},
+ "case": "single_sum_dt100",
+ "checks": [
+  {
+   "check": "total 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 1 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "fired 1 no",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  }
+ ],
+ "notes": [
+  "Neither kick of amplitude 1 fires alone. The first one bleaches the absorber a little, and the carriers remember it for about a carrier lifetime (100): a second kick within that time fires the pillar.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "dark intensity": 4.942344077329034e-09
+ }
+}
