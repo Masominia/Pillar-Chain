@@ -1,0 +1,12 @@
+# A single pillar has no phase reference: the phase of the kick changes nothing.
+# Reference: the arrival and peak of the kick of amplitude 2 with zero phase.
+title One pillar, kick with a quarter-turn of phase
+sites 1
+kick 1 amplitude=2 phase=90
+run 600
+expect total 1
+expect last 12.58257 0.003
+expect count 1 1
+expect arrival 1 12.58257 0.003
+expect peak 1 58.753057 2e-4
+expect arrival 1 12.58251 0.003
