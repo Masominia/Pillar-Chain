@@ -1,0 +1,35 @@
+# Closer to threshold the pillars are easier to excite and the pulse travels faster; too far below, a neighbour is not enough to fire a site.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Chain of 8 pumped at A = 6.75
+laser A=6.75
+sites 8
+path 1 8 kappa=0.06
+kick 1 amplitude=2.5
+run 2500
+expect total 8
+expect last 72.15298 0.003
+expect count 1 1
+expect arrival 1 6.30953 0.003
+expect peak 1 80.292696 2e-4
+expect count 2 1
+expect arrival 2 14.77249 0.003
+expect peak 2 78.401420 2e-4
+expect count 3 1
+expect arrival 3 24.20408 0.003
+expect peak 3 77.244257 2e-4
+expect count 4 1
+expect arrival 4 33.78071 0.003
+expect peak 4 77.200874 2e-4
+expect count 5 1
+expect arrival 5 43.38094 0.003
+expect peak 5 77.146397 2e-4
+expect count 6 1
+expect arrival 6 52.98843 0.003
+expect peak 6 77.158879 2e-4
+expect count 7 1
+expect arrival 7 62.58302 0.003
+expect peak 7 77.187445 2e-4
+expect count 8 1
+expect arrival 8 72.15298 0.003
+expect peak 8 77.764467 2e-4
+expect each 1 8 1
