@@ -1,0 +1,38 @@
+# Two input arms (sites 1 to 5 and 6 to 10) meet at site 11; the output arm runs from 11 to 16. Either input alone passes, but two in antiphase cancel at the junction and nothing comes out.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Strong junction, both inputs in antiphase: XOR
+sites 16
+path 1 5 kappa=0.06
+path 6 10 kappa=0.06
+path 11 16 kappa=0.06
+link 5 11 kappa=0.06
+link 10 11 kappa=0.06
+kick 1 amplitude=2
+kick 6 amplitude=2 phase=180
+run 1200
+expect total 10
+expect last 81.57065 0.003
+expect count 1 1
+expect arrival 1 12.96038 0.003
+expect peak 1 58.059000 2e-4
+expect count 3 1
+expect arrival 3 48.19706 0.003
+expect peak 3 56.713883 2e-4
+expect count 4 1
+expect arrival 4 65.47521 0.003
+expect peak 4 56.685949 2e-4
+expect count 6 1
+expect arrival 6 12.96038 0.003
+expect peak 6 58.059000 2e-4
+expect count 8 1
+expect arrival 8 48.19706 0.003
+expect peak 8 56.713883 2e-4
+expect count 9 1
+expect arrival 9 65.47521 0.003
+expect peak 9 56.685949 2e-4
+expect count 11 0
+expect count 13 0
+expect count 14 0
+expect count 16 0
+expect each 1 10 1
+expect silent 11 16
