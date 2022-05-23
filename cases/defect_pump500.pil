@@ -1,0 +1,29 @@
+# One pillar pumped differently from the rest: a weaker one delays the pulse or stops it, a stronger one passes it on sooner.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Chain of 9 with site 5 pumped at 5
+sites 9
+path 1 9 kappa=0.06
+pump 5 A=5
+kick 1 amplitude=2
+run 2500
+expect total 4
+expect last 64.46165 0.003
+expect count 1 1
+expect arrival 1 12.96038 0.003
+expect peak 1 58.058994 2e-4
+expect count 2 1
+expect arrival 2 30.97662 0.003
+expect peak 2 56.591782 2e-4
+expect count 3 1
+expect arrival 3 48.23483 0.003
+expect peak 3 56.688865 2e-4
+expect count 4 1
+expect arrival 4 64.46165 0.003
+expect peak 4 57.315839 2e-4
+expect count 5 0
+expect count 6 0
+expect count 7 0
+expect count 8 0
+expect count 9 0
+expect each 1 4 1
+expect silent 5 9
