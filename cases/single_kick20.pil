@@ -1,0 +1,12 @@
+# A kick of light on a resting pillar: below a threshold amplitude it dies out, above it the pillar answers with one full pulse, sooner for a stronger kick.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title One pillar, kick of amplitude 2
+sites 1
+kick 1 amplitude=2
+run 600
+expect total 1
+expect last 12.58257 0.003
+expect count 1 1
+expect arrival 1 12.58257 0.003
+expect peak 1 58.753057 2e-4
+expect fired 1 yes
