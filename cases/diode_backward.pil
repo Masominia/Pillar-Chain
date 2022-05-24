@@ -1,0 +1,26 @@
+# A chain (sites 1 to 5) feeds the middle row of a strip three pillars wide (sites 6 to 17). In the other direction a flat front in the strip fires the chain easily: the junction is a diode.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Strip into chain at coupling 0.043: passes
+sites 5
+path 1 5 kappa=0.043
+grid 4 3 kappa=0.043
+link 5 10 kappa=0.043
+kick 9 amplitude=2
+kick 13 amplitude=2
+kick 17 amplitude=2
+run 2500
+expect total 17
+expect last 384.96169 0.003
+expect count 13 1
+expect arrival 13 12.31711 0.003
+expect peak 13 61.929579 2e-4
+expect count 10 1
+expect arrival 10 138.82274 0.003
+expect peak 10 54.588657 2e-4
+expect count 5 1
+expect arrival 5 180.26829 0.003
+expect peak 5 55.683693 2e-4
+expect count 1 1
+expect arrival 1 384.96169 0.003
+expect peak 1 55.906141 2e-4
+expect each 1 17 1
