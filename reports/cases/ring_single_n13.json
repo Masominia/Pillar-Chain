@@ -1,0 +1,280 @@
+{
+ "title": "Ring of 13, one kick",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 13,
+ "links": 13,
+ "duration": 1500.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 13,
+ "last_spike": 117.35429883564123,
+ "spikes": {
+  "1": [
+   [
+    13.367468858768497,
+    57.331776481349536
+   ]
+  ],
+  "2": [
+   [
+    31.69861553266201,
+    56.118363834322096
+   ]
+  ],
+  "3": [
+   [
+    49.04069546302903,
+    56.71685970025027
+   ]
+  ],
+  "4": [
+   [
+    66.32994042852427,
+    56.70174924844771
+   ]
+  ],
+  "5": [
+   [
+    83.5847382144126,
+    56.70619568372706
+   ]
+  ],
+  "6": [
+   [
+    100.62380094447373,
+    56.785883555141865
+   ]
+  ],
+  "7": [
+   [
+    117.35429883564092,
+    57.444044088937936
+   ]
+  ],
+  "8": [
+   [
+    117.35429883564123,
+    57.444044088922126
+   ]
+  ],
+  "9": [
+   [
+    100.6238009444731,
+    56.785883555142235
+   ]
+  ],
+  "10": [
+   [
+    83.5847382144122,
+    56.70619568372704
+   ]
+  ],
+  "11": [
+   [
+    66.32994042852404,
+    56.701749248447754
+   ]
+  ],
+  "12": [
+   [
+    49.04069546302884,
+    56.71685970025038
+   ]
+  ],
+  "13": [
+   [
+    31.69861553266191,
+    56.11836383432254
+   ]
+  ]
+ },
+ "case": "ring_single_n13",
+ "checks": [
+  {
+   "check": "total 13",
+   "status": "PASS",
+   "detail": "13 spike(s)"
+  },
+  {
+   "check": "last 117.35437 0.003",
+   "status": "PASS",
+   "detail": "117.354299, expected 117.354370"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 13.36751 0.003",
+   "status": "PASS",
+   "detail": "13.367469, expected 13.367510, off by -4.11e-05"
+  },
+  {
+   "check": "peak 1 57.331798 2e-4",
+   "status": "PASS",
+   "detail": "57.331776, expected 57.331798, relative error -3.75e-07"
+  },
+  {
+   "check": "count 2 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 2 31.69868 0.003",
+   "status": "PASS",
+   "detail": "31.698616, expected 31.698680, off by -6.45e-05"
+  },
+  {
+   "check": "peak 2 56.118362 2e-4",
+   "status": "PASS",
+   "detail": "56.118364, expected 56.118362, relative error 3.27e-08"
+  },
+  {
+   "check": "count 4 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 4 66.32998 0.003",
+   "status": "PASS",
+   "detail": "66.329940, expected 66.329980, off by -3.96e-05"
+  },
+  {
+   "check": "peak 4 56.701717 2e-4",
+   "status": "PASS",
+   "detail": "56.701749, expected 56.701717, relative error 5.69e-07"
+  },
+  {
+   "check": "count 5 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 5 83.58479 0.003",
+   "status": "PASS",
+   "detail": "83.584738, expected 83.584790, off by -5.18e-05"
+  },
+  {
+   "check": "peak 5 56.706170 2e-4",
+   "status": "PASS",
+   "detail": "56.706196, expected 56.70617, relative error 4.53e-07"
+  },
+  {
+   "check": "count 6 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 6 100.62382 0.003",
+   "status": "PASS",
+   "detail": "100.623801, expected 100.623820, off by -1.91e-05"
+  },
+  {
+   "check": "peak 6 56.785908 2e-4",
+   "status": "PASS",
+   "detail": "56.785884, expected 56.785908, relative error -4.30e-07"
+  },
+  {
+   "check": "count 8 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 8 117.35437 0.003",
+   "status": "PASS",
+   "detail": "117.354299, expected 117.354370, off by -7.12e-05"
+  },
+  {
+   "check": "peak 8 57.444052 2e-4",
+   "status": "PASS",
+   "detail": "57.444044, expected 57.444052, relative error -1.38e-07"
+  },
+  {
+   "check": "count 9 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 9 100.62382 0.003",
+   "status": "PASS",
+   "detail": "100.623801, expected 100.623820, off by -1.91e-05"
+  },
+  {
+   "check": "peak 9 56.785908 2e-4",
+   "status": "PASS",
+   "detail": "56.785884, expected 56.785908, relative error -4.30e-07"
+  },
+  {
+   "check": "count 10 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 10 83.58479 0.003",
+   "status": "PASS",
+   "detail": "83.584738, expected 83.584790, off by -5.18e-05"
+  },
+  {
+   "check": "peak 10 56.706170 2e-4",
+   "status": "PASS",
+   "detail": "56.706196, expected 56.70617, relative error 4.53e-07"
+  },
+  {
+   "check": "count 12 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 12 49.04076 0.003",
+   "status": "PASS",
+   "detail": "49.040695, expected 49.040760, off by -6.45e-05"
+  },
+  {
+   "check": "peak 12 56.716844 2e-4",
+   "status": "PASS",
+   "detail": "56.71686, expected 56.716844, relative error 2.77e-07"
+  },
+  {
+   "check": "count 13 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 13 31.69868 0.003",
+   "status": "PASS",
+   "detail": "31.698616, expected 31.698680, off by -6.45e-05"
+  },
+  {
+   "check": "peak 13 56.118362 2e-4",
+   "status": "PASS",
+   "detail": "56.118364, expected 56.118362, relative error 3.27e-08"
+  },
+  {
+   "check": "each 1 13 1",
+   "status": "PASS",
+   "detail": "all as expected"
+  }
+ ],
+ "notes": [
+  "One kick sends a pulse each way round; they annihilate on the far side. Every site fires once.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 7.499784209130667e-05,
+  "spike peak": 5.683520696297961e-07,
+  "dark intensity": 5.6896133295967455e-08
+ }
+}
