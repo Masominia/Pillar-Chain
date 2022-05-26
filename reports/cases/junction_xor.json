@@ -1,0 +1,233 @@
+{
+ "title": "Strong junction, both inputs in antiphase: XOR",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 16,
+ "links": 15,
+ "duration": 1200.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  },
+  {
+   "site": 6,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 180.0
+  }
+ ],
+ "total": 10,
+ "last_spike": 81.57061575302043,
+ "spikes": {
+  "1": [
+   [
+    12.960318569240199,
+    58.05898282546539
+   ]
+  ],
+  "2": [
+   [
+    30.977433132888784,
+    56.589786469472664
+   ]
+  ],
+  "3": [
+   [
+    48.19698841395246,
+    56.71388842542604
+   ]
+  ],
+  "4": [
+   [
+    65.47519400508052,
+    56.6859858319308
+   ]
+  ],
+  "5": [
+   [
+    81.57061575302043,
+    57.54138844781145
+   ]
+  ],
+  "6": [
+   [
+    12.960318569240178,
+    58.05898282546544
+   ]
+  ],
+  "7": [
+   [
+    30.977433132888684,
+    56.58978646947257
+   ]
+  ],
+  "8": [
+   [
+    48.196988413952354,
+    56.71388842542613
+   ]
+  ],
+  "9": [
+   [
+    65.47519400508035,
+    56.685985831930786
+   ]
+  ],
+  "10": [
+   [
+    81.57061575302038,
+    57.5413884478114
+   ]
+  ]
+ },
+ "case": "junction_xor",
+ "checks": [
+  {
+   "check": "total 10",
+   "status": "PASS",
+   "detail": "10 spike(s)"
+  },
+  {
+   "check": "last 81.57065 0.003",
+   "status": "PASS",
+   "detail": "81.570616, expected 81.570650"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 12.96038 0.003",
+   "status": "PASS",
+   "detail": "12.960319, expected 12.960380, off by -6.14e-05"
+  },
+  {
+   "check": "peak 1 58.059000 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.059, relative error -2.96e-07"
+  },
+  {
+   "check": "count 3 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 3 48.19706 0.003",
+   "status": "PASS",
+   "detail": "48.196988, expected 48.197060, off by -7.16e-05"
+  },
+  {
+   "check": "peak 3 56.713883 2e-4",
+   "status": "PASS",
+   "detail": "56.713888, expected 56.713883, relative error 9.57e-08"
+  },
+  {
+   "check": "count 4 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 4 65.47521 0.003",
+   "status": "PASS",
+   "detail": "65.475194, expected 65.475210, off by -1.60e-05"
+  },
+  {
+   "check": "peak 4 56.685949 2e-4",
+   "status": "PASS",
+   "detail": "56.685986, expected 56.685949, relative error 6.50e-07"
+  },
+  {
+   "check": "count 6 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 6 12.96038 0.003",
+   "status": "PASS",
+   "detail": "12.960319, expected 12.960380, off by -6.14e-05"
+  },
+  {
+   "check": "peak 6 58.059000 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.059, relative error -2.96e-07"
+  },
+  {
+   "check": "count 8 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 8 48.19706 0.003",
+   "status": "PASS",
+   "detail": "48.196988, expected 48.197060, off by -7.16e-05"
+  },
+  {
+   "check": "peak 8 56.713883 2e-4",
+   "status": "PASS",
+   "detail": "56.713888, expected 56.713883, relative error 9.57e-08"
+  },
+  {
+   "check": "count 9 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 9 65.47521 0.003",
+   "status": "PASS",
+   "detail": "65.475194, expected 65.475210, off by -1.60e-05"
+  },
+  {
+   "check": "peak 9 56.685949 2e-4",
+   "status": "PASS",
+   "detail": "56.685986, expected 56.685949, relative error 6.50e-07"
+  },
+  {
+   "check": "count 11 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 13 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 14 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 16 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "each 1 10 1",
+   "status": "PASS",
+   "detail": "all as expected"
+  },
+  {
+   "check": "silent 11 16",
+   "status": "PASS",
+   "detail": "all as expected"
+  }
+ ],
+ "notes": [
+  "Two input arms (sites 1 to 5 and 6 to 10) meet at site 11; the output arm runs from 11 to 16. Either input alone passes, but two in antiphase cancel at the junction and nothing comes out.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 7.165989999435851e-05,
+  "spike peak": 6.501031537542445e-07,
+  "dark intensity": 1.7425406521332556e-08
+ }
+}
