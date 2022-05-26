@@ -1,0 +1,24 @@
+# A chain (sites 1 to 5) feeds the middle row of a strip three pillars wide (sites 6 to 17). With a little more coupling the chain does fire the strip; the diode works only in a narrow window above the critical coupling.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Chain into strip at coupling 0.05: passes
+sites 5
+path 1 5 kappa=0.05
+grid 4 3 kappa=0.05
+link 5 10 kappa=0.05
+kick 1 amplitude=2
+run 2500
+expect total 17
+expect last 255.59212 0.003
+expect count 1 1
+expect arrival 1 12.84079 0.003
+expect peak 1 58.275548 2e-4
+expect count 5 1
+expect arrival 5 119.51887 0.003
+expect peak 5 56.002642 2e-4
+expect count 10 1
+expect arrival 10 151.64286 0.003
+expect peak 10 54.886997 2e-4
+expect count 13 1
+expect arrival 13 249.19019 0.003
+expect peak 13 53.202791 2e-4
+expect each 1 17 1
