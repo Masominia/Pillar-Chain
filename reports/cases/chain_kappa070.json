@@ -1,0 +1,225 @@
+{
+ "title": "Chain of 8, coupling 0.07",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 8,
+ "links": 7,
+ "duration": 2500.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 8,
+ "last_spike": 110.36954719646286,
+ "spikes": {
+  "1": [
+   [
+    13.106762113206672,
+    57.79799418096802
+   ]
+  ],
+  "2": [
+   [
+    27.18073026825349,
+    57.08041186230962
+   ]
+  ],
+  "3": [
+   [
+    41.15753273107871,
+    57.19531022103925
+   ]
+  ],
+  "4": [
+   [
+    55.159719344852846,
+    57.17155386924529
+   ]
+  ],
+  "5": [
+   [
+    69.15294221576092,
+    57.175802910520986
+   ]
+  ],
+  "6": [
+   [
+    83.14353529950785,
+    57.17828050916954
+   ]
+  ],
+  "7": [
+   [
+    97.1874992213176,
+    57.16664815302884
+   ]
+  ],
+  "8": [
+   [
+    110.36954719646286,
+    58.269700634815955
+   ]
+  ]
+ },
+ "case": "chain_kappa070",
+ "checks": [
+  {
+   "check": "total 8",
+   "status": "PASS",
+   "detail": "8 spike(s)"
+  },
+  {
+   "check": "last 110.36959 0.003",
+   "status": "PASS",
+   "detail": "110.369547, expected 110.369590"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 13.10683 0.003",
+   "status": "PASS",
+   "detail": "13.106762, expected 13.106830, off by -6.79e-05"
+  },
+  {
+   "check": "peak 1 57.798005 2e-4",
+   "status": "PASS",
+   "detail": "57.797994, expected 57.798005, relative error -1.87e-07"
+  },
+  {
+   "check": "count 2 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 2 27.18077 0.003",
+   "status": "PASS",
+   "detail": "27.180730, expected 27.180770, off by -3.97e-05"
+  },
+  {
+   "check": "peak 2 57.080382 2e-4",
+   "status": "PASS",
+   "detail": "57.080412, expected 57.080382, relative error 5.23e-07"
+  },
+  {
+   "check": "count 3 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 3 41.15759 0.003",
+   "status": "PASS",
+   "detail": "41.157533, expected 41.157590, off by -5.73e-05"
+  },
+  {
+   "check": "peak 3 57.195321 2e-4",
+   "status": "PASS",
+   "detail": "57.19531, expected 57.195321, relative error -1.88e-07"
+  },
+  {
+   "check": "count 4 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 4 55.15978 0.003",
+   "status": "PASS",
+   "detail": "55.159719, expected 55.159780, off by -6.07e-05"
+  },
+  {
+   "check": "peak 4 57.171568 2e-4",
+   "status": "PASS",
+   "detail": "57.171554, expected 57.171568, relative error -2.47e-07"
+  },
+  {
+   "check": "count 5 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 5 69.15301 0.003",
+   "status": "PASS",
+   "detail": "69.152942, expected 69.153010, off by -6.78e-05"
+  },
+  {
+   "check": "peak 5 57.175808 2e-4",
+   "status": "PASS",
+   "detail": "57.175803, expected 57.175808, relative error -8.90e-08"
+  },
+  {
+   "check": "count 6 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 6 83.14360 0.003",
+   "status": "PASS",
+   "detail": "83.143535, expected 83.143600, off by -6.47e-05"
+  },
+  {
+   "check": "peak 6 57.178270 2e-4",
+   "status": "PASS",
+   "detail": "57.178281, expected 57.17827, relative error 1.84e-07"
+  },
+  {
+   "check": "count 7 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 7 97.18756 0.003",
+   "status": "PASS",
+   "detail": "97.187499, expected 97.187560, off by -6.08e-05"
+  },
+  {
+   "check": "peak 7 57.166627 2e-4",
+   "status": "PASS",
+   "detail": "57.166648, expected 57.166627, relative error 3.70e-07"
+  },
+  {
+   "check": "count 8 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 8 110.36959 0.003",
+   "status": "PASS",
+   "detail": "110.369547, expected 110.369590, off by -4.28e-05"
+  },
+  {
+   "check": "peak 8 58.269727 2e-4",
+   "status": "PASS",
+   "detail": "58.269701, expected 58.269727, relative error -4.52e-07"
+  },
+  {
+   "check": "each 1 8 1",
+   "status": "PASS",
+   "detail": "all as expected"
+  },
+  {
+   "check": "order 1 2 3 4 5 6 7 8",
+   "status": "PASS",
+   "detail": "13.11, 27.18, 41.16, 55.16, 69.15, 83.14, 97.19, 110.37"
+  }
+ ],
+ "notes": [
+  "A pulse launched at one end either dies there or travels the whole chain: there is a critical coupling, near 0.0419 for this laser. Above it the delay per site shortens as the coupling grows.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 6.788801301205183e-05,
+  "spike peak": 5.315479465473061e-07,
+  "dark intensity": 5.785003597581863e-08
+ }
+}
