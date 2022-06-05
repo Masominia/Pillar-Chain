@@ -1,0 +1,214 @@
+{
+ "title": "Chain into strip at coupling 0.05: passes",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 17,
+ "links": 22,
+ "duration": 2500.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 17,
+ "last_spike": 255.59205674246442,
+ "spikes": {
+  "1": [
+   [
+    12.84071127091555,
+    58.27556596321193
+   ]
+  ],
+  "2": [
+   [
+    39.74974732088179,
+    56.00243455159135
+   ]
+  ],
+  "3": [
+   [
+    66.18804907576555,
+    56.03216617256561
+   ]
+  ],
+  "4": [
+   [
+    92.7957931919056,
+    56.02334801408925
+   ]
+  ],
+  "5": [
+   [
+    119.51883321404131,
+    56.002619510362024
+   ]
+  ],
+  "6": [
+   [
+    183.72061322439708,
+    55.420461290584385
+   ]
+  ],
+  "7": [
+   [
+    206.59804805653218,
+    58.642658043097754
+   ]
+  ],
+  "8": [
+   [
+    238.07721388766709,
+    55.84378439370017
+   ]
+  ],
+  "9": [
+   [
+    255.59205674246428,
+    59.30388408208495
+   ]
+  ],
+  "10": [
+   [
+    151.64279843282978,
+    54.887006886224356
+   ]
+  ],
+  "11": [
+   [
+    200.694425793257,
+    51.377185177711794
+   ]
+  ],
+  "12": [
+   [
+    224.09131890163292,
+    56.20087727189871
+   ]
+  ],
+  "13": [
+   [
+    249.19015206685899,
+    53.202799599021425
+   ]
+  ],
+  "14": [
+   [
+    183.72061322439748,
+    55.42046129058398
+   ]
+  ],
+  "15": [
+   [
+    206.59804805653238,
+    58.642658043097626
+   ]
+  ],
+  "16": [
+   [
+    238.0772138876681,
+    55.84378439369927
+   ]
+  ],
+  "17": [
+   [
+    255.59205674246442,
+    59.303884082085034
+   ]
+  ]
+ },
+ "case": "diode_open",
+ "checks": [
+  {
+   "check": "total 17",
+   "status": "PASS",
+   "detail": "17 spike(s)"
+  },
+  {
+   "check": "last 255.59212 0.003",
+   "status": "PASS",
+   "detail": "255.592057, expected 255.592120"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 12.84079 0.003",
+   "status": "PASS",
+   "detail": "12.840711, expected 12.840790, off by -7.87e-05"
+  },
+  {
+   "check": "peak 1 58.275548 2e-4",
+   "status": "PASS",
+   "detail": "58.275566, expected 58.275548, relative error 3.08e-07"
+  },
+  {
+   "check": "count 5 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 5 119.51887 0.003",
+   "status": "PASS",
+   "detail": "119.518833, expected 119.518870, off by -3.68e-05"
+  },
+  {
+   "check": "peak 5 56.002642 2e-4",
+   "status": "PASS",
+   "detail": "56.00262, expected 56.002642, relative error -4.02e-07"
+  },
+  {
+   "check": "count 10 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 10 151.64286 0.003",
+   "status": "PASS",
+   "detail": "151.642798, expected 151.642860, off by -6.16e-05"
+  },
+  {
+   "check": "peak 10 54.886997 2e-4",
+   "status": "PASS",
+   "detail": "54.887007, expected 54.886997, relative error 1.80e-07"
+  },
+  {
+   "check": "count 13 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 13 249.19019 0.003",
+   "status": "PASS",
+   "detail": "249.190152, expected 249.190190, off by -3.79e-05"
+  },
+  {
+   "check": "peak 13 53.202791 2e-4",
+   "status": "PASS",
+   "detail": "53.2028, expected 53.202791, relative error 1.62e-07"
+  },
+  {
+   "check": "each 1 17 1",
+   "status": "PASS",
+   "detail": "all as expected"
+  }
+ ],
+ "notes": [
+  "A chain (sites 1 to 5) feeds the middle row of a strip three pillars wide (sites 6 to 17). With a little more coupling the chain does fire the strip; the diode works only in a narrow window above the critical coupling.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 7.505330813017963e-05,
+  "spike peak": 5.796412423375585e-07,
+  "dark intensity": 3.7515908786360606e-08
+ }
+}
