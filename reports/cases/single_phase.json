@@ -1,0 +1,73 @@
+{
+ "title": "One pillar, kick with a quarter-turn of phase",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 1,
+ "links": 0,
+ "duration": 600.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 90.0
+  }
+ ],
+ "total": 1,
+ "last_spike": 12.5825148041083,
+ "spikes": {
+  "1": [
+   [
+    12.5825148041083,
+    58.753092036119966
+   ]
+  ]
+ },
+ "case": "single_phase",
+ "checks": [
+  {
+   "check": "total 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "last 12.58257 0.003",
+   "status": "PASS",
+   "detail": "12.582515, expected 12.582570"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 12.58257 0.003",
+   "status": "PASS",
+   "detail": "12.582515, expected 12.582570, off by -5.52e-05"
+  },
+  {
+   "check": "peak 1 58.753057 2e-4",
+   "status": "PASS",
+   "detail": "58.753092, expected 58.753057, relative error 5.96e-07"
+  },
+  {
+   "check": "arrival 1 12.58251 0.003",
+   "status": "PASS",
+   "detail": "12.582515, expected 12.582510, off by 4.80e-06"
+  }
+ ],
+ "notes": [
+  "A single pillar has no phase reference: the phase of the kick changes nothing.",
+  "Reference: the arrival and peak of the kick of amplitude 2 with zero phase."
+ ],
+ "against_reference": {
+  "spike time": 5.7717061920925516e-05,
+  "spike peak": 6.048052634266554e-07,
+  "dark intensity": 6.689502283202158e-10
+ }
+}
