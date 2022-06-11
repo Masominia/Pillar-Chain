@@ -1,0 +1,13 @@
+# Neither kick of amplitude 1 fires alone. The first one bleaches the absorber a little, and the carriers remember it for about a carrier lifetime (100): a second kick within that time fires the pillar.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Two sub-threshold kicks 50 photon lifetimes apart
+sites 1
+kick 1 amplitude=1
+kick 1 time=50 amplitude=1
+run 700
+expect total 1
+expect last 89.47857 0.003
+expect count 1 1
+expect arrival 1 89.47857 0.003
+expect peak 1 56.098889 2e-4
+expect fired 1 yes
