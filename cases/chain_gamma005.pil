@@ -1,0 +1,35 @@
+# The delay per site is set by the coupling and the photon lifetime, hardly by the carrier rate.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Chain of 8 with carrier rate 0.005
+laser gamma=0.005
+sites 8
+path 1 8 kappa=0.06
+kick 1 amplitude=2
+run 2500
+expect total 8
+expect last 150.38269 0.003
+expect count 1 1
+expect arrival 1 30.46804 0.003
+expect peak 1 111.686678 2e-4
+expect count 2 1
+expect arrival 2 48.22418 0.003
+expect peak 2 113.126069 2e-4
+expect count 3 1
+expect arrival 3 65.51697 0.003
+expect peak 3 113.259144 2e-4
+expect count 4 1
+expect arrival 4 82.72582 0.003
+expect peak 4 113.285583 2e-4
+expect count 5 1
+expect arrival 5 99.91732 0.003
+expect peak 5 113.290348 2e-4
+expect count 6 1
+expect arrival 6 117.10538 0.003
+expect peak 6 113.294277 2e-4
+expect count 7 1
+expect arrival 7 134.31874 0.003
+expect peak 7 113.248498 2e-4
+expect count 8 1
+expect arrival 8 150.38269 0.003
+expect peak 8 114.935130 2e-4
+expect each 1 8 1
