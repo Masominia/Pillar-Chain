@@ -1,0 +1,16 @@
+# A kick far too weak to bleach anything: the fields obey linear equations with constant coefficients, and light sloshes between the cavities at the coupling rate while it decays.
+# Reference: the closed form from the eigenmodes of the coupled cavities, within 0.2%.
+title Dark regime: pair k005
+sites 2
+link 1 2 kappa=0.05
+kick 1 amplitude=0.001
+run 45
+expect total 0
+expect count 1 0
+expect count 2 0
+expect intensity 1 10 3.83435681e-08 2e-3
+expect intensity 2 10 1.14435003e-08 2e-3
+expect intensity 1 25 5.49921791e-11 2e-3
+expect intensity 2 25 4.98092191e-10 2e-3
+expect intensity 2 40 5.08016878e-12 2e-3
+expect total 0
