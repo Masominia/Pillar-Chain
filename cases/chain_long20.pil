@@ -1,0 +1,40 @@
+# Away from the ends the pulse travels at constant speed and constant height.
+# Reference: the same network integrated independently (complex arithmetic, LSODA). Equal delays between sites 5, 10 and 15.
+title Chain of 20
+sites 20
+path 1 20 kappa=0.06
+kick 1 amplitude=2
+run 900
+expect total 20
+expect last 340.09875 0.003
+expect count 1 1
+expect arrival 1 12.96038 0.003
+expect peak 1 58.059000 2e-4
+expect count 3 1
+expect arrival 3 48.19817 0.003
+expect peak 3 56.712156 2e-4
+expect count 5 1
+expect arrival 5 82.68577 0.003
+expect peak 5 56.709550 2e-4
+expect count 7 1
+expect arrival 7 117.15665 0.003
+expect peak 7 56.709775 2e-4
+expect count 9 1
+expect arrival 9 151.62685 0.003
+expect peak 9 56.709743 2e-4
+expect count 12 1
+expect arrival 12 203.33219 0.003
+expect peak 12 56.709750 2e-4
+expect count 14 1
+expect arrival 14 237.80241 0.003
+expect peak 14 56.709783 2e-4
+expect count 16 1
+expect arrival 16 272.27259 0.003
+expect peak 16 56.709800 2e-4
+expect count 18 1
+expect arrival 18 306.74298 0.003
+expect peak 18 56.711288 2e-4
+expect count 20 1
+expect arrival 20 340.09875 0.003
+expect peak 20 57.541805 2e-4
+expect each 1 20 1
