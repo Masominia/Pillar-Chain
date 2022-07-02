@@ -1,0 +1,79 @@
+{
+ "title": "Two sub-threshold kicks 20 photon lifetimes apart",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 1,
+ "links": 0,
+ "duration": 700.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 1.0,
+   "phase": 0.0
+  },
+  {
+   "site": 1,
+   "time": 20.0,
+   "amplitude": 1.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 1,
+ "last_spike": 63.99495826060623,
+ "spikes": {
+  "1": [
+   [
+    63.99495826060623,
+    56.01769774221453
+   ]
+  ]
+ },
+ "case": "single_sum_dt020",
+ "checks": [
+  {
+   "check": "total 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "last 63.99504 0.003",
+   "status": "PASS",
+   "detail": "63.994958, expected 63.995040"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 63.99504 0.003",
+   "status": "PASS",
+   "detail": "63.994958, expected 63.995040, off by -8.17e-05"
+  },
+  {
+   "check": "peak 1 56.017689 2e-4",
+   "status": "PASS",
+   "detail": "56.017698, expected 56.017689, relative error 1.56e-07"
+  },
+  {
+   "check": "fired 1 yes",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  }
+ ],
+ "notes": [
+  "Neither kick of amplitude 1 fires alone. The first one bleaches the absorber a little, and the carriers remember it for about a carrier lifetime (100): a second kick within that time fires the pillar.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 7.933501074575133e-05,
+  "spike peak": 1.599964982723634e-07,
+  "dark intensity": 1.9061812110572397e-09
+ }
+}
