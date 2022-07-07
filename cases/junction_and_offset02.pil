@@ -1,0 +1,45 @@
+# Two input arms (sites 1 to 5 and 6 to 10) meet at site 11; the output arm runs from 11 to 16. The two pulses must arrive within a few photon lifetimes of each other: a coincidence detector.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Weak junction, second input 2 photon lifetimes late
+sites 16
+path 1 5 kappa=0.06
+path 6 10 kappa=0.06
+path 11 16 kappa=0.06
+link 5 11 kappa=0.03
+link 10 11 kappa=0.03
+kick 1 amplitude=2
+kick 6 time=2 amplitude=2
+run 1200
+expect total 16
+expect last 187.17988 0.003
+expect count 1 1
+expect arrival 1 12.96038 0.003
+expect peak 1 58.059000 2e-4
+expect count 3 1
+expect arrival 3 48.19780 0.003
+expect peak 3 56.712969 2e-4
+expect count 4 1
+expect arrival 4 65.45904 0.003
+expect peak 4 56.698005 2e-4
+expect count 6 1
+expect arrival 6 14.96038 0.003
+expect peak 6 58.059000 2e-4
+expect count 8 1
+expect arrival 8 50.19722 0.003
+expect peak 8 56.713193 2e-4
+expect count 9 1
+expect arrival 9 67.46782 0.003
+expect peak 9 56.695488 2e-4
+expect count 11 1
+expect arrival 11 102.07471 0.003
+expect peak 11 56.665427 2e-4
+expect count 13 1
+expect arrival 13 136.58075 0.003
+expect peak 13 56.704181 2e-4
+expect count 14 1
+expect arrival 14 153.82199 0.003
+expect peak 14 56.710622 2e-4
+expect count 16 1
+expect arrival 16 187.17988 0.003
+expect peak 16 57.541686 2e-4
+expect each 1 16 1
