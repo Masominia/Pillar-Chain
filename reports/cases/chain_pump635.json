@@ -1,0 +1,108 @@
+{
+ "title": "Chain of 8 pumped at A = 6.35",
+ "laser": {
+  "A": 6.35,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 8,
+ "links": 7,
+ "duration": 2500.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.5,
+   "phase": 0.0
+  }
+ ],
+ "total": 1,
+ "last_spike": 13.023168537422837,
+ "spikes": {
+  "1": [
+   [
+    13.023168537422837,
+    48.10738902610021
+   ]
+  ]
+ },
+ "case": "chain_pump635",
+ "checks": [
+  {
+   "check": "total 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "last 13.02318 0.003",
+   "status": "PASS",
+   "detail": "13.023169, expected 13.023180"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 13.02318 0.003",
+   "status": "PASS",
+   "detail": "13.023169, expected 13.023180, off by -1.15e-05"
+  },
+  {
+   "check": "peak 1 48.107400 2e-4",
+   "status": "PASS",
+   "detail": "48.107389, expected 48.1074, relative error -2.28e-07"
+  },
+  {
+   "check": "count 2 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 3 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 4 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 5 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 6 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 7 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 8 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "silent 2 8",
+   "status": "PASS",
+   "detail": "all as expected"
+  }
+ ],
+ "notes": [
+  "Closer to threshold the pillars are easier to excite and the pulse travels faster; too far below, a neighbour is not enough to fire a site.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 1.609772558985867e-05,
+  "spike peak": 2.2211682526585008e-07,
+  "dark intensity": 1.297393012556589e-08
+ }
+}
