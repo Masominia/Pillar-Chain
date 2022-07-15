@@ -1,0 +1,79 @@
+{
+ "title": "Dark regime: pair k005",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 2,
+ "links": 1,
+ "duration": 45.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 0.001,
+   "phase": 0.0
+  }
+ ],
+ "total": 0,
+ "last_spike": null,
+ "spikes": {},
+ "case": "linear_pair_k005",
+ "checks": [
+  {
+   "check": "total 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 1 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 2 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "intensity 1 10 3.83435681e-08 2e-3",
+   "status": "PASS",
+   "detail": "3.8343602e-08, expected 3.8343568e-08, relative error 8.75e-07"
+  },
+  {
+   "check": "intensity 2 10 1.14435003e-08 2e-3",
+   "status": "PASS",
+   "detail": "1.1443504e-08, expected 1.14435e-08, relative error 3.46e-07"
+  },
+  {
+   "check": "intensity 1 25 5.49921791e-11 2e-3",
+   "status": "PASS",
+   "detail": "5.4992409e-11, expected 5.4992179e-11, relative error 4.19e-06"
+  },
+  {
+   "check": "intensity 2 25 4.98092191e-10 2e-3",
+   "status": "PASS",
+   "detail": "4.9809279e-10, expected 4.9809219e-10, relative error 1.20e-06"
+  },
+  {
+   "check": "intensity 2 40 5.08016878e-12 2e-3",
+   "status": "PASS",
+   "detail": "5.0801799e-12, expected 5.0801688e-12, relative error 2.19e-06"
+  },
+  {
+   "check": "total 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  }
+ ],
+ "notes": [
+  "A kick far too weak to bleach anything: the fields obey linear equations with constant coefficients, and light sloshes between the cavities at the coupling rate while it decays.",
+  "Reference: the closed form from the eigenmodes of the coupled cavities, within 0.2%."
+ ],
+ "against_reference": {
+  "dark intensity": 4.552285302377597e-07
+ }
+}
