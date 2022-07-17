@@ -1,0 +1,42 @@
+# Launched at both ends and in the middle: four fronts, two collisions, every site fires exactly once.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Three pulses in a chain of 21
+sites 21
+path 1 21 kappa=0.06
+kick 1 amplitude=2
+kick 11 amplitude=2
+kick 21 amplitude=2
+run 1200
+expect total 21
+expect last 90.71146 0.003
+expect count 1 1
+expect arrival 1 12.96038 0.003
+expect peak 1 58.059000 2e-4
+expect count 3 1
+expect arrival 3 48.19965 0.003
+expect peak 3 56.710370 2e-4
+expect count 5 1
+expect arrival 5 84.15822 0.003
+expect peak 5 55.844387 2e-4
+expect count 8 1
+expect arrival 8 66.32939 0.003
+expect peak 8 56.716038 2e-4
+expect count 10 1
+expect arrival 10 31.69867 0.003
+expect peak 10 56.118415 2e-4
+expect count 12 1
+expect arrival 12 31.69867 0.003
+expect peak 12 56.118415 2e-4
+expect count 14 1
+expect arrival 14 66.32939 0.003
+expect peak 14 56.716038 2e-4
+expect count 17 1
+expect arrival 17 84.15822 0.003
+expect peak 17 55.844387 2e-4
+expect count 19 1
+expect arrival 19 48.19965 0.003
+expect peak 19 56.710370 2e-4
+expect count 21 1
+expect arrival 21 12.96038 0.003
+expect peak 21 58.059000 2e-4
+expect each 1 21 1
