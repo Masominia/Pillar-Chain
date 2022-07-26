@@ -1,0 +1,304 @@
+{
+ "title": "Weak junction, second input 2 photon lifetimes late",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 16,
+ "links": 15,
+ "duration": 1200.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  },
+  {
+   "site": 6,
+   "time": 2.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 16,
+ "last_spike": 187.17983997558397,
+ "spikes": {
+  "1": [
+   [
+    12.96031856750948,
+    58.05898276100269
+   ]
+  ],
+  "2": [
+   [
+    30.977427171399867,
+    56.58981955578946
+   ]
+  ],
+  "3": [
+   [
+    48.197723670410674,
+    56.71297272458095
+   ]
+  ],
+  "4": [
+   [
+    65.45897544779466,
+    56.69799161592256
+   ]
+  ],
+  "5": [
+   [
+    82.03245732414842,
+    57.3986660859639
+   ]
+  ],
+  "6": [
+   [
+    14.96031856852175,
+    58.05898276225257
+   ]
+  ],
+  "7": [
+   [
+    32.97742455900383,
+    56.58981937522205
+   ]
+  ],
+  "8": [
+   [
+    50.197145119597394,
+    56.71319765153081
+   ]
+  ],
+  "9": [
+   [
+    67.46778132148069,
+    56.69546636730432
+   ]
+  ],
+  "10": [
+   [
+    84.17733228235917,
+    56.780935953626106
+   ]
+  ],
+  "11": [
+   [
+    102.0746884507941,
+    56.66540155554976
+   ]
+  ],
+  "12": [
+   [
+    119.3062069863997,
+    56.707025263668214
+   ]
+  ],
+  "13": [
+   [
+    136.5807052549887,
+    56.70421228834254
+   ]
+  ],
+  "14": [
+   [
+    153.82196166700177,
+    56.710597867042644
+   ]
+  ],
+  "15": [
+   [
+    171.08664152038796,
+    56.68772282147005
+   ]
+  ],
+  "16": [
+   [
+    187.17983997558397,
+    57.54172214921134
+   ]
+  ]
+ },
+ "case": "junction_and_offset02",
+ "checks": [
+  {
+   "check": "total 16",
+   "status": "PASS",
+   "detail": "16 spike(s)"
+  },
+  {
+   "check": "last 187.17988 0.003",
+   "status": "PASS",
+   "detail": "187.179840, expected 187.179880"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 12.96038 0.003",
+   "status": "PASS",
+   "detail": "12.960319, expected 12.960380, off by -6.14e-05"
+  },
+  {
+   "check": "peak 1 58.059000 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.059, relative error -2.97e-07"
+  },
+  {
+   "check": "count 3 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 3 48.19780 0.003",
+   "status": "PASS",
+   "detail": "48.197724, expected 48.197800, off by -7.63e-05"
+  },
+  {
+   "check": "peak 3 56.712969 2e-4",
+   "status": "PASS",
+   "detail": "56.712973, expected 56.712969, relative error 6.57e-08"
+  },
+  {
+   "check": "count 4 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 4 65.45904 0.003",
+   "status": "PASS",
+   "detail": "65.458975, expected 65.459040, off by -6.46e-05"
+  },
+  {
+   "check": "peak 4 56.698005 2e-4",
+   "status": "PASS",
+   "detail": "56.697992, expected 56.698005, relative error -2.36e-07"
+  },
+  {
+   "check": "count 6 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 6 14.96038 0.003",
+   "status": "PASS",
+   "detail": "14.960319, expected 14.960380, off by -6.14e-05"
+  },
+  {
+   "check": "peak 6 58.059000 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.059, relative error -2.97e-07"
+  },
+  {
+   "check": "count 8 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 8 50.19722 0.003",
+   "status": "PASS",
+   "detail": "50.197145, expected 50.197220, off by -7.49e-05"
+  },
+  {
+   "check": "peak 8 56.713193 2e-4",
+   "status": "PASS",
+   "detail": "56.713198, expected 56.713193, relative error 8.20e-08"
+  },
+  {
+   "check": "count 9 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 9 67.46782 0.003",
+   "status": "PASS",
+   "detail": "67.467781, expected 67.467820, off by -3.87e-05"
+  },
+  {
+   "check": "peak 9 56.695488 2e-4",
+   "status": "PASS",
+   "detail": "56.695466, expected 56.695488, relative error -3.82e-07"
+  },
+  {
+   "check": "count 11 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 11 102.07471 0.003",
+   "status": "PASS",
+   "detail": "102.074688, expected 102.074710, off by -2.15e-05"
+  },
+  {
+   "check": "peak 11 56.665427 2e-4",
+   "status": "PASS",
+   "detail": "56.665402, expected 56.665427, relative error -4.49e-07"
+  },
+  {
+   "check": "count 13 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 13 136.58075 0.003",
+   "status": "PASS",
+   "detail": "136.580705, expected 136.580750, off by -4.47e-05"
+  },
+  {
+   "check": "peak 13 56.704181 2e-4",
+   "status": "PASS",
+   "detail": "56.704212, expected 56.704181, relative error 5.52e-07"
+  },
+  {
+   "check": "count 14 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 14 153.82199 0.003",
+   "status": "PASS",
+   "detail": "153.821962, expected 153.821990, off by -2.83e-05"
+  },
+  {
+   "check": "peak 14 56.710622 2e-4",
+   "status": "PASS",
+   "detail": "56.710598, expected 56.710622, relative error -4.26e-07"
+  },
+  {
+   "check": "count 16 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 16 187.17988 0.003",
+   "status": "PASS",
+   "detail": "187.179840, expected 187.179880, off by -4.00e-05"
+  },
+  {
+   "check": "peak 16 57.541686 2e-4",
+   "status": "PASS",
+   "detail": "57.541722, expected 57.541686, relative error 6.28e-07"
+  },
+  {
+   "check": "each 1 16 1",
+   "status": "PASS",
+   "detail": "all as expected"
+  }
+ ],
+ "notes": [
+  "Two input arms (sites 1 to 5 and 6 to 10) meet at site 11; the output arm runs from 11 to 16. The two pulses must arrive within a few photon lifetimes of each other: a coincidence detector.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 7.169504280568617e-05,
+  "spike peak": 6.356405517493613e-07,
+  "dark intensity": 1.0019317251306779e-07
+ }
+}
