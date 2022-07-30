@@ -1,0 +1,228 @@
+{
+ "title": "Weak junction, second input 10 photon lifetimes late",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 16,
+ "links": 15,
+ "duration": 1200.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  },
+  {
+   "site": 6,
+   "time": 10.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 10,
+ "last_spike": 91.64946581745825,
+ "spikes": {
+  "1": [
+   [
+    12.960318567651042,
+    58.0589827778084
+   ]
+  ],
+  "2": [
+   [
+    30.977429227414184,
+    56.58980235195128
+   ]
+  ],
+  "3": [
+   [
+    48.19727874790172,
+    56.71344809707373
+   ]
+  ],
+  "4": [
+   [
+    65.46556395353778,
+    56.69084349089691
+   ]
+  ],
+  "5": [
+   [
+    81.78083088590188,
+    57.46849049180823
+   ]
+  ],
+  "6": [
+   [
+    22.960318586404103,
+    58.058983148333084
+   ]
+  ],
+  "7": [
+   [
+    40.97747326526701,
+    56.58973729367613
+   ]
+  ],
+  "8": [
+   [
+    58.19547830341862,
+    56.714732214459566
+   ]
+  ],
+  "9": [
+   [
+    75.5020343218171,
+    56.67596962108767
+   ]
+  ],
+  "10": [
+   [
+    91.64946581745825,
+    57.45358434608088
+   ]
+  ]
+ },
+ "case": "junction_and_offset10",
+ "checks": [
+  {
+   "check": "total 10",
+   "status": "PASS",
+   "detail": "10 spike(s)"
+  },
+  {
+   "check": "last 91.64954 0.003",
+   "status": "PASS",
+   "detail": "91.649466, expected 91.649540"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 12.96038 0.003",
+   "status": "PASS",
+   "detail": "12.960319, expected 12.960380, off by -6.14e-05"
+  },
+  {
+   "check": "peak 1 58.059000 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.059, relative error -2.97e-07"
+  },
+  {
+   "check": "count 3 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 3 48.19735 0.003",
+   "status": "PASS",
+   "detail": "48.197279, expected 48.197350, off by -7.13e-05"
+  },
+  {
+   "check": "peak 3 56.713444 2e-4",
+   "status": "PASS",
+   "detail": "56.713448, expected 56.713444, relative error 7.22e-08"
+  },
+  {
+   "check": "count 4 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 4 65.46561 0.003",
+   "status": "PASS",
+   "detail": "65.465564, expected 65.465610, off by -4.60e-05"
+  },
+  {
+   "check": "peak 4 56.690864 2e-4",
+   "status": "PASS",
+   "detail": "56.690843, expected 56.690864, relative error -3.62e-07"
+  },
+  {
+   "check": "count 6 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 6 22.96038 0.003",
+   "status": "PASS",
+   "detail": "22.960319, expected 22.960380, off by -6.14e-05"
+  },
+  {
+   "check": "peak 6 58.059000 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.059, relative error -2.90e-07"
+  },
+  {
+   "check": "count 8 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 8 58.19555 0.003",
+   "status": "PASS",
+   "detail": "58.195478, expected 58.195550, off by -7.17e-05"
+  },
+  {
+   "check": "peak 8 56.714725 2e-4",
+   "status": "PASS",
+   "detail": "56.714732, expected 56.714725, relative error 1.27e-07"
+  },
+  {
+   "check": "count 9 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 9 75.50210 0.003",
+   "status": "PASS",
+   "detail": "75.502034, expected 75.502100, off by -6.57e-05"
+  },
+  {
+   "check": "peak 9 56.675973 2e-4",
+   "status": "PASS",
+   "detail": "56.67597, expected 56.675973, relative error -5.96e-08"
+  },
+  {
+   "check": "count 11 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 13 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 14 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 16 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "silent 11 16",
+   "status": "PASS",
+   "detail": "all as expected"
+  }
+ ],
+ "notes": [
+  "Two input arms (sites 1 to 5 and 6 to 10) meet at site 11; the output arm runs from 11 to 16. The two pulses must arrive within a few photon lifetimes of each other: a coincidence detector.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 7.833560115955152e-05,
+  "spike peak": 6.164211012738008e-07,
+  "dark intensity": 6.068733988523993e-08
+ }
+}
