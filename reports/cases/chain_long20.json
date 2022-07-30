@@ -1,0 +1,322 @@
+{
+ "title": "Chain of 20",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 20,
+ "links": 19,
+ "duration": 900.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 20,
+ "last_spike": 340.0986702040146,
+ "spikes": {
+  "1": [
+   [
+    12.960318568289578,
+    58.05898275518479
+   ]
+  ],
+  "2": [
+   [
+    30.977417859067348,
+    56.589858989731034
+   ]
+  ],
+  "3": [
+   [
+    48.19809995555511,
+    56.71215933286125
+   ]
+  ],
+  "4": [
+   [
+    65.44901722213572,
+    56.707655255155395
+   ]
+  ],
+  "5": [
+   [
+    82.68571203647764,
+    56.70957389936953
+   ]
+  ],
+  "6": [
+   [
+    99.92137270870887,
+    56.709706170355915
+   ]
+  ],
+  "7": [
+   [
+    117.1565869449943,
+    56.709764434751186
+   ]
+  ],
+  "8": [
+   [
+    134.39171774751298,
+    56.709775307627
+   ]
+  ],
+  "9": [
+   [
+    151.6268272179101,
+    56.7097781059332
+   ]
+  ],
+  "10": [
+   [
+    168.8619318940828,
+    56.709778741202726
+   ]
+  ],
+  "11": [
+   [
+    186.09703543379146,
+    56.70977883857489
+   ]
+  ],
+  "12": [
+   [
+    203.33213871189903,
+    56.709778906993634
+   ]
+  ],
+  "13": [
+   [
+    220.56724192881424,
+    56.70977892106852
+   ]
+  ],
+  "14": [
+   [
+    237.8023451410033,
+    56.709778930222804
+   ]
+  ],
+  "15": [
+   [
+    255.03744796466856,
+    56.70977916023261
+   ]
+  ],
+  "16": [
+   [
+    272.2725595496284,
+    56.7097758921404
+   ]
+  ],
+  "17": [
+   [
+    289.5075493617916,
+    56.709771372024036
+   ]
+  ],
+  "18": [
+   [
+    306.74290747427585,
+    56.71129996970064
+   ]
+  ],
+  "19": [
+   [
+    324.0060530597102,
+    56.687916349452756
+   ]
+  ],
+  "20": [
+   [
+    340.0986702040146,
+    57.54180736025879
+   ]
+  ]
+ },
+ "case": "chain_long20",
+ "checks": [
+  {
+   "check": "total 20",
+   "status": "PASS",
+   "detail": "20 spike(s)"
+  },
+  {
+   "check": "last 340.09875 0.003",
+   "status": "PASS",
+   "detail": "340.098670, expected 340.098750"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 12.96038 0.003",
+   "status": "PASS",
+   "detail": "12.960319, expected 12.960380, off by -6.14e-05"
+  },
+  {
+   "check": "peak 1 58.059000 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.059, relative error -2.97e-07"
+  },
+  {
+   "check": "count 3 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 3 48.19817 0.003",
+   "status": "PASS",
+   "detail": "48.198100, expected 48.198170, off by -7.00e-05"
+  },
+  {
+   "check": "peak 3 56.712156 2e-4",
+   "status": "PASS",
+   "detail": "56.712159, expected 56.712156, relative error 5.88e-08"
+  },
+  {
+   "check": "count 5 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 5 82.68577 0.003",
+   "status": "PASS",
+   "detail": "82.685712, expected 82.685770, off by -5.80e-05"
+  },
+  {
+   "check": "peak 5 56.709550 2e-4",
+   "status": "PASS",
+   "detail": "56.709574, expected 56.70955, relative error 4.21e-07"
+  },
+  {
+   "check": "count 7 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 7 117.15665 0.003",
+   "status": "PASS",
+   "detail": "117.156587, expected 117.156650, off by -6.31e-05"
+  },
+  {
+   "check": "peak 7 56.709775 2e-4",
+   "status": "PASS",
+   "detail": "56.709764, expected 56.709775, relative error -1.86e-07"
+  },
+  {
+   "check": "count 9 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 9 151.62685 0.003",
+   "status": "PASS",
+   "detail": "151.626827, expected 151.626850, off by -2.28e-05"
+  },
+  {
+   "check": "peak 9 56.709743 2e-4",
+   "status": "PASS",
+   "detail": "56.709778, expected 56.709743, relative error 6.19e-07"
+  },
+  {
+   "check": "count 12 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 12 203.33219 0.003",
+   "status": "PASS",
+   "detail": "203.332139, expected 203.332190, off by -5.13e-05"
+  },
+  {
+   "check": "peak 12 56.709750 2e-4",
+   "status": "PASS",
+   "detail": "56.709779, expected 56.70975, relative error 5.10e-07"
+  },
+  {
+   "check": "count 14 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 14 237.80241 0.003",
+   "status": "PASS",
+   "detail": "237.802345, expected 237.802410, off by -6.49e-05"
+  },
+  {
+   "check": "peak 14 56.709783 2e-4",
+   "status": "PASS",
+   "detail": "56.709779, expected 56.709783, relative error -7.18e-08"
+  },
+  {
+   "check": "count 16 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 16 272.27259 0.003",
+   "status": "PASS",
+   "detail": "272.272560, expected 272.272590, off by -3.05e-05"
+  },
+  {
+   "check": "peak 16 56.709800 2e-4",
+   "status": "PASS",
+   "detail": "56.709776, expected 56.7098, relative error -4.25e-07"
+  },
+  {
+   "check": "count 18 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 18 306.74298 0.003",
+   "status": "PASS",
+   "detail": "306.742907, expected 306.742980, off by -7.25e-05"
+  },
+  {
+   "check": "peak 18 56.711288 2e-4",
+   "status": "PASS",
+   "detail": "56.7113, expected 56.711288, relative error 2.11e-07"
+  },
+  {
+   "check": "count 20 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 20 340.09875 0.003",
+   "status": "PASS",
+   "detail": "340.098670, expected 340.098750, off by -7.98e-05"
+  },
+  {
+   "check": "peak 20 57.541805 2e-4",
+   "status": "PASS",
+   "detail": "57.541807, expected 57.541805, relative error 4.10e-08"
+  },
+  {
+   "check": "each 1 20 1",
+   "status": "PASS",
+   "detail": "all as expected"
+  }
+ ],
+ "notes": [
+  "Away from the ends the pulse travels at constant speed and constant height.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA). Equal delays between sites 5, 10 and 15."
+ ],
+ "against_reference": {
+  "spike time": 7.92462102481295e-05,
+  "spike peak": 6.273383978960823e-07,
+  "dark intensity": 2.2447095212511993e-08
+ }
+}
