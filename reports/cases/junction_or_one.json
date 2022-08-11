@@ -1,0 +1,303 @@
+{
+ "title": "Strong junction, one input: OR",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 16,
+ "links": 15,
+ "duration": 1200.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 16,
+ "last_spike": 187.10095031949933,
+ "spikes": {
+  "1": [
+   [
+    12.96031856933896,
+    58.05898275305632
+   ]
+  ],
+  "2": [
+   [
+    30.97741794965759,
+    56.589856954713476
+   ]
+  ],
+  "3": [
+   [
+    48.19807842860887,
+    56.71219914968933
+   ]
+  ],
+  "4": [
+   [
+    65.44899532220535,
+    56.70616927010808
+   ]
+  ],
+  "5": [
+   [
+    82.65793993265792,
+    56.72792011007125
+   ]
+  ],
+  "6": [
+   [
+    187.10095031949933,
+    57.541244501559206
+   ]
+  ],
+  "7": [
+   [
+    171.00450520074367,
+    56.68708608643233
+   ]
+  ],
+  "8": [
+   [
+    153.73435770518117,
+    56.70327889990896
+   ]
+  ],
+  "9": [
+   [
+    136.4474818295555,
+    56.70516732171281
+   ]
+  ],
+  "10": [
+   [
+    119.03694549437277,
+    56.181503018018404
+   ]
+  ],
+  "11": [
+   [
+    101.21772757448234,
+    55.8576091067088
+   ]
+  ],
+  "12": [
+   [
+    119.03694549437277,
+    56.181503018018404
+   ]
+  ],
+  "13": [
+   [
+    136.4474818295555,
+    56.70516732171281
+   ]
+  ],
+  "14": [
+   [
+    153.73435770518117,
+    56.70327889990896
+   ]
+  ],
+  "15": [
+   [
+    171.00450520074367,
+    56.68708608643233
+   ]
+  ],
+  "16": [
+   [
+    187.10095031949933,
+    57.541244501559206
+   ]
+  ]
+ },
+ "case": "junction_or_one",
+ "checks": [
+  {
+   "check": "total 16",
+   "status": "PASS",
+   "detail": "16 spike(s)"
+  },
+  {
+   "check": "last 187.10103 0.003",
+   "status": "PASS",
+   "detail": "187.100950, expected 187.101030"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 12.96038 0.003",
+   "status": "PASS",
+   "detail": "12.960319, expected 12.960380, off by -6.14e-05"
+  },
+  {
+   "check": "peak 1 58.059000 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.059, relative error -2.97e-07"
+  },
+  {
+   "check": "count 3 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 3 48.19815 0.003",
+   "status": "PASS",
+   "detail": "48.198078, expected 48.198150, off by -7.16e-05"
+  },
+  {
+   "check": "peak 3 56.712196 2e-4",
+   "status": "PASS",
+   "detail": "56.712199, expected 56.712196, relative error 5.55e-08"
+  },
+  {
+   "check": "count 4 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 4 65.44907 0.003",
+   "status": "PASS",
+   "detail": "65.448995, expected 65.449070, off by -7.47e-05"
+  },
+  {
+   "check": "peak 4 56.706168 2e-4",
+   "status": "PASS",
+   "detail": "56.706169, expected 56.706168, relative error 2.24e-08"
+  },
+  {
+   "check": "count 6 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 6 187.10103 0.003",
+   "status": "PASS",
+   "detail": "187.100950, expected 187.101030, off by -7.97e-05"
+  },
+  {
+   "check": "peak 6 57.541246 2e-4",
+   "status": "PASS",
+   "detail": "57.541245, expected 57.541246, relative error -2.60e-08"
+  },
+  {
+   "check": "count 8 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 8 153.73441 0.003",
+   "status": "PASS",
+   "detail": "153.734358, expected 153.734410, off by -5.23e-05"
+  },
+  {
+   "check": "peak 8 56.703253 2e-4",
+   "status": "PASS",
+   "detail": "56.703279, expected 56.703253, relative error 4.57e-07"
+  },
+  {
+   "check": "count 9 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 9 136.44755 0.003",
+   "status": "PASS",
+   "detail": "136.447482, expected 136.447550, off by -6.82e-05"
+  },
+  {
+   "check": "peak 9 56.705163 2e-4",
+   "status": "PASS",
+   "detail": "56.705167, expected 56.705163, relative error 7.62e-08"
+  },
+  {
+   "check": "count 11 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 11 101.21776 0.003",
+   "status": "PASS",
+   "detail": "101.217728, expected 101.217760, off by -3.24e-05"
+  },
+  {
+   "check": "peak 11 55.857628 2e-4",
+   "status": "PASS",
+   "detail": "55.857609, expected 55.857628, relative error -3.38e-07"
+  },
+  {
+   "check": "count 13 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 13 136.44755 0.003",
+   "status": "PASS",
+   "detail": "136.447482, expected 136.447550, off by -6.82e-05"
+  },
+  {
+   "check": "peak 13 56.705163 2e-4",
+   "status": "PASS",
+   "detail": "56.705167, expected 56.705163, relative error 7.62e-08"
+  },
+  {
+   "check": "count 14 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 14 153.73441 0.003",
+   "status": "PASS",
+   "detail": "153.734358, expected 153.734410, off by -5.23e-05"
+  },
+  {
+   "check": "peak 14 56.703253 2e-4",
+   "status": "PASS",
+   "detail": "56.703279, expected 56.703253, relative error 4.57e-07"
+  },
+  {
+   "check": "count 16 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 16 187.10103 0.003",
+   "status": "PASS",
+   "detail": "187.100950, expected 187.101030, off by -7.97e-05"
+  },
+  {
+   "check": "peak 16 57.541246 2e-4",
+   "status": "PASS",
+   "detail": "57.541245, expected 57.541246, relative error -2.60e-08"
+  },
+  {
+   "check": "each 1 16 1",
+   "status": "PASS",
+   "detail": "all as expected"
+  },
+  {
+   "check": "order 11 10 9 8 7 6",
+   "status": "PASS",
+   "detail": "101.22, 119.04, 136.45, 153.73, 171.00, 187.10"
+  }
+ ],
+ "notes": [
+  "Two input arms (sites 1 to 5 and 6 to 10) meet at site 11; the output arm runs from 11 to 16. With links of 0.06 one pulse fires the junction, and the pulse also runs back up the other arm.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 7.842686804337973e-05,
+  "spike peak": 6.166059951517866e-07,
+  "dark intensity": 5.980414253895322e-08
+ }
+}
