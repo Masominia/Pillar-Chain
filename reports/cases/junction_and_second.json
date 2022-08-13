@@ -1,0 +1,172 @@
+{
+ "title": "Weak junction, second input only",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 16,
+ "links": 15,
+ "duration": 1200.0,
+ "kicks": [
+  {
+   "site": 6,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 5,
+ "last_spike": 81.83040749004702,
+ "spikes": {
+  "6": [
+   [
+    12.960318571402466,
+    58.058982808863114
+   ]
+  ],
+  "7": [
+   [
+    30.977429300775256,
+    56.58980485026707
+   ]
+  ],
+  "8": [
+   [
+    48.19726902416834,
+    56.71345098481297
+   ]
+  ],
+  "9": [
+   [
+    65.46865607929195,
+    56.69163650368272
+   ]
+  ],
+  "10": [
+   [
+    81.83040749004702,
+    57.339788474499514
+   ]
+  ]
+ },
+ "case": "junction_and_second",
+ "checks": [
+  {
+   "check": "total 5",
+   "status": "PASS",
+   "detail": "5 spike(s)"
+  },
+  {
+   "check": "last 81.83045 0.003",
+   "status": "PASS",
+   "detail": "81.830407, expected 81.830450"
+  },
+  {
+   "check": "count 1 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 3 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 4 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 6 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 6 12.96038 0.003",
+   "status": "PASS",
+   "detail": "12.960319, expected 12.960380, off by -6.14e-05"
+  },
+  {
+   "check": "peak 6 58.059000 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.059, relative error -2.96e-07"
+  },
+  {
+   "check": "count 8 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 8 48.19734 0.003",
+   "status": "PASS",
+   "detail": "48.197269, expected 48.197340, off by -7.10e-05"
+  },
+  {
+   "check": "peak 8 56.713447 2e-4",
+   "status": "PASS",
+   "detail": "56.713451, expected 56.713447, relative error 7.03e-08"
+  },
+  {
+   "check": "count 9 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 9 65.46869 0.003",
+   "status": "PASS",
+   "detail": "65.468656, expected 65.468690, off by -3.39e-05"
+  },
+  {
+   "check": "peak 9 56.691659 2e-4",
+   "status": "PASS",
+   "detail": "56.691637, expected 56.691659, relative error -3.97e-07"
+  },
+  {
+   "check": "count 11 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 13 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 14 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 16 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "each 6 10 1",
+   "status": "PASS",
+   "detail": "all as expected"
+  },
+  {
+   "check": "silent 11 16",
+   "status": "PASS",
+   "detail": "all as expected"
+  },
+  {
+   "check": "silent 1 5",
+   "status": "PASS",
+   "detail": "all as expected"
+  }
+ ],
+ "notes": [
+  "Two input arms (sites 1 to 5 and 6 to 10) meet at site 11; the output arm runs from 11 to 16. The same from the other arm.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 7.168182512629073e-05,
+  "spike peak": 6.163858012886436e-07,
+  "dark intensity": 6.06648028005618e-08
+ }
+}
