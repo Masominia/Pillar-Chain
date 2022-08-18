@@ -1,0 +1,83 @@
+{
+ "title": "Second kick 300 photon lifetimes after the first",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 1,
+ "links": 0,
+ "duration": 900.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  },
+  {
+   "site": 1,
+   "time": 300.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 2,
+ "last_spike": 314.49868671999576,
+ "spikes": {
+  "1": [
+   [
+    12.582514804108266,
+    58.75309203612003
+   ],
+   [
+    314.49868671999576,
+    49.16779242600179
+   ]
+  ]
+ },
+ "case": "single_refractory_dt300",
+ "checks": [
+  {
+   "check": "total 2",
+   "status": "PASS",
+   "detail": "2 spike(s)"
+  },
+  {
+   "check": "last 314.49874 0.003",
+   "status": "PASS",
+   "detail": "314.498687, expected 314.498740"
+  },
+  {
+   "check": "count 1 2",
+   "status": "PASS",
+   "detail": "2 spike(s)"
+  },
+  {
+   "check": "arrival 1 12.58257 0.003",
+   "status": "PASS",
+   "detail": "12.582515, expected 12.582570, off by -5.52e-05"
+  },
+  {
+   "check": "peak 1 58.753057 2e-4",
+   "status": "PASS",
+   "detail": "58.753092, expected 58.753057, relative error 5.96e-07"
+  },
+  {
+   "check": "count 1 2",
+   "status": "PASS",
+   "detail": "2 spike(s)"
+  }
+ ],
+ "notes": [
+  "After a pulse the gain is depleted and the pillar cannot fire again until it has recovered: the refractory time, between 140 and 160 photon lifetimes for this kick.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 5.794294088445895e-05,
+  "spike peak": 6.047781910822891e-07,
+  "dark intensity": 6.716149856221349e-10
+ }
+}
