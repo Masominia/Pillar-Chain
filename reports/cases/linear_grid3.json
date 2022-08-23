@@ -1,0 +1,114 @@
+{
+ "title": "Dark regime: grid3",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 9,
+ "links": 12,
+ "duration": 45.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 0.001,
+   "phase": 0.0
+  }
+ ],
+ "total": 0,
+ "last_spike": null,
+ "spikes": {},
+ "case": "linear_grid3",
+ "checks": [
+  {
+   "check": "total 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 1 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 2 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 3 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 4 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 5 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 6 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 7 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 8 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 9 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "intensity 1 8 3.88211204e-08 2e-3",
+   "status": "PASS",
+   "detail": "3.8821147e-08, expected 3.882112e-08, relative error 6.86e-07"
+  },
+  {
+   "check": "intensity 2 8 1.83540285e-08 2e-3",
+   "status": "PASS",
+   "detail": "1.8354034e-08, expected 1.8354029e-08, relative error 2.87e-07"
+  },
+  {
+   "check": "intensity 5 8 8.67750234e-09 2e-3",
+   "status": "PASS",
+   "detail": "8.6775037e-09, expected 8.6775023e-09, relative error 1.59e-07"
+  },
+  {
+   "check": "intensity 9 8 1.21227579e-10 2e-3",
+   "status": "PASS",
+   "detail": "1.2122758e-10, expected 1.2122758e-10, relative error 4.28e-08"
+  },
+  {
+   "check": "intensity 9 20 1.11533994e-09 2e-3",
+   "status": "PASS",
+   "detail": "1.1153403e-09, expected 1.1153399e-09, relative error 3.66e-07"
+  },
+  {
+   "check": "total 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  }
+ ],
+ "notes": [
+  "A kick far too weak to bleach anything: the fields obey linear equations with constant coefficients, and light sloshes between the cavities at the coupling rate while it decays.",
+  "Reference: the closed form from the eigenmodes of the coupled cavities, within 0.2%."
+ ],
+ "against_reference": {
+  "dark intensity": 3.4829343650020676e-07
+ }
+}
