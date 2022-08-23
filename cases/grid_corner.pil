@@ -1,0 +1,35 @@
+# A front spreads from the corner and every pillar fires once; the far corner is last.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Lattice of 6 by 6 kicked at a corner
+grid 6 6 kappa=0.06
+kick 1 amplitude=2
+run 1200
+expect total 36
+expect last 133.13706 0.003
+expect count 1 1
+expect arrival 1 13.37378 0.003
+expect peak 1 57.325453 2e-4
+expect count 2 1
+expect arrival 2 34.75234 0.003
+expect peak 2 54.331755 2e-4
+expect count 7 1
+expect arrival 7 34.75234 0.003
+expect peak 7 54.331755 2e-4
+expect count 8 1
+expect arrival 8 41.34940 0.003
+expect peak 8 60.836436 2e-4
+expect count 15 1
+expect arrival 15 65.64934 0.003
+expect peak 15 61.809386 2e-4
+expect count 22 1
+expect arrival 22 86.11772 0.003
+expect peak 22 62.073557 2e-4
+expect count 29 1
+expect arrival 29 108.11686 0.003
+expect peak 29 61.402317 2e-4
+expect count 36 1
+expect arrival 36 133.13706 0.003
+expect peak 36 61.816533 2e-4
+expect each 1 36 1
+expect together 2 7 1e-6
+expect together 6 31 1e-6
