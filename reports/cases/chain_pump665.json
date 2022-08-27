@@ -1,0 +1,220 @@
+{
+ "title": "Chain of 8 pumped at A = 6.65",
+ "laser": {
+  "A": 6.65,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 8,
+ "links": 7,
+ "duration": 2500.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.5,
+   "phase": 0.0
+  }
+ ],
+ "total": 8,
+ "last_spike": 93.00621235190226,
+ "spikes": {
+  "1": [
+   [
+    7.146094230795119,
+    72.42882159007038
+   ]
+  ],
+  "2": [
+   [
+    18.475831941022996,
+    69.03298580650139
+   ]
+  ],
+  "3": [
+   [
+    30.90703160503401,
+    68.5672780027946
+   ]
+  ],
+  "4": [
+   [
+    43.33505628164285,
+    68.53647265075739
+   ]
+  ],
+  "5": [
+   [
+    55.75448640870733,
+    68.5394950057447
+   ]
+  ],
+  "6": [
+   [
+    68.17795219832367,
+    68.54119941981648
+   ]
+  ],
+  "7": [
+   [
+    80.59327521640336,
+    68.58401365776284
+   ]
+  ],
+  "8": [
+   [
+    93.00621235190226,
+    68.9617302530869
+   ]
+  ]
+ },
+ "case": "chain_pump665",
+ "checks": [
+  {
+   "check": "total 8",
+   "status": "PASS",
+   "detail": "8 spike(s)"
+  },
+  {
+   "check": "last 93.00632 0.003",
+   "status": "PASS",
+   "detail": "93.006212, expected 93.006320"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 7.14621 0.003",
+   "status": "PASS",
+   "detail": "7.146094, expected 7.146210, off by -1.16e-04"
+  },
+  {
+   "check": "peak 1 72.428804 2e-4",
+   "status": "PASS",
+   "detail": "72.428822, expected 72.428804, relative error 2.43e-07"
+  },
+  {
+   "check": "count 2 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 2 18.47587 0.003",
+   "status": "PASS",
+   "detail": "18.475832, expected 18.475870, off by -3.81e-05"
+  },
+  {
+   "check": "peak 2 69.032904 2e-4",
+   "status": "PASS",
+   "detail": "69.032986, expected 69.032904, relative error 1.19e-06"
+  },
+  {
+   "check": "count 3 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 3 30.90713 0.003",
+   "status": "PASS",
+   "detail": "30.907032, expected 30.907130, off by -9.84e-05"
+  },
+  {
+   "check": "peak 3 68.567302 2e-4",
+   "status": "PASS",
+   "detail": "68.567278, expected 68.567302, relative error -3.50e-07"
+  },
+  {
+   "check": "count 4 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 4 43.33514 0.003",
+   "status": "PASS",
+   "detail": "43.335056, expected 43.335140, off by -8.37e-05"
+  },
+  {
+   "check": "peak 4 68.536418 2e-4",
+   "status": "PASS",
+   "detail": "68.536473, expected 68.536418, relative error 7.97e-07"
+  },
+  {
+   "check": "count 5 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 5 55.75459 0.003",
+   "status": "PASS",
+   "detail": "55.754486, expected 55.754590, off by -1.04e-04"
+  },
+  {
+   "check": "peak 5 68.539511 2e-4",
+   "status": "PASS",
+   "detail": "68.539495, expected 68.539511, relative error -2.33e-07"
+  },
+  {
+   "check": "count 6 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 6 68.17800 0.003",
+   "status": "PASS",
+   "detail": "68.177952, expected 68.178000, off by -4.78e-05"
+  },
+  {
+   "check": "peak 6 68.541124 2e-4",
+   "status": "PASS",
+   "detail": "68.541199, expected 68.541124, relative error 1.10e-06"
+  },
+  {
+   "check": "count 7 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 7 80.59338 0.003",
+   "status": "PASS",
+   "detail": "80.593275, expected 80.593380, off by -1.05e-04"
+  },
+  {
+   "check": "peak 7 68.583988 2e-4",
+   "status": "PASS",
+   "detail": "68.584014, expected 68.583988, relative error 3.74e-07"
+  },
+  {
+   "check": "count 8 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 8 93.00632 0.003",
+   "status": "PASS",
+   "detail": "93.006212, expected 93.006320, off by -1.08e-04"
+  },
+  {
+   "check": "peak 8 68.961754 2e-4",
+   "status": "PASS",
+   "detail": "68.96173, expected 68.961754, relative error -3.44e-07"
+  },
+  {
+   "check": "each 1 8 1",
+   "status": "PASS",
+   "detail": "all as expected"
+  }
+ ],
+ "notes": [
+  "Closer to threshold the pillars are easier to excite and the pulse travels faster; too far below, a neighbour is not enough to fire a site.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 0.00011650850770283938,
+  "spike peak": 1.1838388072060724e-06,
+  "dark intensity": 1.3418883790927117e-09
+ }
+}
