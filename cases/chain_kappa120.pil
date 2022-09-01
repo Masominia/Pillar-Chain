@@ -1,0 +1,35 @@
+# A pulse launched at one end either dies there or travels the whole chain: there is a critical coupling, near 0.0419 for this laser. Above it the delay per site shortens as the coupling grows.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Chain of 8, coupling 0.12
+sites 8
+path 1 8 kappa=0.12
+kick 1 amplitude=2
+run 2500
+expect total 8
+expect last 63.80142 0.003
+expect count 1 1
+expect arrival 1 14.38088 0.003
+expect peak 1 55.719393 2e-4
+expect count 2 1
+expect arrival 2 21.58199 0.003
+expect peak 2 57.622861 2e-4
+expect count 3 1
+expect arrival 3 28.32150 0.003
+expect peak 3 58.100539 2e-4
+expect count 4 1
+expect arrival 4 35.40186 0.003
+expect peak 4 58.350129 2e-4
+expect count 5 1
+expect arrival 5 42.50311 0.003
+expect peak 5 58.346931 2e-4
+expect count 6 1
+expect arrival 6 49.63495 0.003
+expect peak 6 58.361073 2e-4
+expect count 7 1
+expect arrival 7 56.75864 0.003
+expect peak 7 58.525449 2e-4
+expect count 8 1
+expect arrival 8 63.80142 0.003
+expect peak 8 60.901315 2e-4
+expect each 1 8 1
+expect order 1 2 3 4 5 6 7 8
