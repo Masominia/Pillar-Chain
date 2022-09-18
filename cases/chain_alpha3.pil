@@ -1,0 +1,35 @@
+# The linewidth factor turns the gain change during a pulse into a frequency shift, which detunes a firing pillar from its dark neighbour: a larger factor slows the pulse and finally stops it.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Chain of 8 with linewidth factor 3
+laser alpha=3
+sites 8
+path 1 8 kappa=0.06
+kick 1 amplitude=2
+run 3000
+expect total 8
+expect last 189.76946 0.003
+expect count 1 1
+expect arrival 1 12.86164 0.003
+expect peak 1 58.281358 2e-4
+expect count 2 1
+expect arrival 2 38.66679 0.003
+expect peak 2 56.179689 2e-4
+expect count 3 1
+expect arrival 3 64.30033 0.003
+expect peak 3 56.187309 2e-4
+expect count 4 1
+expect arrival 4 89.78871 0.003
+expect peak 4 56.196353 2e-4
+expect count 5 1
+expect arrival 5 115.25456 0.003
+expect peak 5 56.197951 2e-4
+expect count 6 1
+expect arrival 6 140.72307 0.003
+expect peak 6 56.197528 2e-4
+expect count 7 1
+expect arrival 7 166.10696 0.003
+expect peak 7 56.203469 2e-4
+expect count 8 1
+expect arrival 8 189.76946 0.003
+expect peak 8 56.699486 2e-4
+expect each 1 8 1
