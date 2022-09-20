@@ -1,0 +1,220 @@
+{
+ "title": "Chain of 8 with linewidth factor 3",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 3.0
+ },
+ "sites": 8,
+ "links": 7,
+ "duration": 3000.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 8,
+ "last_spike": 189.7694223127324,
+ "spikes": {
+  "1": [
+   [
+    12.861577122748162,
+    58.28133869260804
+   ]
+  ],
+  "2": [
+   [
+    38.66674296078875,
+    56.17966841942807
+   ]
+  ],
+  "3": [
+   [
+    64.30025561261355,
+    56.1873088129457
+   ]
+  ],
+  "4": [
+   [
+    89.7886489183176,
+    56.19637155368165
+   ]
+  ],
+  "5": [
+   [
+    115.25449117804605,
+    56.197943848655285
+   ]
+  ],
+  "6": [
+   [
+    140.7230484115549,
+    56.19750402314652
+   ]
+  ],
+  "7": [
+   [
+    166.1068961891811,
+    56.20345840491413
+   ]
+  ],
+  "8": [
+   [
+    189.7694223127324,
+    56.69946054339303
+   ]
+  ]
+ },
+ "case": "chain_alpha3",
+ "checks": [
+  {
+   "check": "total 8",
+   "status": "PASS",
+   "detail": "8 spike(s)"
+  },
+  {
+   "check": "last 189.76946 0.003",
+   "status": "PASS",
+   "detail": "189.769422, expected 189.769460"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 12.86164 0.003",
+   "status": "PASS",
+   "detail": "12.861577, expected 12.861640, off by -6.29e-05"
+  },
+  {
+   "check": "peak 1 58.281358 2e-4",
+   "status": "PASS",
+   "detail": "58.281339, expected 58.281358, relative error -3.31e-07"
+  },
+  {
+   "check": "count 2 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 2 38.66679 0.003",
+   "status": "PASS",
+   "detail": "38.666743, expected 38.666790, off by -4.70e-05"
+  },
+  {
+   "check": "peak 2 56.179689 2e-4",
+   "status": "PASS",
+   "detail": "56.179668, expected 56.179689, relative error -3.66e-07"
+  },
+  {
+   "check": "count 3 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 3 64.30033 0.003",
+   "status": "PASS",
+   "detail": "64.300256, expected 64.300330, off by -7.44e-05"
+  },
+  {
+   "check": "peak 3 56.187309 2e-4",
+   "status": "PASS",
+   "detail": "56.187309, expected 56.187309, relative error -3.33e-09"
+  },
+  {
+   "check": "count 4 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 4 89.78871 0.003",
+   "status": "PASS",
+   "detail": "89.788649, expected 89.788710, off by -6.11e-05"
+  },
+  {
+   "check": "peak 4 56.196353 2e-4",
+   "status": "PASS",
+   "detail": "56.196372, expected 56.196353, relative error 3.30e-07"
+  },
+  {
+   "check": "count 5 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 5 115.25456 0.003",
+   "status": "PASS",
+   "detail": "115.254491, expected 115.254560, off by -6.88e-05"
+  },
+  {
+   "check": "peak 5 56.197951 2e-4",
+   "status": "PASS",
+   "detail": "56.197944, expected 56.197951, relative error -1.27e-07"
+  },
+  {
+   "check": "count 6 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 6 140.72307 0.003",
+   "status": "PASS",
+   "detail": "140.723048, expected 140.723070, off by -2.16e-05"
+  },
+  {
+   "check": "peak 6 56.197528 2e-4",
+   "status": "PASS",
+   "detail": "56.197504, expected 56.197528, relative error -4.27e-07"
+  },
+  {
+   "check": "count 7 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 7 166.10696 0.003",
+   "status": "PASS",
+   "detail": "166.106896, expected 166.106960, off by -6.38e-05"
+  },
+  {
+   "check": "peak 7 56.203469 2e-4",
+   "status": "PASS",
+   "detail": "56.203458, expected 56.203469, relative error -1.89e-07"
+  },
+  {
+   "check": "count 8 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 8 189.76946 0.003",
+   "status": "PASS",
+   "detail": "189.769422, expected 189.769460, off by -3.77e-05"
+  },
+  {
+   "check": "peak 8 56.699486 2e-4",
+   "status": "PASS",
+   "detail": "56.699461, expected 56.699486, relative error -4.49e-07"
+  },
+  {
+   "check": "each 1 8 1",
+   "status": "PASS",
+   "detail": "all as expected"
+  }
+ ],
+ "notes": [
+  "The linewidth factor turns the gain change during a pulse into a frequency shift, which detunes a firing pillar from its dark neighbour: a larger factor slows the pulse and finally stops it.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 7.1349752758465e-05,
+  "spike peak": 4.416364103310144e-07,
+  "dark intensity": 1.8396637155395476e-08
+ }
+}
