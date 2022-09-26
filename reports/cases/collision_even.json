@@ -1,0 +1,309 @@
+{
+ "title": "Two pulses meeting in a chain of 16",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 16,
+ "links": 15,
+ "duration": 1200.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  },
+  {
+   "site": 16,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 16,
+ "last_spike": 133.70018482520317,
+ "spikes": {
+  "1": [
+   [
+    12.960318566483629,
+    58.058982750593515
+   ]
+  ],
+  "2": [
+   [
+    30.97741785942255,
+    56.589859000271915
+   ]
+  ],
+  "3": [
+   [
+    48.198099451240566,
+    56.71216054465975
+   ]
+  ],
+  "4": [
+   [
+    65.44904846629932,
+    56.70762943667144
+   ]
+  ],
+  "5": [
+   [
+    82.68508709878486,
+    56.70998842424953
+   ]
+  ],
+  "6": [
+   [
+    99.9337614746361,
+    56.70702743709156
+   ]
+  ],
+  "7": [
+   [
+    116.97060090015619,
+    56.78612140269342
+   ]
+  ],
+  "8": [
+   [
+    133.70018482520317,
+    57.444202146468086
+   ]
+  ],
+  "9": [
+   [
+    133.70018482520317,
+    57.444202146468086
+   ]
+  ],
+  "10": [
+   [
+    116.97060090015619,
+    56.78612140269342
+   ]
+  ],
+  "11": [
+   [
+    99.9337614746361,
+    56.70702743709156
+   ]
+  ],
+  "12": [
+   [
+    82.68508709878486,
+    56.70998842424953
+   ]
+  ],
+  "13": [
+   [
+    65.44904846629932,
+    56.70762943667144
+   ]
+  ],
+  "14": [
+   [
+    48.198099451240566,
+    56.71216054465975
+   ]
+  ],
+  "15": [
+   [
+    30.97741785942255,
+    56.589859000271915
+   ]
+  ],
+  "16": [
+   [
+    12.960318566483629,
+    58.058982750593515
+   ]
+  ]
+ },
+ "case": "collision_even",
+ "checks": [
+  {
+   "check": "total 16",
+   "status": "PASS",
+   "detail": "16 spike(s)"
+  },
+  {
+   "check": "last 133.70026 0.003",
+   "status": "PASS",
+   "detail": "133.700185, expected 133.700260"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 12.96038 0.003",
+   "status": "PASS",
+   "detail": "12.960319, expected 12.960380, off by -6.14e-05"
+  },
+  {
+   "check": "peak 1 58.059000 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.059, relative error -2.97e-07"
+  },
+  {
+   "check": "count 3 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 3 48.19817 0.003",
+   "status": "PASS",
+   "detail": "48.198099, expected 48.198170, off by -7.05e-05"
+  },
+  {
+   "check": "peak 3 56.712157 2e-4",
+   "status": "PASS",
+   "detail": "56.712161, expected 56.712157, relative error 6.25e-08"
+  },
+  {
+   "check": "count 4 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 4 65.44912 0.003",
+   "status": "PASS",
+   "detail": "65.449048, expected 65.449120, off by -7.15e-05"
+  },
+  {
+   "check": "peak 4 56.707628 2e-4",
+   "status": "PASS",
+   "detail": "56.707629, expected 56.707628, relative error 2.53e-08"
+  },
+  {
+   "check": "count 6 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 6 99.93381 0.003",
+   "status": "PASS",
+   "detail": "99.933761, expected 99.933810, off by -4.85e-05"
+  },
+  {
+   "check": "peak 6 56.707000 2e-4",
+   "status": "PASS",
+   "detail": "56.707027, expected 56.707, relative error 4.84e-07"
+  },
+  {
+   "check": "count 8 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 8 133.70026 0.003",
+   "status": "PASS",
+   "detail": "133.700185, expected 133.700260, off by -7.52e-05"
+  },
+  {
+   "check": "peak 8 57.444203 2e-4",
+   "status": "PASS",
+   "detail": "57.444202, expected 57.444203, relative error -1.49e-08"
+  },
+  {
+   "check": "count 9 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 9 133.70026 0.003",
+   "status": "PASS",
+   "detail": "133.700185, expected 133.700260, off by -7.52e-05"
+  },
+  {
+   "check": "peak 9 57.444203 2e-4",
+   "status": "PASS",
+   "detail": "57.444202, expected 57.444203, relative error -1.49e-08"
+  },
+  {
+   "check": "count 11 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 11 99.93381 0.003",
+   "status": "PASS",
+   "detail": "99.933761, expected 99.933810, off by -4.85e-05"
+  },
+  {
+   "check": "peak 11 56.707000 2e-4",
+   "status": "PASS",
+   "detail": "56.707027, expected 56.707, relative error 4.84e-07"
+  },
+  {
+   "check": "count 13 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 13 65.44912 0.003",
+   "status": "PASS",
+   "detail": "65.449048, expected 65.449120, off by -7.15e-05"
+  },
+  {
+   "check": "peak 13 56.707628 2e-4",
+   "status": "PASS",
+   "detail": "56.707629, expected 56.707628, relative error 2.53e-08"
+  },
+  {
+   "check": "count 14 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 14 48.19817 0.003",
+   "status": "PASS",
+   "detail": "48.198099, expected 48.198170, off by -7.05e-05"
+  },
+  {
+   "check": "peak 14 56.712157 2e-4",
+   "status": "PASS",
+   "detail": "56.712161, expected 56.712157, relative error 6.25e-08"
+  },
+  {
+   "check": "count 16 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 16 12.96038 0.003",
+   "status": "PASS",
+   "detail": "12.960319, expected 12.960380, off by -6.14e-05"
+  },
+  {
+   "check": "peak 16 58.059000 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.059, relative error -2.97e-07"
+  },
+  {
+   "check": "each 1 16 1",
+   "status": "PASS",
+   "detail": "all as expected"
+  },
+  {
+   "check": "together 8 9 1e-6",
+   "status": "PASS",
+   "detail": "apart by 0.000e+00"
+  }
+ ],
+ "notes": [
+  "With an even number of sites the two middle sites fire together, each excited from its own side.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 7.838194599685266e-05,
+  "spike peak": 6.168377451043483e-07,
+  "dark intensity": 2.4222757506192517e-08
+ }
+}
