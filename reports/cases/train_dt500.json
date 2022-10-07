@@ -1,0 +1,339 @@
+{
+ "title": "Four kicks 500 photon lifetimes apart",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 8,
+ "links": 7,
+ "duration": 2650.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  },
+  {
+   "site": 1,
+   "time": 500.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  },
+  {
+   "site": 1,
+   "time": 1000.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  },
+  {
+   "site": 1,
+   "time": 1500.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 32,
+ "last_spike": 1636.518380270218,
+ "spikes": {
+  "1": [
+   [
+    12.960318566483656,
+    58.05898275059323
+   ],
+   [
+    513.1962626956658,
+    56.71930083470974
+   ],
+   [
+    1013.1948821928718,
+    56.71958389971475
+   ],
+   [
+    1513.194880127295,
+    56.71960181636433
+   ]
+  ],
+  "2": [
+   [
+    30.97741785961298,
+    56.58985900667365
+   ],
+   [
+    531.6010290289471,
+    55.27028429872799
+   ],
+   [
+    1031.59871604405,
+    55.26543630517557
+   ],
+   [
+    1531.598691793735,
+    55.26547948173771
+   ]
+  ],
+  "3": [
+   [
+    48.198099946092405,
+    56.71215933011565
+   ],
+   [
+    549.2610613892087,
+    55.384908239454276
+   ],
+   [
+    1049.2589562302132,
+    55.37440307085115
+   ],
+   [
+    1549.258889177683,
+    55.374459381824764
+   ]
+  ],
+  "4": [
+   [
+    65.44902323718372,
+    56.707652193059836
+   ],
+   [
+    566.9493131417365,
+    55.38711370903155
+   ],
+   [
+    1066.9493762915774,
+    55.370835693553566
+   ],
+   [
+    1566.9492562962612,
+    55.37087839241366
+   ]
+  ],
+  "5": [
+   [
+    82.68559612685567,
+    56.70956813908004
+   ],
+   [
+    584.6232546900163,
+    55.394472243857585
+   ],
+   [
+    1084.6274626233717,
+    55.372475383433255
+   ],
+   [
+    1584.6272876825985,
+    55.372478146560056
+   ]
+  ],
+  "6": [
+   [
+    99.92151608799304,
+    56.711226075745934
+   ],
+   [
+    602.2951762609257,
+    55.401494709285885
+   ],
+   [
+    1102.3055372312006,
+    55.37384334938509
+   ],
+   [
+    1602.3053151895253,
+    55.37377935223431
+   ]
+  ],
+  "7": [
+   [
+    117.18475812848969,
+    56.68790509182489
+   ],
+   [
+    619.9859177736039,
+    55.38649968437984
+   ],
+   [
+    1120.0043472624595,
+    55.353417964544875
+   ],
+   [
+    1620.0040968469891,
+    55.35326134815899
+   ]
+  ],
+  "8": [
+   [
+    133.27742035468762,
+    57.54180075359372
+   ],
+   [
+    636.4902127179853,
+    56.24593256273289
+   ],
+   [
+    1136.5186202442246,
+    56.20757959834985
+   ],
+   [
+    1636.518380270218,
+    56.207303945808434
+   ]
+  ]
+ },
+ "case": "train_dt500",
+ "checks": [
+  {
+   "check": "total 32",
+   "status": "PASS",
+   "detail": "32 spike(s)"
+  },
+  {
+   "check": "last 1636.51842 0.003",
+   "status": "PASS",
+   "detail": "1636.518380, expected 1636.518420"
+  },
+  {
+   "check": "count 1 4",
+   "status": "PASS",
+   "detail": "4 spike(s)"
+  },
+  {
+   "check": "arrival 1 12.96038 0.003",
+   "status": "PASS",
+   "detail": "12.960319, expected 12.960380, off by -6.14e-05"
+  },
+  {
+   "check": "peak 1 58.059000 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.059, relative error -2.97e-07"
+  },
+  {
+   "check": "count 2 4",
+   "status": "PASS",
+   "detail": "4 spike(s)"
+  },
+  {
+   "check": "arrival 2 30.97745 0.003",
+   "status": "PASS",
+   "detail": "30.977418, expected 30.977450, off by -3.21e-05"
+  },
+  {
+   "check": "peak 2 56.589824 2e-4",
+   "status": "PASS",
+   "detail": "56.589859, expected 56.589824, relative error 6.19e-07"
+  },
+  {
+   "check": "count 3 4",
+   "status": "PASS",
+   "detail": "4 spike(s)"
+  },
+  {
+   "check": "arrival 3 48.19817 0.003",
+   "status": "PASS",
+   "detail": "48.198100, expected 48.198170, off by -7.01e-05"
+  },
+  {
+   "check": "peak 3 56.712156 2e-4",
+   "status": "PASS",
+   "detail": "56.712159, expected 56.712156, relative error 5.87e-08"
+  },
+  {
+   "check": "count 4 4",
+   "status": "PASS",
+   "detail": "4 spike(s)"
+  },
+  {
+   "check": "arrival 4 65.44909 0.003",
+   "status": "PASS",
+   "detail": "65.449023, expected 65.449090, off by -6.68e-05"
+  },
+  {
+   "check": "peak 4 56.707651 2e-4",
+   "status": "PASS",
+   "detail": "56.707652, expected 56.707651, relative error 2.10e-08"
+  },
+  {
+   "check": "count 5 4",
+   "status": "PASS",
+   "detail": "4 spike(s)"
+  },
+  {
+   "check": "arrival 5 82.68565 0.003",
+   "status": "PASS",
+   "detail": "82.685596, expected 82.685650, off by -5.39e-05"
+  },
+  {
+   "check": "peak 5 56.709544 2e-4",
+   "status": "PASS",
+   "detail": "56.709568, expected 56.709544, relative error 4.26e-07"
+  },
+  {
+   "check": "count 6 4",
+   "status": "PASS",
+   "detail": "4 spike(s)"
+  },
+  {
+   "check": "arrival 6 99.92155 0.003",
+   "status": "PASS",
+   "detail": "99.921516, expected 99.921550, off by -3.39e-05"
+  },
+  {
+   "check": "peak 6 56.711250 2e-4",
+   "status": "PASS",
+   "detail": "56.711226, expected 56.71125, relative error -4.22e-07"
+  },
+  {
+   "check": "count 7 4",
+   "status": "PASS",
+   "detail": "4 spike(s)"
+  },
+  {
+   "check": "arrival 7 117.18481 0.003",
+   "status": "PASS",
+   "detail": "117.184758, expected 117.184810, off by -5.19e-05"
+  },
+  {
+   "check": "peak 7 56.687880 2e-4",
+   "status": "PASS",
+   "detail": "56.687905, expected 56.68788, relative error 4.43e-07"
+  },
+  {
+   "check": "count 8 4",
+   "status": "PASS",
+   "detail": "4 spike(s)"
+  },
+  {
+   "check": "arrival 8 133.27745 0.003",
+   "status": "PASS",
+   "detail": "133.277420, expected 133.277450, off by -2.96e-05"
+  },
+  {
+   "check": "peak 8 57.541762 2e-4",
+   "status": "PASS",
+   "detail": "57.541801, expected 57.541762, relative error 6.73e-07"
+  },
+  {
+   "check": "each 2 8 4",
+   "status": "PASS",
+   "detail": "all as expected"
+  },
+  {
+   "check": "count 1 4",
+   "status": "PASS",
+   "detail": "4 spike(s)"
+  }
+ ],
+ "notes": [
+  "The chain carries pulses no closer together than its refractory time: kicks that come sooner are dropped at the first site, or fire it without firing the second.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 7.386470804249257e-05,
+  "spike peak": 6.74699183189631e-07,
+  "dark intensity": 2.4197146215946697e-08
+ }
+}
