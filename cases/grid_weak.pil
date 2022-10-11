@@ -1,0 +1,15 @@
+# In two dimensions each pillar has more neighbours to lose light to: a coupling that is just below critical for a chain is well below it for a lattice kicked at one corner.
+# Reference: the same network integrated independently (complex arithmetic, LSODA).
+title Lattice of 5 by 5 with coupling 0.04
+grid 5 5 kappa=0.04
+kick 1 amplitude=2.5
+run 1200
+expect total 1
+expect last 9.04620 0.003
+expect count 1 1
+expect arrival 1 9.04620 0.003
+expect peak 1 60.504492 2e-4
+expect count 2 0
+expect count 6 0
+expect count 25 0
+expect total 1
