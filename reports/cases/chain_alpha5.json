@@ -1,0 +1,108 @@
+{
+ "title": "Chain of 8 with linewidth factor 5",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 5.0
+ },
+ "sites": 8,
+ "links": 7,
+ "duration": 3000.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 1,
+ "last_spike": 12.756657394187762,
+ "spikes": {
+  "1": [
+   [
+    12.756657394187762,
+    58.507046074462416
+   ]
+  ]
+ },
+ "case": "chain_alpha5",
+ "checks": [
+  {
+   "check": "total 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "last 12.75673 0.003",
+   "status": "PASS",
+   "detail": "12.756657, expected 12.756730"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 12.75673 0.003",
+   "status": "PASS",
+   "detail": "12.756657, expected 12.756730, off by -7.26e-05"
+  },
+  {
+   "check": "peak 1 58.507058 2e-4",
+   "status": "PASS",
+   "detail": "58.507046, expected 58.507058, relative error -2.04e-07"
+  },
+  {
+   "check": "count 2 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 3 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 4 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 5 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 6 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 7 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 8 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "silent 2 8",
+   "status": "PASS",
+   "detail": "all as expected"
+  }
+ ],
+ "notes": [
+  "The linewidth factor turns the gain change during a pulse into a frequency shift, which detunes a firing pillar from its dark neighbour: a larger factor slows the pulse and finally stops it.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 7.205563281509342e-05,
+  "spike peak": 2.0488087182357617e-07,
+  "dark intensity": 2.4718277341443503e-08
+ }
+}
