@@ -1,0 +1,233 @@
+{
+ "title": "Weak junction, both inputs in antiphase",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 16,
+ "links": 15,
+ "duration": 1200.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  },
+  {
+   "site": 6,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 180.0
+  }
+ ],
+ "total": 10,
+ "last_spike": 81.57061575302049,
+ "spikes": {
+  "1": [
+   [
+    12.960318569240213,
+    58.05898282546547
+   ]
+  ],
+  "2": [
+   [
+    30.97743313288861,
+    56.5897864694726
+   ]
+  ],
+  "3": [
+   [
+    48.19698841395229,
+    56.713888425426134
+   ]
+  ],
+  "4": [
+   [
+    65.47519400508067,
+    56.68598583193027
+   ]
+  ],
+  "5": [
+   [
+    81.57061575302049,
+    57.54138844781144
+   ]
+  ],
+  "6": [
+   [
+    12.960318569240203,
+    58.05898282546536
+   ]
+  ],
+  "7": [
+   [
+    30.977433132888688,
+    56.589786469472585
+   ]
+  ],
+  "8": [
+   [
+    48.19698841395243,
+    56.71388842542602
+   ]
+  ],
+  "9": [
+   [
+    65.47519400508084,
+    56.685985831930424
+   ]
+  ],
+  "10": [
+   [
+    81.57061575302035,
+    57.54138844781184
+   ]
+  ]
+ },
+ "case": "junction_and_antiphase",
+ "checks": [
+  {
+   "check": "total 10",
+   "status": "PASS",
+   "detail": "10 spike(s)"
+  },
+  {
+   "check": "last 81.57065 0.003",
+   "status": "PASS",
+   "detail": "81.570616, expected 81.570650"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 12.96038 0.003",
+   "status": "PASS",
+   "detail": "12.960319, expected 12.960380, off by -6.14e-05"
+  },
+  {
+   "check": "peak 1 58.059000 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.059, relative error -2.96e-07"
+  },
+  {
+   "check": "count 3 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 3 48.19706 0.003",
+   "status": "PASS",
+   "detail": "48.196988, expected 48.197060, off by -7.16e-05"
+  },
+  {
+   "check": "peak 3 56.713883 2e-4",
+   "status": "PASS",
+   "detail": "56.713888, expected 56.713883, relative error 9.57e-08"
+  },
+  {
+   "check": "count 4 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 4 65.47521 0.003",
+   "status": "PASS",
+   "detail": "65.475194, expected 65.475210, off by -1.60e-05"
+  },
+  {
+   "check": "peak 4 56.685949 2e-4",
+   "status": "PASS",
+   "detail": "56.685986, expected 56.685949, relative error 6.50e-07"
+  },
+  {
+   "check": "count 6 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 6 12.96038 0.003",
+   "status": "PASS",
+   "detail": "12.960319, expected 12.960380, off by -6.14e-05"
+  },
+  {
+   "check": "peak 6 58.059000 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.059, relative error -2.96e-07"
+  },
+  {
+   "check": "count 8 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 8 48.19706 0.003",
+   "status": "PASS",
+   "detail": "48.196988, expected 48.197060, off by -7.16e-05"
+  },
+  {
+   "check": "peak 8 56.713883 2e-4",
+   "status": "PASS",
+   "detail": "56.713888, expected 56.713883, relative error 9.57e-08"
+  },
+  {
+   "check": "count 9 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 9 65.47521 0.003",
+   "status": "PASS",
+   "detail": "65.475194, expected 65.475210, off by -1.60e-05"
+  },
+  {
+   "check": "peak 9 56.685949 2e-4",
+   "status": "PASS",
+   "detail": "56.685986, expected 56.685949, relative error 6.50e-07"
+  },
+  {
+   "check": "count 11 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 13 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 14 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 16 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "each 1 10 1",
+   "status": "PASS",
+   "detail": "all as expected"
+  },
+  {
+   "check": "silent 11 16",
+   "status": "PASS",
+   "detail": "all as expected"
+  }
+ ],
+ "notes": [
+  "Two input arms (sites 1 to 5 and 6 to 10) meet at site 11; the output arm runs from 11 to 16. The same two pulses with opposite phase cancel at the junction: the gate is interferometric.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 7.16650471233038e-05,
+  "spike peak": 6.500299771783347e-07,
+  "dark intensity": 1.7425406743377157e-08
+ }
+}
