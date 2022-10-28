@@ -1,0 +1,287 @@
+{
+ "title": "Collision of two pulses of opposite phase",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 15,
+ "links": 14,
+ "duration": 1200.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  },
+  {
+   "site": 15,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 180.0
+  }
+ ],
+ "total": 14,
+ "last_spike": 116.04237528742495,
+ "spikes": {
+  "1": [
+   [
+    12.960318566529653,
+    58.05898275225674
+   ]
+  ],
+  "2": [
+   [
+    30.977417856965282,
+    56.589858942499205
+   ]
+  ],
+  "3": [
+   [
+    48.19809976180619,
+    56.71215968982066
+   ]
+  ],
+  "4": [
+   [
+    65.44892965237234,
+    56.70764714161968
+   ]
+  ],
+  "5": [
+   [
+    82.68593530348814,
+    56.71108320454644
+   ]
+  ],
+  "6": [
+   [
+    99.94957153762496,
+    56.687857653290756
+   ]
+  ],
+  "7": [
+   [
+    116.04237528742495,
+    57.54177978383282
+   ]
+  ],
+  "9": [
+   [
+    116.04237528742462,
+    57.54177978383254
+   ]
+  ],
+  "10": [
+   [
+    99.94957153762469,
+    56.68785765329092
+   ]
+  ],
+  "11": [
+   [
+    82.68593530348798,
+    56.71108320454647
+   ]
+  ],
+  "12": [
+   [
+    65.44892965237224,
+    56.70764714161962
+   ]
+  ],
+  "13": [
+   [
+    48.19809976180594,
+    56.71215968982066
+   ]
+  ],
+  "14": [
+   [
+    30.977417856964927,
+    56.58985894249957
+   ]
+  ],
+  "15": [
+   [
+    12.960318566529628,
+    58.05898275225651
+   ]
+  ]
+ },
+ "case": "collision_antiphase",
+ "checks": [
+  {
+   "check": "total 14",
+   "status": "PASS",
+   "detail": "14 spike(s)"
+  },
+  {
+   "check": "last 116.04245 0.003",
+   "status": "PASS",
+   "detail": "116.042375, expected 116.042450"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 12.96038 0.003",
+   "status": "PASS",
+   "detail": "12.960319, expected 12.960380, off by -6.14e-05"
+  },
+  {
+   "check": "peak 1 58.059000 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.059, relative error -2.97e-07"
+  },
+  {
+   "check": "count 3 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 3 48.19817 0.003",
+   "status": "PASS",
+   "detail": "48.198100, expected 48.198170, off by -7.02e-05"
+  },
+  {
+   "check": "peak 3 56.712157 2e-4",
+   "status": "PASS",
+   "detail": "56.71216, expected 56.712157, relative error 4.74e-08"
+  },
+  {
+   "check": "count 4 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 4 65.44900 0.003",
+   "status": "PASS",
+   "detail": "65.448930, expected 65.449000, off by -7.03e-05"
+  },
+  {
+   "check": "peak 4 56.707645 2e-4",
+   "status": "PASS",
+   "detail": "56.707647, expected 56.707645, relative error 3.78e-08"
+  },
+  {
+   "check": "count 6 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 6 99.94964 0.003",
+   "status": "PASS",
+   "detail": "99.949572, expected 99.949640, off by -6.85e-05"
+  },
+  {
+   "check": "peak 6 56.687857 2e-4",
+   "status": "PASS",
+   "detail": "56.687858, expected 56.687857, relative error 1.15e-08"
+  },
+  {
+   "check": "count 7 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 7 116.04245 0.003",
+   "status": "PASS",
+   "detail": "116.042375, expected 116.042450, off by -7.47e-05"
+  },
+  {
+   "check": "peak 7 57.541765 2e-4",
+   "status": "PASS",
+   "detail": "57.54178, expected 57.541765, relative error 2.57e-07"
+  },
+  {
+   "check": "count 9 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 9 116.04245 0.003",
+   "status": "PASS",
+   "detail": "116.042375, expected 116.042450, off by -7.47e-05"
+  },
+  {
+   "check": "peak 9 57.541765 2e-4",
+   "status": "PASS",
+   "detail": "57.54178, expected 57.541765, relative error 2.57e-07"
+  },
+  {
+   "check": "count 10 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 10 99.94964 0.003",
+   "status": "PASS",
+   "detail": "99.949572, expected 99.949640, off by -6.85e-05"
+  },
+  {
+   "check": "peak 10 56.687857 2e-4",
+   "status": "PASS",
+   "detail": "56.687858, expected 56.687857, relative error 1.15e-08"
+  },
+  {
+   "check": "count 12 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 12 65.44900 0.003",
+   "status": "PASS",
+   "detail": "65.448930, expected 65.449000, off by -7.03e-05"
+  },
+  {
+   "check": "peak 12 56.707645 2e-4",
+   "status": "PASS",
+   "detail": "56.707647, expected 56.707645, relative error 3.78e-08"
+  },
+  {
+   "check": "count 13 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 13 48.19817 0.003",
+   "status": "PASS",
+   "detail": "48.198100, expected 48.198170, off by -7.02e-05"
+  },
+  {
+   "check": "peak 13 56.712157 2e-4",
+   "status": "PASS",
+   "detail": "56.71216, expected 56.712157, relative error 4.74e-08"
+  },
+  {
+   "check": "count 15 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 15 12.96038 0.003",
+   "status": "PASS",
+   "detail": "12.960319, expected 12.960380, off by -6.14e-05"
+  },
+  {
+   "check": "peak 15 58.059000 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.059, relative error -2.97e-07"
+  }
+ ],
+ "notes": [
+  "The meeting site receives the two fields in antiphase and they cancel there: it never fires, and its neighbours are the last to do so.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 7.627647431718287e-05,
+  "spike peak": 6.165723003270784e-07,
+  "dark intensity": 3.1936454526105995e-08
+ }
+}
