@@ -1,0 +1,88 @@
+{
+ "title": "Lattice of 5 by 5 with coupling 0.04",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 25,
+ "links": 40,
+ "duration": 1200.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.5,
+   "phase": 0.0
+  }
+ ],
+ "total": 1,
+ "last_spike": 9.046115183005389,
+ "spikes": {
+  "1": [
+   [
+    9.046115183005389,
+    60.50450099618321
+   ]
+  ]
+ },
+ "case": "grid_weak",
+ "checks": [
+  {
+   "check": "total 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "last 9.04620 0.003",
+   "status": "PASS",
+   "detail": "9.046115, expected 9.046200"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 9.04620 0.003",
+   "status": "PASS",
+   "detail": "9.046115, expected 9.046200, off by -8.48e-05"
+  },
+  {
+   "check": "peak 1 60.504492 2e-4",
+   "status": "PASS",
+   "detail": "60.504501, expected 60.504492, relative error 1.49e-07"
+  },
+  {
+   "check": "count 2 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 6 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 25 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "total 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  }
+ ],
+ "notes": [
+  "In two dimensions each pillar has more neighbours to lose light to: a coupling that is just below critical for a chain is well below it for a lattice kicked at one corner.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 8.336168543543465e-05,
+  "spike peak": 1.4096024347765024e-07,
+  "dark intensity": 3.449861966764228e-08
+ }
+}
