@@ -1,0 +1,241 @@
+{
+ "title": "Chain of 9 with site 5 pumped at 6.4",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 9,
+ "links": 8,
+ "duration": 2500.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 9,
+ "last_spike": 180.9860920240137,
+ "spikes": {
+  "1": [
+   [
+    12.960318500738762,
+    58.05898250853912
+   ]
+  ],
+  "2": [
+   [
+    30.977249092038097,
+    56.59045128346989
+   ]
+  ],
+  "3": [
+   [
+    48.21661937528851,
+    56.70294460974332
+   ]
+  ],
+  "4": [
+   [
+    65.1031783640734,
+    56.85054483500067
+   ]
+  ],
+  "5": [
+   [
+    112.70309631427544,
+    47.522215663734215
+   ]
+  ],
+  "6": [
+   [
+    130.25162381329162,
+    56.65128403363872
+   ]
+  ],
+  "7": [
+   [
+    147.60942462475728,
+    56.695427070325586
+   ]
+  ],
+  "8": [
+   [
+    164.88722829917975,
+    56.68634897336981
+   ]
+  ],
+  "9": [
+   [
+    180.9860920240137,
+    57.540854260485496
+   ]
+  ]
+ },
+ "case": "defect_pump640",
+ "checks": [
+  {
+   "check": "total 9",
+   "status": "PASS",
+   "detail": "9 spike(s)"
+  },
+  {
+   "check": "last 180.98616 0.003",
+   "status": "PASS",
+   "detail": "180.986092, expected 180.986160"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 12.96038 0.003",
+   "status": "PASS",
+   "detail": "12.960319, expected 12.960380, off by -6.15e-05"
+  },
+  {
+   "check": "peak 1 58.058999 2e-4",
+   "status": "PASS",
+   "detail": "58.058983, expected 58.058999, relative error -2.84e-07"
+  },
+  {
+   "check": "count 2 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 2 30.97728 0.003",
+   "status": "PASS",
+   "detail": "30.977249, expected 30.977280, off by -3.09e-05"
+  },
+  {
+   "check": "peak 2 56.590416 2e-4",
+   "status": "PASS",
+   "detail": "56.590451, expected 56.590416, relative error 6.23e-07"
+  },
+  {
+   "check": "count 3 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 3 48.21666 0.003",
+   "status": "PASS",
+   "detail": "48.216619, expected 48.216660, off by -4.06e-05"
+  },
+  {
+   "check": "peak 3 56.702966 2e-4",
+   "status": "PASS",
+   "detail": "56.702945, expected 56.702966, relative error -3.77e-07"
+  },
+  {
+   "check": "count 4 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 4 65.10325 0.003",
+   "status": "PASS",
+   "detail": "65.103178, expected 65.103250, off by -7.16e-05"
+  },
+  {
+   "check": "peak 4 56.850550 2e-4",
+   "status": "PASS",
+   "detail": "56.850545, expected 56.85055, relative error -9.09e-08"
+  },
+  {
+   "check": "count 5 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 5 112.70314 0.003",
+   "status": "PASS",
+   "detail": "112.703096, expected 112.703140, off by -4.37e-05"
+  },
+  {
+   "check": "peak 5 47.522218 2e-4",
+   "status": "PASS",
+   "detail": "47.522216, expected 47.522218, relative error -4.92e-08"
+  },
+  {
+   "check": "count 6 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 6 130.25169 0.003",
+   "status": "PASS",
+   "detail": "130.251624, expected 130.251690, off by -6.62e-05"
+  },
+  {
+   "check": "peak 6 56.651287 2e-4",
+   "status": "PASS",
+   "detail": "56.651284, expected 56.651287, relative error -5.24e-08"
+  },
+  {
+   "check": "count 7 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 7 147.60948 0.003",
+   "status": "PASS",
+   "detail": "147.609425, expected 147.609480, off by -5.54e-05"
+  },
+  {
+   "check": "peak 7 56.695441 2e-4",
+   "status": "PASS",
+   "detail": "56.695427, expected 56.695441, relative error -2.46e-07"
+  },
+  {
+   "check": "count 8 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 8 164.88729 0.003",
+   "status": "PASS",
+   "detail": "164.887228, expected 164.887290, off by -6.17e-05"
+  },
+  {
+   "check": "peak 8 56.686327 2e-4",
+   "status": "PASS",
+   "detail": "56.686349, expected 56.686327, relative error 3.88e-07"
+  },
+  {
+   "check": "count 9 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 9 180.98616 0.003",
+   "status": "PASS",
+   "detail": "180.986092, expected 180.986160, off by -6.80e-05"
+  },
+  {
+   "check": "peak 9 57.540828 2e-4",
+   "status": "PASS",
+   "detail": "57.540854, expected 57.540828, relative error 4.56e-07"
+  },
+  {
+   "check": "each 1 9 1",
+   "status": "PASS",
+   "detail": "all as expected"
+  }
+ ],
+ "notes": [
+  "One pillar pumped differently from the rest: a weaker one delays the pulse or stops it, a stronger one passes it on sooner.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 7.049879246778801e-05,
+  "spike peak": 6.194782697921397e-07,
+  "dark intensity": 1.546904548036826e-08
+ }
+}
