@@ -1,0 +1,166 @@
+{
+ "title": "Chain of 9 with a weak link of 0.03 between sites 4 and 5",
+ "laser": {
+  "A": 6.5,
+  "B": 5.8,
+  "a": 1.8,
+  "gamma": 0.01,
+  "alpha": 2.0
+ },
+ "sites": 9,
+ "links": 8,
+ "duration": 2500.0,
+ "kicks": [
+  {
+   "site": 1,
+   "time": 0.0,
+   "amplitude": 2.0,
+   "phase": 0.0
+  }
+ ],
+ "total": 4,
+ "last_spike": 64.60497196424505,
+ "spikes": {
+  "1": [
+   [
+    12.960318242408643,
+    58.058975956275326
+   ]
+  ],
+  "2": [
+   [
+    30.97671650002942,
+    56.591424414081985
+   ]
+  ],
+  "3": [
+   [
+    48.22374412797273,
+    56.695632265600466
+   ]
+  ],
+  "4": [
+   [
+    64.60497196424505,
+    57.33616526423673
+   ]
+  ]
+ },
+ "case": "defect_link030",
+ "checks": [
+  {
+   "check": "total 4",
+   "status": "PASS",
+   "detail": "4 spike(s)"
+  },
+  {
+   "check": "last 64.60504 0.003",
+   "status": "PASS",
+   "detail": "64.604972, expected 64.605040"
+  },
+  {
+   "check": "count 1 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 1 12.96038 0.003",
+   "status": "PASS",
+   "detail": "12.960318, expected 12.960380, off by -6.18e-05"
+  },
+  {
+   "check": "peak 1 58.058993 2e-4",
+   "status": "PASS",
+   "detail": "58.058976, expected 58.058993, relative error -2.94e-07"
+  },
+  {
+   "check": "count 2 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 2 30.97674 0.003",
+   "status": "PASS",
+   "detail": "30.976717, expected 30.976740, off by -2.35e-05"
+  },
+  {
+   "check": "peak 2 56.591389 2e-4",
+   "status": "PASS",
+   "detail": "56.591424, expected 56.591389, relative error 6.26e-07"
+  },
+  {
+   "check": "count 3 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 3 48.22377 0.003",
+   "status": "PASS",
+   "detail": "48.223744, expected 48.223770, off by -2.59e-05"
+  },
+  {
+   "check": "peak 3 56.695656 2e-4",
+   "status": "PASS",
+   "detail": "56.695632, expected 56.695656, relative error -4.19e-07"
+  },
+  {
+   "check": "count 4 1",
+   "status": "PASS",
+   "detail": "1 spike(s)"
+  },
+  {
+   "check": "arrival 4 64.60504 0.003",
+   "status": "PASS",
+   "detail": "64.604972, expected 64.605040, off by -6.80e-05"
+  },
+  {
+   "check": "peak 4 57.336174 2e-4",
+   "status": "PASS",
+   "detail": "57.336165, expected 57.336174, relative error -1.52e-07"
+  },
+  {
+   "check": "count 5 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 6 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 7 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 8 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "count 9 0",
+   "status": "PASS",
+   "detail": "0 spike(s)"
+  },
+  {
+   "check": "each 1 4 1",
+   "status": "PASS",
+   "detail": "all as expected"
+  },
+  {
+   "check": "silent 5 9",
+   "status": "PASS",
+   "detail": "all as expected"
+  }
+ ],
+ "notes": [
+  "A single weak link in an otherwise good chain: it must itself be above a critical value, here between 0.042 and 0.045, slightly more than for a uniform chain.",
+  "Reference: the same network integrated independently (complex arithmetic, LSODA)."
+ ],
+ "against_reference": {
+  "spike time": 7.287637191666363e-05,
+  "spike peak": 6.284113203136599e-07,
+  "dark intensity": 8.944187572770138e-09
+ }
+}
