@@ -1,0 +1,2150 @@
+# Validation checks
+
+| area | check | status | detail |
+|---|---|---|---|
+| independent integration | chain_alpha0: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_alpha0: total 8 | PASS | 8 spike(s) |
+| chains | chain_alpha0: last 69.43338 0.003 | PASS | 69.433309, expected 69.433380 |
+| chains | chain_alpha0: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_alpha0: arrival 1 13.21928 0.003 | PASS | 13.219244, expected 13.219280, off by -3.61e-05 |
+| chains | chain_alpha0: peak 1 55.314382 2e-4 | PASS | 55.314362, expected 55.314382, relative error -3.59e-07 |
+| chains | chain_alpha0: count 2 1 | PASS | 1 spike(s) |
+| chains | chain_alpha0: arrival 2 21.00559 0.003 | PASS | 21.005511, expected 21.005590, off by -7.93e-05 |
+| chains | chain_alpha0: peak 2 63.394017 2e-4 | PASS | 63.394005, expected 63.394017, relative error -1.96e-07 |
+| chains | chain_alpha0: count 3 1 | PASS | 1 spike(s) |
+| chains | chain_alpha0: arrival 3 29.11311 0.003 | PASS | 29.113052, expected 29.113110, off by -5.79e-05 |
+| chains | chain_alpha0: peak 3 62.541067 2e-4 | PASS | 62.541042, expected 62.541067, relative error -3.95e-07 |
+| chains | chain_alpha0: count 4 1 | PASS | 1 spike(s) |
+| chains | chain_alpha0: arrival 4 37.25444 0.003 | PASS | 37.254367, expected 37.254440, off by -7.32e-05 |
+| chains | chain_alpha0: peak 4 62.469787 2e-4 | PASS | 62.469778, expected 62.469787, relative error -1.40e-07 |
+| chains | chain_alpha0: count 5 1 | PASS | 1 spike(s) |
+| chains | chain_alpha0: arrival 5 45.39508 0.003 | PASS | 45.395005, expected 45.395080, off by -7.50e-05 |
+| chains | chain_alpha0: peak 5 62.470339 2e-4 | PASS | 62.47035, expected 62.470339, relative error 1.81e-07 |
+| chains | chain_alpha0: count 6 1 | PASS | 1 spike(s) |
+| chains | chain_alpha0: arrival 6 53.53558 0.003 | PASS | 53.535520, expected 53.535580, off by -6.01e-05 |
+| chains | chain_alpha0: peak 6 62.472373 2e-4 | PASS | 62.472406, expected 62.472373, relative error 5.30e-07 |
+| chains | chain_alpha0: count 7 1 | PASS | 1 spike(s) |
+| chains | chain_alpha0: arrival 7 61.68658 0.003 | PASS | 61.686515, expected 61.686580, off by -6.46e-05 |
+| chains | chain_alpha0: peak 7 62.370037 2e-4 | PASS | 62.370068, expected 62.370037, relative error 4.94e-07 |
+| chains | chain_alpha0: count 8 1 | PASS | 1 spike(s) |
+| chains | chain_alpha0: arrival 8 69.43338 0.003 | PASS | 69.433309, expected 69.433380, off by -7.07e-05 |
+| chains | chain_alpha0: peak 8 66.050635 2e-4 | PASS | 66.050685, expected 66.050635, relative error 7.57e-07 |
+| chains | chain_alpha0: each 1 8 1 | PASS | all as expected |
+| independent integration | chain_alpha1: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_alpha1: total 8 | PASS | 8 spike(s) |
+| chains | chain_alpha1: last 90.94609 0.003 | PASS | 90.946017, expected 90.946090 |
+| chains | chain_alpha1: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_alpha1: arrival 1 13.12486 0.003 | PASS | 13.124839, expected 13.124860, off by -2.06e-05 |
+| chains | chain_alpha1: peak 1 57.022131 2e-4 | PASS | 57.022105, expected 57.022131, relative error -4.49e-07 |
+| chains | chain_alpha1: count 2 1 | PASS | 1 spike(s) |
+| chains | chain_alpha1: arrival 2 24.46030 0.003 | PASS | 24.460246, expected 24.460300, off by -5.36e-05 |
+| chains | chain_alpha1: peak 2 56.913706 2e-4 | PASS | 56.913693, expected 56.913706, relative error -2.35e-07 |
+| chains | chain_alpha1: count 3 1 | PASS | 1 spike(s) |
+| chains | chain_alpha1: arrival 3 35.60212 0.003 | PASS | 35.602060, expected 35.602120, off by -6.04e-05 |
+| chains | chain_alpha1: peak 3 57.217482 2e-4 | PASS | 57.217478, expected 57.217482, relative error -6.27e-08 |
+| chains | chain_alpha1: count 4 1 | PASS | 1 spike(s) |
+| chains | chain_alpha1: arrival 4 46.72828 0.003 | PASS | 46.728252, expected 46.728280, off by -2.85e-05 |
+| chains | chain_alpha1: peak 4 57.216189 2e-4 | PASS | 57.216222, expected 57.216189, relative error 5.82e-07 |
+| chains | chain_alpha1: count 5 1 | PASS | 1 spike(s) |
+| chains | chain_alpha1: arrival 5 57.85463 0.003 | PASS | 57.854564, expected 57.854630, off by -6.57e-05 |
+| chains | chain_alpha1: peak 5 57.216568 2e-4 | PASS | 57.216561, expected 57.216568, relative error -1.14e-07 |
+| chains | chain_alpha1: count 6 1 | PASS | 1 spike(s) |
+| chains | chain_alpha1: arrival 6 68.98093 0.003 | PASS | 68.980894, expected 68.980930, off by -3.56e-05 |
+| chains | chain_alpha1: peak 6 57.215642 2e-4 | PASS | 57.215672, expected 57.215642, relative error 5.17e-07 |
+| chains | chain_alpha1: count 7 1 | PASS | 1 spike(s) |
+| chains | chain_alpha1: arrival 7 80.09954 0.003 | PASS | 80.099470, expected 80.099540, off by -6.96e-05 |
+| chains | chain_alpha1: peak 7 57.247819 2e-4 | PASS | 57.247819, expected 57.247819, relative error 7.18e-09 |
+| chains | chain_alpha1: count 8 1 | PASS | 1 spike(s) |
+| chains | chain_alpha1: arrival 8 90.94609 0.003 | PASS | 90.946017, expected 90.946090, off by -7.32e-05 |
+| chains | chain_alpha1: peak 8 59.034660 2e-4 | PASS | 59.034668, expected 59.03466, relative error 1.28e-07 |
+| chains | chain_alpha1: each 1 8 1 | PASS | all as expected |
+| independent integration | chain_alpha3: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_alpha3: total 8 | PASS | 8 spike(s) |
+| chains | chain_alpha3: last 189.76946 0.003 | PASS | 189.769422, expected 189.769460 |
+| chains | chain_alpha3: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_alpha3: arrival 1 12.86164 0.003 | PASS | 12.861577, expected 12.861640, off by -6.29e-05 |
+| chains | chain_alpha3: peak 1 58.281358 2e-4 | PASS | 58.281339, expected 58.281358, relative error -3.31e-07 |
+| chains | chain_alpha3: count 2 1 | PASS | 1 spike(s) |
+| chains | chain_alpha3: arrival 2 38.66679 0.003 | PASS | 38.666743, expected 38.666790, off by -4.70e-05 |
+| chains | chain_alpha3: peak 2 56.179689 2e-4 | PASS | 56.179668, expected 56.179689, relative error -3.66e-07 |
+| chains | chain_alpha3: count 3 1 | PASS | 1 spike(s) |
+| chains | chain_alpha3: arrival 3 64.30033 0.003 | PASS | 64.300256, expected 64.300330, off by -7.44e-05 |
+| chains | chain_alpha3: peak 3 56.187309 2e-4 | PASS | 56.187309, expected 56.187309, relative error -3.33e-09 |
+| chains | chain_alpha3: count 4 1 | PASS | 1 spike(s) |
+| chains | chain_alpha3: arrival 4 89.78871 0.003 | PASS | 89.788649, expected 89.788710, off by -6.11e-05 |
+| chains | chain_alpha3: peak 4 56.196353 2e-4 | PASS | 56.196372, expected 56.196353, relative error 3.30e-07 |
+| chains | chain_alpha3: count 5 1 | PASS | 1 spike(s) |
+| chains | chain_alpha3: arrival 5 115.25456 0.003 | PASS | 115.254491, expected 115.254560, off by -6.88e-05 |
+| chains | chain_alpha3: peak 5 56.197951 2e-4 | PASS | 56.197944, expected 56.197951, relative error -1.27e-07 |
+| chains | chain_alpha3: count 6 1 | PASS | 1 spike(s) |
+| chains | chain_alpha3: arrival 6 140.72307 0.003 | PASS | 140.723048, expected 140.723070, off by -2.16e-05 |
+| chains | chain_alpha3: peak 6 56.197528 2e-4 | PASS | 56.197504, expected 56.197528, relative error -4.27e-07 |
+| chains | chain_alpha3: count 7 1 | PASS | 1 spike(s) |
+| chains | chain_alpha3: arrival 7 166.10696 0.003 | PASS | 166.106896, expected 166.106960, off by -6.38e-05 |
+| chains | chain_alpha3: peak 7 56.203469 2e-4 | PASS | 56.203458, expected 56.203469, relative error -1.89e-07 |
+| chains | chain_alpha3: count 8 1 | PASS | 1 spike(s) |
+| chains | chain_alpha3: arrival 8 189.76946 0.003 | PASS | 189.769422, expected 189.769460, off by -3.77e-05 |
+| chains | chain_alpha3: peak 8 56.699486 2e-4 | PASS | 56.699461, expected 56.699486, relative error -4.49e-07 |
+| chains | chain_alpha3: each 1 8 1 | PASS | all as expected |
+| independent integration | chain_alpha5: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_alpha5: total 1 | PASS | 1 spike(s) |
+| chains | chain_alpha5: last 12.75673 0.003 | PASS | 12.756657, expected 12.756730 |
+| chains | chain_alpha5: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_alpha5: arrival 1 12.75673 0.003 | PASS | 12.756657, expected 12.756730, off by -7.26e-05 |
+| chains | chain_alpha5: peak 1 58.507058 2e-4 | PASS | 58.507046, expected 58.507058, relative error -2.04e-07 |
+| chains | chain_alpha5: count 2 0 | PASS | 0 spike(s) |
+| chains | chain_alpha5: count 3 0 | PASS | 0 spike(s) |
+| chains | chain_alpha5: count 4 0 | PASS | 0 spike(s) |
+| chains | chain_alpha5: count 5 0 | PASS | 0 spike(s) |
+| chains | chain_alpha5: count 6 0 | PASS | 0 spike(s) |
+| chains | chain_alpha5: count 7 0 | PASS | 0 spike(s) |
+| chains | chain_alpha5: count 8 0 | PASS | 0 spike(s) |
+| chains | chain_alpha5: silent 2 8 | PASS | all as expected |
+| independent integration | chain_gamma005: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_gamma005: total 8 | PASS | 8 spike(s) |
+| chains | chain_gamma005: last 150.38269 0.003 | PASS | 150.382632, expected 150.382690 |
+| chains | chain_gamma005: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_gamma005: arrival 1 30.46804 0.003 | PASS | 30.468003, expected 30.468040, off by -3.67e-05 |
+| chains | chain_gamma005: peak 1 111.686678 2e-4 | PASS | 111.68663, expected 111.68668, relative error -3.92e-07 |
+| chains | chain_gamma005: count 2 1 | PASS | 1 spike(s) |
+| chains | chain_gamma005: arrival 2 48.22418 0.003 | PASS | 48.224157, expected 48.224180, off by -2.30e-05 |
+| chains | chain_gamma005: peak 2 113.126069 2e-4 | PASS | 113.12602, expected 113.12607, relative error -4.25e-07 |
+| chains | chain_gamma005: count 3 1 | PASS | 1 spike(s) |
+| chains | chain_gamma005: arrival 3 65.51697 0.003 | PASS | 65.516932, expected 65.516970, off by -3.83e-05 |
+| chains | chain_gamma005: peak 3 113.259144 2e-4 | PASS | 113.2591, expected 113.25914, relative error -3.70e-07 |
+| chains | chain_gamma005: count 4 1 | PASS | 1 spike(s) |
+| chains | chain_gamma005: arrival 4 82.72582 0.003 | PASS | 82.725803, expected 82.725820, off by -1.72e-05 |
+| chains | chain_gamma005: peak 4 113.285583 2e-4 | PASS | 113.28566, expected 113.28558, relative error 6.51e-07 |
+| chains | chain_gamma005: count 5 1 | PASS | 1 spike(s) |
+| chains | chain_gamma005: arrival 5 99.91732 0.003 | PASS | 99.917282, expected 99.917320, off by -3.83e-05 |
+| chains | chain_gamma005: peak 5 113.290348 2e-4 | PASS | 113.29031, expected 113.29035, relative error -3.75e-07 |
+| chains | chain_gamma005: count 6 1 | PASS | 1 spike(s) |
+| chains | chain_gamma005: arrival 6 117.10538 0.003 | PASS | 117.105310, expected 117.105380, off by -7.00e-05 |
+| chains | chain_gamma005: peak 6 113.294277 2e-4 | PASS | 113.29426, expected 113.29428, relative error -1.47e-07 |
+| chains | chain_gamma005: count 7 1 | PASS | 1 spike(s) |
+| chains | chain_gamma005: arrival 7 134.31874 0.003 | PASS | 134.318698, expected 134.318740, off by -4.18e-05 |
+| chains | chain_gamma005: peak 7 113.248498 2e-4 | PASS | 113.24845, expected 113.2485, relative error -3.93e-07 |
+| chains | chain_gamma005: count 8 1 | PASS | 1 spike(s) |
+| chains | chain_gamma005: arrival 8 150.38269 0.003 | PASS | 150.382632, expected 150.382690, off by -5.78e-05 |
+| chains | chain_gamma005: peak 8 114.935130 2e-4 | PASS | 114.93519, expected 114.93513, relative error 5.62e-07 |
+| chains | chain_gamma005: each 1 8 1 | PASS | all as expected |
+| independent integration | chain_gamma020: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_gamma020: total 8 | PASS | 8 spike(s) |
+| chains | chain_gamma020: last 130.47114 0.003 | PASS | 130.471105, expected 130.471140 |
+| chains | chain_gamma020: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_gamma020: arrival 1 7.70820 0.003 | PASS | 7.708118, expected 7.708200, off by -8.25e-05 |
+| chains | chain_gamma020: peak 1 31.144187 2e-4 | PASS | 31.144179, expected 31.144187, relative error -2.72e-07 |
+| chains | chain_gamma020: count 2 1 | PASS | 1 spike(s) |
+| chains | chain_gamma020: arrival 2 27.37637 0.003 | PASS | 27.376344, expected 27.376370, off by -2.61e-05 |
+| chains | chain_gamma020: peak 2 28.267746 2e-4 | PASS | 28.267764, expected 28.267746, relative error 6.20e-07 |
+| chains | chain_gamma020: count 3 1 | PASS | 1 spike(s) |
+| chains | chain_gamma020: arrival 3 45.01948 0.003 | PASS | 45.019443, expected 45.019480, off by -3.73e-05 |
+| chains | chain_gamma020: peak 3 28.414988 2e-4 | PASS | 28.414977, expected 28.414988, relative error -3.98e-07 |
+| chains | chain_gamma020: count 4 1 | PASS | 1 spike(s) |
+| chains | chain_gamma020: arrival 4 62.39337 0.003 | PASS | 62.393298, expected 62.393370, off by -7.23e-05 |
+| chains | chain_gamma020: peak 4 28.430000 2e-4 | PASS | 28.430006, expected 28.43, relative error 1.98e-07 |
+| chains | chain_gamma020: count 5 1 | PASS | 1 spike(s) |
+| chains | chain_gamma020: arrival 5 79.70929 0.003 | PASS | 79.709225, expected 79.709290, off by -6.50e-05 |
+| chains | chain_gamma020: peak 5 28.433858 2e-4 | PASS | 28.433851, expected 28.433858, relative error -2.34e-07 |
+| chains | chain_gamma020: count 6 1 | PASS | 1 spike(s) |
+| chains | chain_gamma020: arrival 6 97.01402 0.003 | PASS | 97.013972, expected 97.014020, off by -4.79e-05 |
+| chains | chain_gamma020: peak 6 28.435288 2e-4 | PASS | 28.435278, expected 28.435288, relative error -3.46e-07 |
+| chains | chain_gamma020: count 7 1 | PASS | 1 spike(s) |
+| chains | chain_gamma020: arrival 7 114.34723 0.003 | PASS | 114.347153, expected 114.347230, off by -7.65e-05 |
+| chains | chain_gamma020: peak 7 28.423490 2e-4 | PASS | 28.423492, expected 28.42349, relative error 7.78e-08 |
+| chains | chain_gamma020: count 8 1 | PASS | 1 spike(s) |
+| chains | chain_gamma020: arrival 8 130.47114 0.003 | PASS | 130.471105, expected 130.471140, off by -3.55e-05 |
+| chains | chain_gamma020: peak 8 28.861310 2e-4 | PASS | 28.861297, expected 28.86131, relative error -4.53e-07 |
+| chains | chain_gamma020: each 1 8 1 | PASS | all as expected |
+| independent integration | chain_kappa030: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_kappa030: total 1 | PASS | 1 spike(s) |
+| chains | chain_kappa030: last 12.67340 0.003 | PASS | 12.673370, expected 12.673400 |
+| chains | chain_kappa030: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_kappa030: arrival 1 12.67340 0.003 | PASS | 12.673370, expected 12.673400, off by -2.99e-05 |
+| chains | chain_kappa030: peak 1 58.583592 2e-4 | PASS | 58.583561, expected 58.583592, relative error -5.25e-07 |
+| chains | chain_kappa030: count 2 0 | PASS | 0 spike(s) |
+| chains | chain_kappa030: count 3 0 | PASS | 0 spike(s) |
+| chains | chain_kappa030: count 4 0 | PASS | 0 spike(s) |
+| chains | chain_kappa030: count 5 0 | PASS | 0 spike(s) |
+| chains | chain_kappa030: count 6 0 | PASS | 0 spike(s) |
+| chains | chain_kappa030: count 7 0 | PASS | 0 spike(s) |
+| chains | chain_kappa030: count 8 0 | PASS | 0 spike(s) |
+| chains | chain_kappa030: fired 1 yes | PASS | 1 spike(s) |
+| chains | chain_kappa030: silent 2 8 | PASS | all as expected |
+| independent integration | chain_kappa040: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_kappa040: total 1 | PASS | 1 spike(s) |
+| chains | chain_kappa040: last 12.74573 0.003 | PASS | 12.745643, expected 12.745730 |
+| chains | chain_kappa040: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_kappa040: arrival 1 12.74573 0.003 | PASS | 12.745643, expected 12.745730, off by -8.67e-05 |
+| chains | chain_kappa040: peak 1 58.449838 2e-4 | PASS | 58.449847, expected 58.449838, relative error 1.48e-07 |
+| chains | chain_kappa040: count 2 0 | PASS | 0 spike(s) |
+| chains | chain_kappa040: count 3 0 | PASS | 0 spike(s) |
+| chains | chain_kappa040: count 4 0 | PASS | 0 spike(s) |
+| chains | chain_kappa040: count 5 0 | PASS | 0 spike(s) |
+| chains | chain_kappa040: count 6 0 | PASS | 0 spike(s) |
+| chains | chain_kappa040: count 7 0 | PASS | 0 spike(s) |
+| chains | chain_kappa040: count 8 0 | PASS | 0 spike(s) |
+| chains | chain_kappa040: fired 1 yes | PASS | 1 spike(s) |
+| chains | chain_kappa040: silent 2 8 | PASS | all as expected |
+| independent integration | chain_kappa042: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_kappa042: total 8 | PASS | 8 spike(s) |
+| chains | chain_kappa042: last 578.68799 0.003 | PASS | 578.687918, expected 578.687990 |
+| chains | chain_kappa042: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_kappa042: arrival 1 12.76285 0.003 | PASS | 12.762785, expected 12.762850, off by -6.54e-05 |
+| chains | chain_kappa042: peak 1 58.418307 2e-4 | PASS | 58.418286, expected 58.418307, relative error -3.57e-07 |
+| chains | chain_kappa042: count 2 1 | PASS | 1 spike(s) |
+| chains | chain_kappa042: arrival 2 97.43685 0.003 | PASS | 97.436794, expected 97.436850, off by -5.64e-05 |
+| chains | chain_kappa042: peak 2 55.016946 2e-4 | PASS | 55.016967, expected 55.016946, relative error 3.86e-07 |
+| chains | chain_kappa042: count 3 1 | PASS | 1 spike(s) |
+| chains | chain_kappa042: arrival 3 180.63004 0.003 | PASS | 180.629999, expected 180.630040, off by -4.12e-05 |
+| chains | chain_kappa042: peak 3 55.029576 2e-4 | PASS | 55.029606, expected 55.029576, relative error 5.40e-07 |
+| chains | chain_kappa042: count 4 1 | PASS | 1 spike(s) |
+| chains | chain_kappa042: arrival 4 266.39616 0.003 | PASS | 266.396092, expected 266.396160, off by -6.76e-05 |
+| chains | chain_kappa042: peak 4 55.004046 2e-4 | PASS | 55.004052, expected 55.004046, relative error 1.08e-07 |
+| chains | chain_kappa042: count 5 1 | PASS | 1 spike(s) |
+| chains | chain_kappa042: arrival 5 352.99096 0.003 | PASS | 352.990888, expected 352.990960, off by -7.23e-05 |
+| chains | chain_kappa042: peak 5 54.995955 2e-4 | PASS | 54.99597, expected 54.995955, relative error 2.65e-07 |
+| chains | chain_kappa042: count 6 1 | PASS | 1 spike(s) |
+| chains | chain_kappa042: arrival 6 439.87121 0.003 | PASS | 439.871174, expected 439.871210, off by -3.55e-05 |
+| chains | chain_kappa042: peak 6 54.993241 2e-4 | PASS | 54.993219, expected 54.993241, relative error -3.98e-07 |
+| chains | chain_kappa042: count 7 1 | PASS | 1 spike(s) |
+| chains | chain_kappa042: arrival 7 525.89536 0.003 | PASS | 525.895290, expected 525.895360, off by -6.99e-05 |
+| chains | chain_kappa042: peak 7 55.003848 2e-4 | PASS | 55.003856, expected 55.003848, relative error 1.42e-07 |
+| chains | chain_kappa042: count 8 1 | PASS | 1 spike(s) |
+| chains | chain_kappa042: arrival 8 578.68799 0.003 | PASS | 578.687918, expected 578.687990, off by -7.19e-05 |
+| chains | chain_kappa042: peak 8 55.730678 2e-4 | PASS | 55.730699, expected 55.730678, relative error 3.78e-07 |
+| chains | chain_kappa042: each 1 8 1 | PASS | all as expected |
+| chains | chain_kappa042: order 1 2 3 4 5 6 7 8 | PASS | 12.76, 97.44, 180.63, 266.40, 352.99, 439.87, 525.90, 578.69 |
+| independent integration | chain_kappa045: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_kappa045: total 8 | PASS | 8 spike(s) |
+| chains | chain_kappa045: last 282.20278 0.003 | PASS | 282.202706, expected 282.202780 |
+| chains | chain_kappa045: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_kappa045: arrival 1 12.79031 0.003 | PASS | 12.790231, expected 12.790310, off by -7.93e-05 |
+| chains | chain_kappa045: peak 1 58.367857 2e-4 | PASS | 58.367877, expected 58.367857, relative error 3.44e-07 |
+| chains | chain_kappa045: count 2 1 | PASS | 1 spike(s) |
+| chains | chain_kappa045: arrival 2 52.84746 0.003 | PASS | 52.847387, expected 52.847460, off by -7.29e-05 |
+| chains | chain_kappa045: peak 2 55.612757 2e-4 | PASS | 55.612761, expected 55.612757, relative error 7.13e-08 |
+| chains | chain_kappa045: count 3 1 | PASS | 1 spike(s) |
+| chains | chain_kappa045: arrival 3 91.67633 0.003 | PASS | 91.676310, expected 91.676330, off by -2.01e-05 |
+| chains | chain_kappa045: peak 3 55.645109 2e-4 | PASS | 55.645144, expected 55.645109, relative error 6.37e-07 |
+| chains | chain_kappa045: count 4 1 | PASS | 1 spike(s) |
+| chains | chain_kappa045: arrival 4 130.76155 0.003 | PASS | 130.761490, expected 130.761550, off by -6.03e-05 |
+| chains | chain_kappa045: peak 4 55.638192 2e-4 | PASS | 55.638176, expected 55.638192, relative error -2.88e-07 |
+| chains | chain_kappa045: count 5 1 | PASS | 1 spike(s) |
+| chains | chain_kappa045: arrival 5 169.86238 0.003 | PASS | 169.862319, expected 169.862380, off by -6.09e-05 |
+| chains | chain_kappa045: peak 5 55.637736 2e-4 | PASS | 55.637719, expected 55.637736, relative error -2.97e-07 |
+| chains | chain_kappa045: count 6 1 | PASS | 1 spike(s) |
+| chains | chain_kappa045: arrival 6 208.96562 0.003 | PASS | 208.965575, expected 208.965620, off by -4.53e-05 |
+| chains | chain_kappa045: peak 6 55.637953 2e-4 | PASS | 55.637933, expected 55.637953, relative error -3.56e-07 |
+| chains | chain_kappa045: count 7 1 | PASS | 1 spike(s) |
+| chains | chain_kappa045: arrival 7 248.05755 0.003 | PASS | 248.057481, expected 248.057550, off by -6.87e-05 |
+| chains | chain_kappa045: peak 7 55.639207 2e-4 | PASS | 55.639196, expected 55.639207, relative error -1.95e-07 |
+| chains | chain_kappa045: count 8 1 | PASS | 1 spike(s) |
+| chains | chain_kappa045: arrival 8 282.20278 0.003 | PASS | 282.202706, expected 282.202780, off by -7.44e-05 |
+| chains | chain_kappa045: peak 8 56.143205 2e-4 | PASS | 56.1432, expected 56.143205, relative error -8.44e-08 |
+| chains | chain_kappa045: each 1 8 1 | PASS | all as expected |
+| chains | chain_kappa045: order 1 2 3 4 5 6 7 8 | PASS | 12.79, 52.85, 91.68, 130.76, 169.86, 208.97, 248.06, 282.20 |
+| independent integration | chain_kappa050: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_kappa050: total 8 | PASS | 8 spike(s) |
+| chains | chain_kappa050: last 197.58822 0.003 | PASS | 197.588147, expected 197.588220 |
+| chains | chain_kappa050: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_kappa050: arrival 1 12.84079 0.003 | PASS | 12.840711, expected 12.840790, off by -7.87e-05 |
+| chains | chain_kappa050: peak 1 58.275548 2e-4 | PASS | 58.275566, expected 58.275548, relative error 3.09e-07 |
+| chains | chain_kappa050: count 2 1 | PASS | 1 spike(s) |
+| chains | chain_kappa050: arrival 2 39.74982 0.003 | PASS | 39.749747, expected 39.749820, off by -7.27e-05 |
+| chains | chain_kappa050: peak 2 56.002432 2e-4 | PASS | 56.002432, expected 56.002432, relative error 2.24e-09 |
+| chains | chain_kappa050: count 3 1 | PASS | 1 spike(s) |
+| chains | chain_kappa050: arrival 3 66.18796 0.003 | PASS | 66.187897, expected 66.187960, off by -6.31e-05 |
+| chains | chain_kappa050: peak 3 56.032197 2e-4 | PASS | 56.032217, expected 56.032197, relative error 3.56e-07 |
+| chains | chain_kappa050: count 4 1 | PASS | 1 spike(s) |
+| chains | chain_kappa050: arrival 4 92.80085 0.003 | PASS | 92.800775, expected 92.800850, off by -7.47e-05 |
+| chains | chain_kappa050: peak 4 56.021967 2e-4 | PASS | 56.021966, expected 56.021967, relative error -1.91e-08 |
+| chains | chain_kappa050: count 5 1 | PASS | 1 spike(s) |
+| chains | chain_kappa050: arrival 5 119.43431 0.003 | PASS | 119.434255, expected 119.434310, off by -5.54e-05 |
+| chains | chain_kappa050: peak 5 56.020826 2e-4 | PASS | 56.020852, expected 56.020826, relative error 4.69e-07 |
+| chains | chain_kappa050: count 6 1 | PASS | 1 spike(s) |
+| chains | chain_kappa050: arrival 6 146.07057 0.003 | PASS | 146.070536, expected 146.070570, off by -3.37e-05 |
+| chains | chain_kappa050: peak 6 56.020011 2e-4 | PASS | 56.019988, expected 56.020011, relative error -4.15e-07 |
+| chains | chain_kappa050: count 7 1 | PASS | 1 spike(s) |
+| chains | chain_kappa050: arrival 7 172.64486 0.003 | PASS | 172.644788, expected 172.644860, off by -7.22e-05 |
+| chains | chain_kappa050: peak 7 56.033968 2e-4 | PASS | 56.033977, expected 56.033968, relative error 1.54e-07 |
+| chains | chain_kappa050: count 8 1 | PASS | 1 spike(s) |
+| chains | chain_kappa050: arrival 8 197.58822 0.003 | PASS | 197.588147, expected 197.588220, off by -7.31e-05 |
+| chains | chain_kappa050: peak 8 56.555134 2e-4 | PASS | 56.555155, expected 56.555134, relative error 3.75e-07 |
+| chains | chain_kappa050: each 1 8 1 | PASS | all as expected |
+| chains | chain_kappa050: order 1 2 3 4 5 6 7 8 | PASS | 12.84, 39.75, 66.19, 92.80, 119.43, 146.07, 172.64, 197.59 |
+| independent integration | chain_kappa060: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_kappa060: total 8 | PASS | 8 spike(s) |
+| chains | chain_kappa060: last 133.27745 0.003 | PASS | 133.277420, expected 133.277450 |
+| chains | chain_kappa060: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_kappa060: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| chains | chain_kappa060: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| chains | chain_kappa060: count 2 1 | PASS | 1 spike(s) |
+| chains | chain_kappa060: arrival 2 30.97745 0.003 | PASS | 30.977418, expected 30.977450, off by -3.21e-05 |
+| chains | chain_kappa060: peak 2 56.589824 2e-4 | PASS | 56.589859, expected 56.589824, relative error 6.19e-07 |
+| chains | chain_kappa060: count 3 1 | PASS | 1 spike(s) |
+| chains | chain_kappa060: arrival 3 48.19817 0.003 | PASS | 48.198100, expected 48.198170, off by -7.01e-05 |
+| chains | chain_kappa060: peak 3 56.712156 2e-4 | PASS | 56.712159, expected 56.712156, relative error 5.87e-08 |
+| chains | chain_kappa060: count 4 1 | PASS | 1 spike(s) |
+| chains | chain_kappa060: arrival 4 65.44909 0.003 | PASS | 65.449023, expected 65.449090, off by -6.68e-05 |
+| chains | chain_kappa060: peak 4 56.707651 2e-4 | PASS | 56.707652, expected 56.707651, relative error 2.10e-08 |
+| chains | chain_kappa060: count 5 1 | PASS | 1 spike(s) |
+| chains | chain_kappa060: arrival 5 82.68565 0.003 | PASS | 82.685596, expected 82.685650, off by -5.39e-05 |
+| chains | chain_kappa060: peak 5 56.709544 2e-4 | PASS | 56.709568, expected 56.709544, relative error 4.26e-07 |
+| chains | chain_kappa060: count 6 1 | PASS | 1 spike(s) |
+| chains | chain_kappa060: arrival 6 99.92155 0.003 | PASS | 99.921516, expected 99.921550, off by -3.39e-05 |
+| chains | chain_kappa060: peak 6 56.711250 2e-4 | PASS | 56.711226, expected 56.71125, relative error -4.22e-07 |
+| chains | chain_kappa060: count 7 1 | PASS | 1 spike(s) |
+| chains | chain_kappa060: arrival 7 117.18481 0.003 | PASS | 117.184758, expected 117.184810, off by -5.19e-05 |
+| chains | chain_kappa060: peak 7 56.687880 2e-4 | PASS | 56.687905, expected 56.68788, relative error 4.43e-07 |
+| chains | chain_kappa060: count 8 1 | PASS | 1 spike(s) |
+| chains | chain_kappa060: arrival 8 133.27745 0.003 | PASS | 133.277420, expected 133.277450, off by -2.96e-05 |
+| chains | chain_kappa060: peak 8 57.541762 2e-4 | PASS | 57.541801, expected 57.541762, relative error 6.73e-07 |
+| chains | chain_kappa060: each 1 8 1 | PASS | all as expected |
+| chains | chain_kappa060: order 1 2 3 4 5 6 7 8 | PASS | 12.96, 30.98, 48.20, 65.45, 82.69, 99.92, 117.18, 133.28 |
+| independent integration | chain_kappa070: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_kappa070: total 8 | PASS | 8 spike(s) |
+| chains | chain_kappa070: last 110.36959 0.003 | PASS | 110.369547, expected 110.369590 |
+| chains | chain_kappa070: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_kappa070: arrival 1 13.10683 0.003 | PASS | 13.106762, expected 13.106830, off by -6.79e-05 |
+| chains | chain_kappa070: peak 1 57.798005 2e-4 | PASS | 57.797994, expected 57.798005, relative error -1.87e-07 |
+| chains | chain_kappa070: count 2 1 | PASS | 1 spike(s) |
+| chains | chain_kappa070: arrival 2 27.18077 0.003 | PASS | 27.180730, expected 27.180770, off by -3.97e-05 |
+| chains | chain_kappa070: peak 2 57.080382 2e-4 | PASS | 57.080412, expected 57.080382, relative error 5.23e-07 |
+| chains | chain_kappa070: count 3 1 | PASS | 1 spike(s) |
+| chains | chain_kappa070: arrival 3 41.15759 0.003 | PASS | 41.157533, expected 41.157590, off by -5.73e-05 |
+| chains | chain_kappa070: peak 3 57.195321 2e-4 | PASS | 57.19531, expected 57.195321, relative error -1.88e-07 |
+| chains | chain_kappa070: count 4 1 | PASS | 1 spike(s) |
+| chains | chain_kappa070: arrival 4 55.15978 0.003 | PASS | 55.159719, expected 55.159780, off by -6.07e-05 |
+| chains | chain_kappa070: peak 4 57.171568 2e-4 | PASS | 57.171554, expected 57.171568, relative error -2.47e-07 |
+| chains | chain_kappa070: count 5 1 | PASS | 1 spike(s) |
+| chains | chain_kappa070: arrival 5 69.15301 0.003 | PASS | 69.152942, expected 69.153010, off by -6.78e-05 |
+| chains | chain_kappa070: peak 5 57.175808 2e-4 | PASS | 57.175803, expected 57.175808, relative error -8.90e-08 |
+| chains | chain_kappa070: count 6 1 | PASS | 1 spike(s) |
+| chains | chain_kappa070: arrival 6 83.14360 0.003 | PASS | 83.143535, expected 83.143600, off by -6.47e-05 |
+| chains | chain_kappa070: peak 6 57.178270 2e-4 | PASS | 57.178281, expected 57.17827, relative error 1.84e-07 |
+| chains | chain_kappa070: count 7 1 | PASS | 1 spike(s) |
+| chains | chain_kappa070: arrival 7 97.18756 0.003 | PASS | 97.187499, expected 97.187560, off by -6.08e-05 |
+| chains | chain_kappa070: peak 7 57.166627 2e-4 | PASS | 57.166648, expected 57.166627, relative error 3.70e-07 |
+| chains | chain_kappa070: count 8 1 | PASS | 1 spike(s) |
+| chains | chain_kappa070: arrival 8 110.36959 0.003 | PASS | 110.369547, expected 110.369590, off by -4.28e-05 |
+| chains | chain_kappa070: peak 8 58.269727 2e-4 | PASS | 58.269701, expected 58.269727, relative error -4.52e-07 |
+| chains | chain_kappa070: each 1 8 1 | PASS | all as expected |
+| chains | chain_kappa070: order 1 2 3 4 5 6 7 8 | PASS | 13.11, 27.18, 41.16, 55.16, 69.15, 83.14, 97.19, 110.37 |
+| independent integration | chain_kappa080: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_kappa080: total 8 | PASS | 8 spike(s) |
+| chains | chain_kappa080: last 97.67042 0.003 | PASS | 97.670380, expected 97.670420 |
+| chains | chain_kappa080: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_kappa080: arrival 1 13.28306 0.003 | PASS | 13.283013, expected 13.283060, off by -4.69e-05 |
+| chains | chain_kappa080: peak 1 57.490080 2e-4 | PASS | 57.490109, expected 57.49008, relative error 5.05e-07 |
+| chains | chain_kappa080: count 2 1 | PASS | 1 spike(s) |
+| chains | chain_kappa080: arrival 2 24.99153 0.003 | PASS | 24.991465, expected 24.991530, off by -6.52e-05 |
+| chains | chain_kappa080: peak 2 58.223997 2e-4 | PASS | 58.224012, expected 58.223997, relative error 2.62e-07 |
+| chains | chain_kappa080: count 3 1 | PASS | 1 spike(s) |
+| chains | chain_kappa080: arrival 3 37.21336 0.003 | PASS | 37.213308, expected 37.213360, off by -5.21e-05 |
+| chains | chain_kappa080: peak 3 57.791608 2e-4 | PASS | 57.79159, expected 57.791608, relative error -3.05e-07 |
+| chains | chain_kappa080: count 4 1 | PASS | 1 spike(s) |
+| chains | chain_kappa080: arrival 4 49.37108 0.003 | PASS | 49.371051, expected 49.371080, off by -2.88e-05 |
+| chains | chain_kappa080: peak 4 57.848386 2e-4 | PASS | 57.848362, expected 57.848386, relative error -4.08e-07 |
+| chains | chain_kappa080: count 5 1 | PASS | 1 spike(s) |
+| chains | chain_kappa080: arrival 5 61.53788 0.003 | PASS | 61.537819, expected 61.537880, off by -6.10e-05 |
+| chains | chain_kappa080: peak 5 57.839330 2e-4 | PASS | 57.839351, expected 57.83933, relative error 3.65e-07 |
+| chains | chain_kappa080: count 6 1 | PASS | 1 spike(s) |
+| chains | chain_kappa080: arrival 6 73.70444 0.003 | PASS | 73.704375, expected 73.704440, off by -6.45e-05 |
+| chains | chain_kappa080: peak 6 57.835990 2e-4 | PASS | 57.835983, expected 57.83599, relative error -1.14e-07 |
+| chains | chain_kappa080: count 7 1 | PASS | 1 spike(s) |
+| chains | chain_kappa080: arrival 7 85.86982 0.003 | PASS | 85.869792, expected 85.869820, off by -2.81e-05 |
+| chains | chain_kappa080: peak 7 57.918034 2e-4 | PASS | 57.918011, expected 57.918034, relative error -3.98e-07 |
+| chains | chain_kappa080: count 8 1 | PASS | 1 spike(s) |
+| chains | chain_kappa080: arrival 8 97.67042 0.003 | PASS | 97.670380, expected 97.670420, off by -3.99e-05 |
+| chains | chain_kappa080: peak 8 58.975386 2e-4 | PASS | 58.975357, expected 58.975386, relative error -4.86e-07 |
+| chains | chain_kappa080: each 1 8 1 | PASS | all as expected |
+| chains | chain_kappa080: order 1 2 3 4 5 6 7 8 | PASS | 13.28, 24.99, 37.21, 49.37, 61.54, 73.70, 85.87, 97.67 |
+| independent integration | chain_kappa100: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_kappa100: total 8 | PASS | 8 spike(s) |
+| chains | chain_kappa100: last 78.80498 0.003 | PASS | 78.804899, expected 78.804980 |
+| chains | chain_kappa100: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_kappa100: arrival 1 13.74134 0.003 | PASS | 13.741282, expected 13.741340, off by -5.77e-05 |
+| chains | chain_kappa100: peak 1 56.721226 2e-4 | PASS | 56.72124, expected 56.721226, relative error 2.38e-07 |
+| chains | chain_kappa100: count 2 1 | PASS | 1 spike(s) |
+| chains | chain_kappa100: arrival 2 22.68669 0.003 | PASS | 22.686638, expected 22.686690, off by -5.19e-05 |
+| chains | chain_kappa100: peak 2 59.820621 2e-4 | PASS | 59.820645, expected 59.820621, relative error 4.09e-07 |
+| chains | chain_kappa100: count 3 1 | PASS | 1 spike(s) |
+| chains | chain_kappa100: arrival 3 31.83405 0.003 | PASS | 31.833997, expected 31.834050, off by -5.32e-05 |
+| chains | chain_kappa100: peak 3 59.383139 2e-4 | PASS | 59.383168, expected 59.383139, relative error 4.82e-07 |
+| chains | chain_kappa100: count 4 1 | PASS | 1 spike(s) |
+| chains | chain_kappa100: arrival 4 41.19829 0.003 | PASS | 41.198225, expected 41.198290, off by -6.48e-05 |
+| chains | chain_kappa100: peak 4 59.342790 2e-4 | PASS | 59.342793, expected 59.34279, relative error 5.73e-08 |
+| chains | chain_kappa100: count 5 1 | PASS | 1 spike(s) |
+| chains | chain_kappa100: arrival 5 50.61726 0.003 | PASS | 50.617222, expected 50.617260, off by -3.81e-05 |
+| chains | chain_kappa100: peak 5 59.310229 2e-4 | PASS | 59.310208, expected 59.310229, relative error -3.62e-07 |
+| chains | chain_kappa100: count 6 1 | PASS | 1 spike(s) |
+| chains | chain_kappa100: arrival 6 60.04140 0.003 | PASS | 60.041334, expected 60.041400, off by -6.58e-05 |
+| chains | chain_kappa100: peak 6 59.304362 2e-4 | PASS | 59.304378, expected 59.304362, relative error 2.65e-07 |
+| chains | chain_kappa100: count 7 1 | PASS | 1 spike(s) |
+| chains | chain_kappa100: arrival 7 69.45008 0.003 | PASS | 69.450014, expected 69.450080, off by -6.57e-05 |
+| chains | chain_kappa100: peak 7 59.439046 2e-4 | PASS | 59.439046, expected 59.439046, relative error -3.79e-09 |
+| chains | chain_kappa100: count 8 1 | PASS | 1 spike(s) |
+| chains | chain_kappa100: arrival 8 78.80498 0.003 | PASS | 78.804899, expected 78.804980, off by -8.06e-05 |
+| chains | chain_kappa100: peak 8 60.642842 2e-4 | PASS | 60.642832, expected 60.642842, relative error -1.66e-07 |
+| chains | chain_kappa100: each 1 8 1 | PASS | all as expected |
+| chains | chain_kappa100: order 1 2 3 4 5 6 7 8 | PASS | 13.74, 22.69, 31.83, 41.20, 50.62, 60.04, 69.45, 78.80 |
+| independent integration | chain_kappa120: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_kappa120: total 8 | PASS | 8 spike(s) |
+| chains | chain_kappa120: last 63.80142 0.003 | PASS | 63.801373, expected 63.801420 |
+| chains | chain_kappa120: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_kappa120: arrival 1 14.38088 0.003 | PASS | 14.380854, expected 14.380880, off by -2.62e-05 |
+| chains | chain_kappa120: peak 1 55.719393 2e-4 | PASS | 55.719416, expected 55.719393, relative error 4.11e-07 |
+| chains | chain_kappa120: count 2 1 | PASS | 1 spike(s) |
+| chains | chain_kappa120: arrival 2 21.58199 0.003 | PASS | 21.581980, expected 21.581990, off by -1.00e-05 |
+| chains | chain_kappa120: peak 2 57.622861 2e-4 | PASS | 57.622871, expected 57.622861, relative error 1.75e-07 |
+| chains | chain_kappa120: count 3 1 | PASS | 1 spike(s) |
+| chains | chain_kappa120: arrival 3 28.32150 0.003 | PASS | 28.321497, expected 28.321500, off by -3.07e-06 |
+| chains | chain_kappa120: peak 3 58.100539 2e-4 | PASS | 58.100541, expected 58.100539, relative error 3.61e-08 |
+| chains | chain_kappa120: count 4 1 | PASS | 1 spike(s) |
+| chains | chain_kappa120: arrival 4 35.40186 0.003 | PASS | 35.401850, expected 35.401860, off by -1.04e-05 |
+| chains | chain_kappa120: peak 4 58.350129 2e-4 | PASS | 58.350128, expected 58.350129, relative error -9.94e-09 |
+| chains | chain_kappa120: count 5 1 | PASS | 1 spike(s) |
+| chains | chain_kappa120: arrival 5 42.50311 0.003 | PASS | 42.503094, expected 42.503110, off by -1.60e-05 |
+| chains | chain_kappa120: peak 5 58.346931 2e-4 | PASS | 58.346929, expected 58.346931, relative error -2.78e-08 |
+| chains | chain_kappa120: count 6 1 | PASS | 1 spike(s) |
+| chains | chain_kappa120: arrival 6 49.63495 0.003 | PASS | 49.634931, expected 49.634950, off by -1.92e-05 |
+| chains | chain_kappa120: peak 6 58.361073 2e-4 | PASS | 58.361082, expected 58.361073, relative error 1.59e-07 |
+| chains | chain_kappa120: count 7 1 | PASS | 1 spike(s) |
+| chains | chain_kappa120: arrival 7 56.75864 0.003 | PASS | 56.758628, expected 56.758640, off by -1.19e-05 |
+| chains | chain_kappa120: peak 7 58.525449 2e-4 | PASS | 58.525446, expected 58.525449, relative error -5.72e-08 |
+| chains | chain_kappa120: count 8 1 | PASS | 1 spike(s) |
+| chains | chain_kappa120: arrival 8 63.80142 0.003 | PASS | 63.801373, expected 63.801420, off by -4.75e-05 |
+| chains | chain_kappa120: peak 8 60.901315 2e-4 | PASS | 60.901314, expected 60.901315, relative error -2.21e-08 |
+| chains | chain_kappa120: each 1 8 1 | PASS | all as expected |
+| chains | chain_kappa120: order 1 2 3 4 5 6 7 8 | PASS | 14.38, 21.58, 28.32, 35.40, 42.50, 49.63, 56.76, 63.80 |
+| independent integration | chain_long20: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_long20: total 20 | PASS | 20 spike(s) |
+| chains | chain_long20: last 340.09875 0.003 | PASS | 340.098670, expected 340.098750 |
+| chains | chain_long20: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_long20: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| chains | chain_long20: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| chains | chain_long20: count 3 1 | PASS | 1 spike(s) |
+| chains | chain_long20: arrival 3 48.19817 0.003 | PASS | 48.198100, expected 48.198170, off by -7.00e-05 |
+| chains | chain_long20: peak 3 56.712156 2e-4 | PASS | 56.712159, expected 56.712156, relative error 5.88e-08 |
+| chains | chain_long20: count 5 1 | PASS | 1 spike(s) |
+| chains | chain_long20: arrival 5 82.68577 0.003 | PASS | 82.685712, expected 82.685770, off by -5.80e-05 |
+| chains | chain_long20: peak 5 56.709550 2e-4 | PASS | 56.709574, expected 56.70955, relative error 4.21e-07 |
+| chains | chain_long20: count 7 1 | PASS | 1 spike(s) |
+| chains | chain_long20: arrival 7 117.15665 0.003 | PASS | 117.156587, expected 117.156650, off by -6.31e-05 |
+| chains | chain_long20: peak 7 56.709775 2e-4 | PASS | 56.709764, expected 56.709775, relative error -1.86e-07 |
+| chains | chain_long20: count 9 1 | PASS | 1 spike(s) |
+| chains | chain_long20: arrival 9 151.62685 0.003 | PASS | 151.626827, expected 151.626850, off by -2.28e-05 |
+| chains | chain_long20: peak 9 56.709743 2e-4 | PASS | 56.709778, expected 56.709743, relative error 6.19e-07 |
+| chains | chain_long20: count 12 1 | PASS | 1 spike(s) |
+| chains | chain_long20: arrival 12 203.33219 0.003 | PASS | 203.332139, expected 203.332190, off by -5.13e-05 |
+| chains | chain_long20: peak 12 56.709750 2e-4 | PASS | 56.709779, expected 56.70975, relative error 5.10e-07 |
+| chains | chain_long20: count 14 1 | PASS | 1 spike(s) |
+| chains | chain_long20: arrival 14 237.80241 0.003 | PASS | 237.802345, expected 237.802410, off by -6.49e-05 |
+| chains | chain_long20: peak 14 56.709783 2e-4 | PASS | 56.709779, expected 56.709783, relative error -7.18e-08 |
+| chains | chain_long20: count 16 1 | PASS | 1 spike(s) |
+| chains | chain_long20: arrival 16 272.27259 0.003 | PASS | 272.272560, expected 272.272590, off by -3.05e-05 |
+| chains | chain_long20: peak 16 56.709800 2e-4 | PASS | 56.709776, expected 56.7098, relative error -4.25e-07 |
+| chains | chain_long20: count 18 1 | PASS | 1 spike(s) |
+| chains | chain_long20: arrival 18 306.74298 0.003 | PASS | 306.742907, expected 306.742980, off by -7.25e-05 |
+| chains | chain_long20: peak 18 56.711288 2e-4 | PASS | 56.7113, expected 56.711288, relative error 2.11e-07 |
+| chains | chain_long20: count 20 1 | PASS | 1 spike(s) |
+| chains | chain_long20: arrival 20 340.09875 0.003 | PASS | 340.098670, expected 340.098750, off by -7.98e-05 |
+| chains | chain_long20: peak 20 57.541805 2e-4 | PASS | 57.541807, expected 57.541805, relative error 4.10e-08 |
+| chains | chain_long20: each 1 20 1 | PASS | all as expected |
+| independent integration | chain_long30: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_long30: total 30 | PASS | 30 spike(s) |
+| chains | chain_long30: last 512.44978 0.003 | PASS | 512.449702, expected 512.449780 |
+| chains | chain_long30: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_long30: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| chains | chain_long30: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| chains | chain_long30: count 4 1 | PASS | 1 spike(s) |
+| chains | chain_long30: arrival 4 65.44909 0.003 | PASS | 65.449017, expected 65.449090, off by -7.28e-05 |
+| chains | chain_long30: peak 4 56.707654 2e-4 | PASS | 56.707655, expected 56.707654, relative error 2.14e-08 |
+| chains | chain_long30: count 7 1 | PASS | 1 spike(s) |
+| chains | chain_long30: arrival 7 117.15665 0.003 | PASS | 117.156587, expected 117.156650, off by -6.31e-05 |
+| chains | chain_long30: peak 7 56.709775 2e-4 | PASS | 56.709764, expected 56.709775, relative error -1.87e-07 |
+| chains | chain_long30: count 11 1 | PASS | 1 spike(s) |
+| chains | chain_long30: arrival 11 186.09711 0.003 | PASS | 186.097035, expected 186.097110, off by -7.46e-05 |
+| chains | chain_long30: peak 11 56.709774 2e-4 | PASS | 56.709779, expected 56.709774, relative error 8.51e-08 |
+| chains | chain_long30: count 14 1 | PASS | 1 spike(s) |
+| chains | chain_long30: arrival 14 237.80241 0.003 | PASS | 237.802345, expected 237.802410, off by -6.49e-05 |
+| chains | chain_long30: peak 14 56.709783 2e-4 | PASS | 56.709779, expected 56.709783, relative error -7.27e-08 |
+| chains | chain_long30: count 17 1 | PASS | 1 spike(s) |
+| chains | chain_long30: arrival 17 289.50772 0.003 | PASS | 289.507655, expected 289.507720, off by -6.53e-05 |
+| chains | chain_long30: peak 17 56.709791 2e-4 | PASS | 56.709779, expected 56.709791, relative error -2.13e-07 |
+| chains | chain_long30: count 20 1 | PASS | 1 spike(s) |
+| chains | chain_long30: arrival 20 341.21302 0.003 | PASS | 341.212964, expected 341.213020, off by -5.57e-05 |
+| chains | chain_long30: peak 20 56.709797 2e-4 | PASS | 56.709779, expected 56.709797, relative error -3.18e-07 |
+| chains | chain_long30: count 24 1 | PASS | 1 spike(s) |
+| chains | chain_long30: arrival 24 410.15345 0.003 | PASS | 410.153377, expected 410.153450, off by -7.29e-05 |
+| chains | chain_long30: peak 24 56.709784 2e-4 | PASS | 56.709779, expected 56.709784, relative error -8.97e-08 |
+| chains | chain_long30: count 27 1 | PASS | 1 spike(s) |
+| chains | chain_long30: arrival 27 461.85864 0.003 | PASS | 461.858581, expected 461.858640, off by -5.87e-05 |
+| chains | chain_long30: peak 27 56.709784 2e-4 | PASS | 56.709771, expected 56.709784, relative error -2.23e-07 |
+| chains | chain_long30: count 30 1 | PASS | 1 spike(s) |
+| chains | chain_long30: arrival 30 512.44978 0.003 | PASS | 512.449702, expected 512.449780, off by -7.78e-05 |
+| chains | chain_long30: peak 30 57.541807 2e-4 | PASS | 57.541807, expected 57.541807, relative error 5.67e-09 |
+| chains | chain_long30: each 1 30 1 | PASS | all as expected |
+| independent integration | chain_pump620: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_pump620: total 1 | PASS | 1 spike(s) |
+| chains | chain_pump620: last 34.60568 0.003 | PASS | 34.605669, expected 34.605680 |
+| chains | chain_pump620: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_pump620: arrival 1 34.60568 0.003 | PASS | 34.605669, expected 34.605680, off by -1.10e-05 |
+| chains | chain_pump620: peak 1 34.884213 2e-4 | PASS | 34.884212, expected 34.884213, relative error -1.80e-08 |
+| chains | chain_pump620: count 2 0 | PASS | 0 spike(s) |
+| chains | chain_pump620: count 3 0 | PASS | 0 spike(s) |
+| chains | chain_pump620: count 4 0 | PASS | 0 spike(s) |
+| chains | chain_pump620: count 5 0 | PASS | 0 spike(s) |
+| chains | chain_pump620: count 6 0 | PASS | 0 spike(s) |
+| chains | chain_pump620: count 7 0 | PASS | 0 spike(s) |
+| chains | chain_pump620: count 8 0 | PASS | 0 spike(s) |
+| chains | chain_pump620: silent 2 8 | PASS | all as expected |
+| independent integration | chain_pump635: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_pump635: total 1 | PASS | 1 spike(s) |
+| chains | chain_pump635: last 13.02318 0.003 | PASS | 13.023169, expected 13.023180 |
+| chains | chain_pump635: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_pump635: arrival 1 13.02318 0.003 | PASS | 13.023169, expected 13.023180, off by -1.15e-05 |
+| chains | chain_pump635: peak 1 48.107400 2e-4 | PASS | 48.107389, expected 48.1074, relative error -2.28e-07 |
+| chains | chain_pump635: count 2 0 | PASS | 0 spike(s) |
+| chains | chain_pump635: count 3 0 | PASS | 0 spike(s) |
+| chains | chain_pump635: count 4 0 | PASS | 0 spike(s) |
+| chains | chain_pump635: count 5 0 | PASS | 0 spike(s) |
+| chains | chain_pump635: count 6 0 | PASS | 0 spike(s) |
+| chains | chain_pump635: count 7 0 | PASS | 0 spike(s) |
+| chains | chain_pump635: count 8 0 | PASS | 0 spike(s) |
+| chains | chain_pump635: silent 2 8 | PASS | all as expected |
+| independent integration | chain_pump665: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_pump665: total 8 | PASS | 8 spike(s) |
+| chains | chain_pump665: last 93.00632 0.003 | PASS | 93.006212, expected 93.006320 |
+| chains | chain_pump665: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_pump665: arrival 1 7.14621 0.003 | PASS | 7.146094, expected 7.146210, off by -1.16e-04 |
+| chains | chain_pump665: peak 1 72.428804 2e-4 | PASS | 72.428822, expected 72.428804, relative error 2.43e-07 |
+| chains | chain_pump665: count 2 1 | PASS | 1 spike(s) |
+| chains | chain_pump665: arrival 2 18.47587 0.003 | PASS | 18.475832, expected 18.475870, off by -3.81e-05 |
+| chains | chain_pump665: peak 2 69.032904 2e-4 | PASS | 69.032986, expected 69.032904, relative error 1.19e-06 |
+| chains | chain_pump665: count 3 1 | PASS | 1 spike(s) |
+| chains | chain_pump665: arrival 3 30.90713 0.003 | PASS | 30.907032, expected 30.907130, off by -9.84e-05 |
+| chains | chain_pump665: peak 3 68.567302 2e-4 | PASS | 68.567278, expected 68.567302, relative error -3.50e-07 |
+| chains | chain_pump665: count 4 1 | PASS | 1 spike(s) |
+| chains | chain_pump665: arrival 4 43.33514 0.003 | PASS | 43.335056, expected 43.335140, off by -8.37e-05 |
+| chains | chain_pump665: peak 4 68.536418 2e-4 | PASS | 68.536473, expected 68.536418, relative error 7.97e-07 |
+| chains | chain_pump665: count 5 1 | PASS | 1 spike(s) |
+| chains | chain_pump665: arrival 5 55.75459 0.003 | PASS | 55.754486, expected 55.754590, off by -1.04e-04 |
+| chains | chain_pump665: peak 5 68.539511 2e-4 | PASS | 68.539495, expected 68.539511, relative error -2.33e-07 |
+| chains | chain_pump665: count 6 1 | PASS | 1 spike(s) |
+| chains | chain_pump665: arrival 6 68.17800 0.003 | PASS | 68.177952, expected 68.178000, off by -4.78e-05 |
+| chains | chain_pump665: peak 6 68.541124 2e-4 | PASS | 68.541199, expected 68.541124, relative error 1.10e-06 |
+| chains | chain_pump665: count 7 1 | PASS | 1 spike(s) |
+| chains | chain_pump665: arrival 7 80.59338 0.003 | PASS | 80.593275, expected 80.593380, off by -1.05e-04 |
+| chains | chain_pump665: peak 7 68.583988 2e-4 | PASS | 68.584014, expected 68.583988, relative error 3.74e-07 |
+| chains | chain_pump665: count 8 1 | PASS | 1 spike(s) |
+| chains | chain_pump665: arrival 8 93.00632 0.003 | PASS | 93.006212, expected 93.006320, off by -1.08e-04 |
+| chains | chain_pump665: peak 8 68.961754 2e-4 | PASS | 68.96173, expected 68.961754, relative error -3.44e-07 |
+| chains | chain_pump665: each 1 8 1 | PASS | all as expected |
+| independent integration | chain_pump675: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_pump675: total 8 | PASS | 8 spike(s) |
+| chains | chain_pump675: last 72.15298 0.003 | PASS | 72.152839, expected 72.152980 |
+| chains | chain_pump675: count 1 1 | PASS | 1 spike(s) |
+| chains | chain_pump675: arrival 1 6.30953 0.003 | PASS | 6.309411, expected 6.309530, off by -1.19e-04 |
+| chains | chain_pump675: peak 1 80.292696 2e-4 | PASS | 80.292638, expected 80.292696, relative error -7.23e-07 |
+| chains | chain_pump675: count 2 1 | PASS | 1 spike(s) |
+| chains | chain_pump675: arrival 2 14.77249 0.003 | PASS | 14.772433, expected 14.772490, off by -5.71e-05 |
+| chains | chain_pump675: peak 2 78.401420 2e-4 | PASS | 78.401318, expected 78.40142, relative error -1.29e-06 |
+| chains | chain_pump675: count 3 1 | PASS | 1 spike(s) |
+| chains | chain_pump675: arrival 3 24.20408 0.003 | PASS | 24.203946, expected 24.204080, off by -1.34e-04 |
+| chains | chain_pump675: peak 3 77.244257 2e-4 | PASS | 77.244234, expected 77.244257, relative error -3.02e-07 |
+| chains | chain_pump675: count 4 1 | PASS | 1 spike(s) |
+| chains | chain_pump675: arrival 4 33.78071 0.003 | PASS | 33.780631, expected 33.780710, off by -7.94e-05 |
+| chains | chain_pump675: peak 4 77.200874 2e-4 | PASS | 77.200986, expected 77.200874, relative error 1.45e-06 |
+| chains | chain_pump675: count 5 1 | PASS | 1 spike(s) |
+| chains | chain_pump675: arrival 5 43.38094 0.003 | PASS | 43.380856, expected 43.380940, off by -8.43e-05 |
+| chains | chain_pump675: peak 5 77.146397 2e-4 | PASS | 77.146507, expected 77.146397, relative error 1.43e-06 |
+| chains | chain_pump675: count 6 1 | PASS | 1 spike(s) |
+| chains | chain_pump675: arrival 6 52.98843 0.003 | PASS | 52.988314, expected 52.988430, off by -1.16e-04 |
+| chains | chain_pump675: peak 6 77.158879 2e-4 | PASS | 77.158951, expected 77.158879, relative error 9.27e-07 |
+| chains | chain_pump675: count 7 1 | PASS | 1 spike(s) |
+| chains | chain_pump675: arrival 7 62.58302 0.003 | PASS | 62.582931, expected 62.583020, off by -8.93e-05 |
+| chains | chain_pump675: peak 7 77.187445 2e-4 | PASS | 77.187545, expected 77.187445, relative error 1.30e-06 |
+| chains | chain_pump675: count 8 1 | PASS | 1 spike(s) |
+| chains | chain_pump675: arrival 8 72.15298 0.003 | PASS | 72.152839, expected 72.152980, off by -1.41e-04 |
+| chains | chain_pump675: peak 8 77.764467 2e-4 | PASS | 77.764448, expected 77.764467, relative error -2.44e-07 |
+| chains | chain_pump675: each 1 8 1 | PASS | all as expected |
+| independent integration | chain_strong015_kick2: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_strong015_kick2: total 15 | PASS | 15 spike(s) |
+| chains | chain_strong015_kick2: last 52.40965 0.003 | PASS | 52.409512, expected 52.409650 |
+| chains | chain_strong015_kick2: count 1 2 | PASS | 2 spike(s) |
+| chains | chain_strong015_kick2: arrival 1 15.86851 0.003 | PASS | 15.868501, expected 15.868510, off by -9.23e-06 |
+| chains | chain_strong015_kick2: peak 1 53.637241 2e-4 | PASS | 53.637239, expected 53.637241, relative error -4.19e-08 |
+| chains | chain_strong015_kick2: count 2 2 | PASS | 2 spike(s) |
+| chains | chain_strong015_kick2: arrival 2 20.86021 0.003 | PASS | 20.860219, expected 20.860210, off by 8.99e-06 |
+| chains | chain_strong015_kick2: peak 2 57.005168 2e-4 | PASS | 57.005172, expected 57.005168, relative error 7.07e-08 |
+| chains | chain_strong015_kick2: count 3 2 | PASS | 2 spike(s) |
+| chains | chain_strong015_kick2: arrival 3 25.74326 0.003 | PASS | 25.743235, expected 25.743260, off by -2.46e-05 |
+| chains | chain_strong015_kick2: peak 3 65.121999 2e-4 | PASS | 65.122004, expected 65.121999, relative error 8.20e-08 |
+| chains | chain_strong015_kick2: count 4 2 | PASS | 2 spike(s) |
+| chains | chain_strong015_kick2: arrival 4 30.85310 0.003 | PASS | 30.853108, expected 30.853100, off by 7.51e-06 |
+| chains | chain_strong015_kick2: peak 4 61.367356 2e-4 | PASS | 61.367357, expected 61.367356, relative error 8.60e-09 |
+| chains | chain_strong015_kick2: count 5 2 | PASS | 2 spike(s) |
+| chains | chain_strong015_kick2: arrival 5 35.91665 0.003 | PASS | 35.916655, expected 35.916650, off by 5.05e-06 |
+| chains | chain_strong015_kick2: peak 5 62.166317 2e-4 | PASS | 62.16632, expected 62.166317, relative error 5.50e-08 |
+| chains | chain_strong015_kick2: count 6 2 | PASS | 2 spike(s) |
+| chains | chain_strong015_kick2: arrival 6 41.04026 0.003 | PASS | 41.040259, expected 41.040260, off by -1.40e-06 |
+| chains | chain_strong015_kick2: peak 6 61.935235 2e-4 | PASS | 61.935237, expected 61.935235, relative error 3.64e-08 |
+| chains | chain_strong015_kick2: count 7 2 | PASS | 2 spike(s) |
+| chains | chain_strong015_kick2: arrival 7 46.14948 0.003 | PASS | 46.149475, expected 46.149480, off by -5.36e-06 |
+| chains | chain_strong015_kick2: peak 7 62.249622 2e-4 | PASS | 62.249622, expected 62.249622, relative error 3.08e-09 |
+| chains | chain_strong015_kick2: count 8 1 | PASS | 1 spike(s) |
+| chains | chain_strong015_kick2: arrival 8 51.22142 0.003 | PASS | 51.221396, expected 51.221420, off by -2.41e-05 |
+| chains | chain_strong015_kick2: peak 8 67.877555 2e-4 | PASS | 67.877525, expected 67.877555, relative error -4.40e-07 |
+| independent integration | chain_strong020_kick4: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_strong020_kick4: total 15 | PASS | 15 spike(s) |
+| chains | chain_strong020_kick4: last 30.81708 0.003 | PASS | 30.816978, expected 30.817080 |
+| chains | chain_strong020_kick4: count 1 2 | PASS | 2 spike(s) |
+| chains | chain_strong020_kick4: arrival 1 5.03104 0.003 | PASS | 5.031073, expected 5.031040, off by 3.27e-05 |
+| chains | chain_strong020_kick4: peak 1 58.941256 2e-4 | PASS | 58.941234, expected 58.941256, relative error -3.67e-07 |
+| chains | chain_strong020_kick4: count 2 2 | PASS | 2 spike(s) |
+| chains | chain_strong020_kick4: arrival 2 8.10936 0.003 | PASS | 8.109329, expected 8.109360, off by -3.07e-05 |
+| chains | chain_strong020_kick4: peak 2 80.911083 2e-4 | PASS | 80.911064, expected 80.911083, relative error -2.33e-07 |
+| chains | chain_strong020_kick4: count 3 2 | PASS | 2 spike(s) |
+| chains | chain_strong020_kick4: arrival 3 11.60582 0.003 | PASS | 11.605818, expected 11.605820, off by -1.96e-06 |
+| chains | chain_strong020_kick4: peak 3 69.392706 2e-4 | PASS | 69.392705, expected 69.392706, relative error -1.37e-08 |
+| chains | chain_strong020_kick4: count 4 2 | PASS | 2 spike(s) |
+| chains | chain_strong020_kick4: arrival 4 15.17863 0.003 | PASS | 15.178625, expected 15.178630, off by -5.17e-06 |
+| chains | chain_strong020_kick4: peak 4 76.246131 2e-4 | PASS | 76.246164, expected 76.246131, relative error 4.34e-07 |
+| chains | chain_strong020_kick4: count 5 2 | PASS | 2 spike(s) |
+| chains | chain_strong020_kick4: arrival 5 18.57752 0.003 | PASS | 18.577514, expected 18.577520, off by -6.31e-06 |
+| chains | chain_strong020_kick4: peak 5 73.954492 2e-4 | PASS | 73.954526, expected 73.954492, relative error 4.65e-07 |
+| chains | chain_strong020_kick4: count 6 2 | PASS | 2 spike(s) |
+| chains | chain_strong020_kick4: arrival 6 22.07347 0.003 | PASS | 22.073467, expected 22.073470, off by -2.80e-06 |
+| chains | chain_strong020_kick4: peak 6 74.966461 2e-4 | PASS | 74.966472, expected 74.966461, relative error 1.44e-07 |
+| chains | chain_strong020_kick4: count 7 2 | PASS | 2 spike(s) |
+| chains | chain_strong020_kick4: arrival 7 25.51388 0.003 | PASS | 25.513872, expected 25.513880, off by -7.73e-06 |
+| chains | chain_strong020_kick4: peak 7 75.032517 2e-4 | PASS | 75.032515, expected 75.032517, relative error -2.52e-08 |
+| chains | chain_strong020_kick4: count 8 1 | PASS | 1 spike(s) |
+| chains | chain_strong020_kick4: arrival 8 29.00541 0.003 | PASS | 29.005295, expected 29.005410, off by -1.15e-04 |
+| chains | chain_strong020_kick4: peak 8 85.942967 2e-4 | PASS | 85.942928, expected 85.942967, relative error -4.50e-07 |
+| independent integration | chain_strong040_kick2: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_strong040_kick2: total 0 | PASS | 0 spike(s) |
+| chains | chain_strong040_kick2: count 1 0 | PASS | 0 spike(s) |
+| chains | chain_strong040_kick2: count 2 0 | PASS | 0 spike(s) |
+| chains | chain_strong040_kick2: count 3 0 | PASS | 0 spike(s) |
+| chains | chain_strong040_kick2: count 4 0 | PASS | 0 spike(s) |
+| chains | chain_strong040_kick2: count 5 0 | PASS | 0 spike(s) |
+| chains | chain_strong040_kick2: count 6 0 | PASS | 0 spike(s) |
+| chains | chain_strong040_kick2: count 7 0 | PASS | 0 spike(s) |
+| chains | chain_strong040_kick2: count 8 0 | PASS | 0 spike(s) |
+| independent integration | chain_strong040_kick4: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| chains | chain_strong040_kick4: total 21 | PASS | 21 spike(s) |
+| chains | chain_strong040_kick4: last 19.86969 0.003 | PASS | 19.869614, expected 19.869690 |
+| chains | chain_strong040_kick4: count 1 3 | PASS | 3 spike(s) |
+| chains | chain_strong040_kick4: arrival 1 5.52783 0.003 | PASS | 5.527850, expected 5.527830, off by 2.03e-05 |
+| chains | chain_strong040_kick4: peak 1 13.921111 2e-4 | PASS | 13.921109, expected 13.921111, relative error -1.29e-07 |
+| chains | chain_strong040_kick4: count 2 3 | PASS | 3 spike(s) |
+| chains | chain_strong040_kick4: arrival 2 7.10074 0.003 | PASS | 7.101050, expected 7.100740, off by 3.10e-04 |
+| chains | chain_strong040_kick4: peak 2 56.612251 2e-4 | PASS | 56.612266, expected 56.612251, relative error 2.57e-07 |
+| chains | chain_strong040_kick4: count 3 3 | PASS | 3 spike(s) |
+| chains | chain_strong040_kick4: arrival 3 8.62926 0.003 | PASS | 8.629314, expected 8.629260, off by 5.39e-05 |
+| chains | chain_strong040_kick4: peak 3 102.531188 2e-4 | PASS | 102.53091, expected 102.53119, relative error -2.67e-06 |
+| chains | chain_strong040_kick4: count 4 3 | PASS | 3 spike(s) |
+| chains | chain_strong040_kick4: arrival 4 10.21825 0.003 | PASS | 10.218270, expected 10.218250, off by 1.95e-05 |
+| chains | chain_strong040_kick4: peak 4 121.455921 2e-4 | PASS | 121.45608, expected 121.45592, relative error 1.31e-06 |
+| chains | chain_strong040_kick4: count 5 3 | PASS | 3 spike(s) |
+| chains | chain_strong040_kick4: arrival 5 11.80955 0.003 | PASS | 11.809578, expected 11.809550, off by 2.83e-05 |
+| chains | chain_strong040_kick4: peak 5 118.178808 2e-4 | PASS | 118.17889, expected 118.17881, relative error 6.72e-07 |
+| chains | chain_strong040_kick4: count 6 3 | PASS | 3 spike(s) |
+| chains | chain_strong040_kick4: arrival 6 13.35315 0.003 | PASS | 13.353166, expected 13.353150, off by 1.59e-05 |
+| chains | chain_strong040_kick4: peak 6 121.422790 2e-4 | PASS | 121.4228, expected 121.42279, relative error 1.03e-07 |
+| chains | chain_strong040_kick4: count 7 2 | PASS | 2 spike(s) |
+| chains | chain_strong040_kick4: arrival 7 14.85060 0.003 | PASS | 14.850691, expected 14.850600, off by 9.11e-05 |
+| chains | chain_strong040_kick4: peak 7 116.770051 2e-4 | PASS | 116.77006, expected 116.77005, relative error 1.07e-07 |
+| chains | chain_strong040_kick4: count 8 1 | PASS | 1 spike(s) |
+| chains | chain_strong040_kick4: arrival 8 16.34806 0.003 | PASS | 16.347715, expected 16.348060, off by -3.45e-04 |
+| chains | chain_strong040_kick4: peak 8 166.121829 2e-4 | PASS | 166.12202, expected 166.12183, relative error 1.16e-06 |
+| independent integration | collision_antiphase: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| collisions | collision_antiphase: total 14 | PASS | 14 spike(s) |
+| collisions | collision_antiphase: last 116.04245 0.003 | PASS | 116.042375, expected 116.042450 |
+| collisions | collision_antiphase: count 1 1 | PASS | 1 spike(s) |
+| collisions | collision_antiphase: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| collisions | collision_antiphase: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| collisions | collision_antiphase: count 3 1 | PASS | 1 spike(s) |
+| collisions | collision_antiphase: arrival 3 48.19817 0.003 | PASS | 48.198100, expected 48.198170, off by -7.02e-05 |
+| collisions | collision_antiphase: peak 3 56.712157 2e-4 | PASS | 56.71216, expected 56.712157, relative error 4.74e-08 |
+| collisions | collision_antiphase: count 4 1 | PASS | 1 spike(s) |
+| collisions | collision_antiphase: arrival 4 65.44900 0.003 | PASS | 65.448930, expected 65.449000, off by -7.03e-05 |
+| collisions | collision_antiphase: peak 4 56.707645 2e-4 | PASS | 56.707647, expected 56.707645, relative error 3.78e-08 |
+| collisions | collision_antiphase: count 6 1 | PASS | 1 spike(s) |
+| collisions | collision_antiphase: arrival 6 99.94964 0.003 | PASS | 99.949572, expected 99.949640, off by -6.85e-05 |
+| collisions | collision_antiphase: peak 6 56.687857 2e-4 | PASS | 56.687858, expected 56.687857, relative error 1.15e-08 |
+| collisions | collision_antiphase: count 7 1 | PASS | 1 spike(s) |
+| collisions | collision_antiphase: arrival 7 116.04245 0.003 | PASS | 116.042375, expected 116.042450, off by -7.47e-05 |
+| collisions | collision_antiphase: peak 7 57.541765 2e-4 | PASS | 57.54178, expected 57.541765, relative error 2.57e-07 |
+| collisions | collision_antiphase: count 9 1 | PASS | 1 spike(s) |
+| collisions | collision_antiphase: arrival 9 116.04245 0.003 | PASS | 116.042375, expected 116.042450, off by -7.47e-05 |
+| collisions | collision_antiphase: peak 9 57.541765 2e-4 | PASS | 57.54178, expected 57.541765, relative error 2.57e-07 |
+| collisions | collision_antiphase: count 10 1 | PASS | 1 spike(s) |
+| collisions | collision_antiphase: arrival 10 99.94964 0.003 | PASS | 99.949572, expected 99.949640, off by -6.85e-05 |
+| collisions | collision_antiphase: peak 10 56.687857 2e-4 | PASS | 56.687858, expected 56.687857, relative error 1.15e-08 |
+| collisions | collision_antiphase: count 12 1 | PASS | 1 spike(s) |
+| collisions | collision_antiphase: arrival 12 65.44900 0.003 | PASS | 65.448930, expected 65.449000, off by -7.03e-05 |
+| collisions | collision_antiphase: peak 12 56.707645 2e-4 | PASS | 56.707647, expected 56.707645, relative error 3.78e-08 |
+| collisions | collision_antiphase: count 13 1 | PASS | 1 spike(s) |
+| collisions | collision_antiphase: arrival 13 48.19817 0.003 | PASS | 48.198100, expected 48.198170, off by -7.02e-05 |
+| collisions | collision_antiphase: peak 13 56.712157 2e-4 | PASS | 56.71216, expected 56.712157, relative error 4.74e-08 |
+| collisions | collision_antiphase: count 15 1 | PASS | 1 spike(s) |
+| collisions | collision_antiphase: arrival 15 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| collisions | collision_antiphase: peak 15 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| independent integration | collision_even: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| collisions | collision_even: total 16 | PASS | 16 spike(s) |
+| collisions | collision_even: last 133.70026 0.003 | PASS | 133.700185, expected 133.700260 |
+| collisions | collision_even: count 1 1 | PASS | 1 spike(s) |
+| collisions | collision_even: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| collisions | collision_even: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| collisions | collision_even: count 3 1 | PASS | 1 spike(s) |
+| collisions | collision_even: arrival 3 48.19817 0.003 | PASS | 48.198099, expected 48.198170, off by -7.05e-05 |
+| collisions | collision_even: peak 3 56.712157 2e-4 | PASS | 56.712161, expected 56.712157, relative error 6.25e-08 |
+| collisions | collision_even: count 4 1 | PASS | 1 spike(s) |
+| collisions | collision_even: arrival 4 65.44912 0.003 | PASS | 65.449048, expected 65.449120, off by -7.15e-05 |
+| collisions | collision_even: peak 4 56.707628 2e-4 | PASS | 56.707629, expected 56.707628, relative error 2.53e-08 |
+| collisions | collision_even: count 6 1 | PASS | 1 spike(s) |
+| collisions | collision_even: arrival 6 99.93381 0.003 | PASS | 99.933761, expected 99.933810, off by -4.85e-05 |
+| collisions | collision_even: peak 6 56.707000 2e-4 | PASS | 56.707027, expected 56.707, relative error 4.84e-07 |
+| collisions | collision_even: count 8 1 | PASS | 1 spike(s) |
+| collisions | collision_even: arrival 8 133.70026 0.003 | PASS | 133.700185, expected 133.700260, off by -7.52e-05 |
+| collisions | collision_even: peak 8 57.444203 2e-4 | PASS | 57.444202, expected 57.444203, relative error -1.49e-08 |
+| collisions | collision_even: count 9 1 | PASS | 1 spike(s) |
+| collisions | collision_even: arrival 9 133.70026 0.003 | PASS | 133.700185, expected 133.700260, off by -7.52e-05 |
+| collisions | collision_even: peak 9 57.444203 2e-4 | PASS | 57.444202, expected 57.444203, relative error -1.49e-08 |
+| collisions | collision_even: count 11 1 | PASS | 1 spike(s) |
+| collisions | collision_even: arrival 11 99.93381 0.003 | PASS | 99.933761, expected 99.933810, off by -4.85e-05 |
+| collisions | collision_even: peak 11 56.707000 2e-4 | PASS | 56.707027, expected 56.707, relative error 4.84e-07 |
+| collisions | collision_even: count 13 1 | PASS | 1 spike(s) |
+| collisions | collision_even: arrival 13 65.44912 0.003 | PASS | 65.449048, expected 65.449120, off by -7.15e-05 |
+| collisions | collision_even: peak 13 56.707628 2e-4 | PASS | 56.707629, expected 56.707628, relative error 2.53e-08 |
+| collisions | collision_even: count 14 1 | PASS | 1 spike(s) |
+| collisions | collision_even: arrival 14 48.19817 0.003 | PASS | 48.198099, expected 48.198170, off by -7.05e-05 |
+| collisions | collision_even: peak 14 56.712157 2e-4 | PASS | 56.712161, expected 56.712157, relative error 6.25e-08 |
+| collisions | collision_even: count 16 1 | PASS | 1 spike(s) |
+| collisions | collision_even: arrival 16 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| collisions | collision_even: peak 16 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| collisions | collision_even: each 1 16 1 | PASS | all as expected |
+| collisions | collision_even: together 8 9 1e-6 | PASS | apart by 0.000e+00 |
+| independent integration | collision_odd: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| collisions | collision_odd: total 15 | PASS | 15 spike(s) |
+| collisions | collision_odd: last 124.78794 0.003 | PASS | 124.787896, expected 124.787940 |
+| collisions | collision_odd: count 1 1 | PASS | 1 spike(s) |
+| collisions | collision_odd: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| collisions | collision_odd: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| collisions | collision_odd: count 3 1 | PASS | 1 spike(s) |
+| collisions | collision_odd: arrival 3 48.19817 0.003 | PASS | 48.198100, expected 48.198170, off by -6.99e-05 |
+| collisions | collision_odd: peak 3 56.712156 2e-4 | PASS | 56.712159, expected 56.712156, relative error 5.25e-08 |
+| collisions | collision_odd: count 4 1 | PASS | 1 spike(s) |
+| collisions | collision_odd: arrival 4 65.44918 0.003 | PASS | 65.449105, expected 65.449180, off by -7.52e-05 |
+| collisions | collision_odd: peak 4 56.707662 2e-4 | PASS | 56.707663, expected 56.707662, relative error 2.32e-08 |
+| collisions | collision_odd: count 6 1 | PASS | 1 spike(s) |
+| collisions | collision_odd: arrival 6 99.89333 0.003 | PASS | 99.893256, expected 99.893330, off by -7.43e-05 |
+| collisions | collision_odd: peak 6 56.731201 2e-4 | PASS | 56.731212, expected 56.731201, relative error 1.96e-07 |
+| collisions | collision_odd: count 7 1 | PASS | 1 spike(s) |
+| collisions | collision_odd: arrival 7 118.68317 0.003 | PASS | 118.683129, expected 118.683170, off by -4.14e-05 |
+| collisions | collision_odd: peak 7 55.685572 2e-4 | PASS | 55.685594, expected 55.685572, relative error 4.01e-07 |
+| collisions | collision_odd: count 9 1 | PASS | 1 spike(s) |
+| collisions | collision_odd: arrival 9 118.68317 0.003 | PASS | 118.683129, expected 118.683170, off by -4.14e-05 |
+| collisions | collision_odd: peak 9 55.685572 2e-4 | PASS | 55.685594, expected 55.685572, relative error 4.01e-07 |
+| collisions | collision_odd: count 10 1 | PASS | 1 spike(s) |
+| collisions | collision_odd: arrival 10 99.89333 0.003 | PASS | 99.893256, expected 99.893330, off by -7.43e-05 |
+| collisions | collision_odd: peak 10 56.731201 2e-4 | PASS | 56.731212, expected 56.731201, relative error 1.96e-07 |
+| collisions | collision_odd: count 12 1 | PASS | 1 spike(s) |
+| collisions | collision_odd: arrival 12 65.44918 0.003 | PASS | 65.449105, expected 65.449180, off by -7.52e-05 |
+| collisions | collision_odd: peak 12 56.707662 2e-4 | PASS | 56.707663, expected 56.707662, relative error 2.32e-08 |
+| collisions | collision_odd: count 13 1 | PASS | 1 spike(s) |
+| collisions | collision_odd: arrival 13 48.19817 0.003 | PASS | 48.198100, expected 48.198170, off by -6.99e-05 |
+| collisions | collision_odd: peak 13 56.712156 2e-4 | PASS | 56.712159, expected 56.712156, relative error 5.25e-08 |
+| collisions | collision_odd: count 15 1 | PASS | 1 spike(s) |
+| collisions | collision_odd: arrival 15 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| collisions | collision_odd: peak 15 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| collisions | collision_odd: each 1 15 1 | PASS | all as expected |
+| collisions | collision_odd: together 7 9 1e-6 | PASS | apart by 4.121e-13 |
+| collisions | collision_odd: quiet_after 130 | PASS | last spike at 124.788 |
+| independent integration | collision_offset: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| collisions | collision_offset: total 15 | PASS | 15 spike(s) |
+| collisions | collision_offset: last 155.30796 0.003 | PASS | 155.307861, expected 155.307960 |
+| collisions | collision_offset: count 1 1 | PASS | 1 spike(s) |
+| collisions | collision_offset: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| collisions | collision_offset: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| collisions | collision_offset: count 3 1 | PASS | 1 spike(s) |
+| collisions | collision_offset: arrival 3 48.19817 0.003 | PASS | 48.198100, expected 48.198170, off by -7.00e-05 |
+| collisions | collision_offset: peak 3 56.712156 2e-4 | PASS | 56.712159, expected 56.712156, relative error 5.85e-08 |
+| collisions | collision_offset: count 4 1 | PASS | 1 spike(s) |
+| collisions | collision_offset: arrival 4 65.44909 0.003 | PASS | 65.449017, expected 65.449090, off by -7.28e-05 |
+| collisions | collision_offset: peak 4 56.707654 2e-4 | PASS | 56.707655, expected 56.707654, relative error 2.12e-08 |
+| collisions | collision_offset: count 6 1 | PASS | 1 spike(s) |
+| collisions | collision_offset: arrival 6 99.92126 0.003 | PASS | 99.921233, expected 99.921260, off by -2.67e-05 |
+| collisions | collision_offset: peak 6 56.709964 2e-4 | PASS | 56.70994, expected 56.709964, relative error -4.20e-07 |
+| collisions | collision_offset: count 7 1 | PASS | 1 spike(s) |
+| collisions | collision_offset: arrival 7 117.16363 0.003 | PASS | 117.163575, expected 117.163630, off by -5.45e-05 |
+| collisions | collision_offset: peak 7 56.705538 2e-4 | PASS | 56.70552, expected 56.705538, relative error -3.25e-07 |
+| collisions | collision_offset: count 9 1 | PASS | 1 spike(s) |
+| collisions | collision_offset: arrival 9 152.04908 0.003 | PASS | 152.049027, expected 152.049080, off by -5.33e-05 |
+| collisions | collision_offset: peak 9 61.729038 2e-4 | PASS | 61.72904, expected 61.729038, relative error 2.75e-08 |
+| collisions | collision_offset: count 10 1 | PASS | 1 spike(s) |
+| collisions | collision_offset: arrival 10 155.30796 0.003 | PASS | 155.307861, expected 155.307960, off by -9.94e-05 |
+| collisions | collision_offset: peak 10 61.423633 2e-4 | PASS | 61.42361, expected 61.423633, relative error -3.82e-07 |
+| collisions | collision_offset: count 12 1 | PASS | 1 spike(s) |
+| collisions | collision_offset: arrival 12 125.46519 0.003 | PASS | 125.465139, expected 125.465190, off by -5.08e-05 |
+| collisions | collision_offset: peak 12 56.709331 2e-4 | PASS | 56.709311, expected 56.709331, relative error -3.49e-07 |
+| collisions | collision_offset: count 13 1 | PASS | 1 spike(s) |
+| collisions | collision_offset: arrival 13 108.19681 0.003 | PASS | 108.196742, expected 108.196810, off by -6.84e-05 |
+| collisions | collision_offset: peak 13 56.712625 2e-4 | PASS | 56.712631, expected 56.712625, relative error 9.75e-08 |
+| collisions | collision_offset: count 15 1 | PASS | 1 spike(s) |
+| collisions | collision_offset: arrival 15 72.96038 0.003 | PASS | 72.960319, expected 72.960380, off by -6.13e-05 |
+| collisions | collision_offset: peak 15 58.059001 2e-4 | PASS | 58.058985, expected 58.059001, relative error -2.83e-07 |
+| collisions | collision_offset: each 1 15 1 | PASS | all as expected |
+| collisions | collision_offset: order 9 10 | PASS | 152.05, 155.31 |
+| collisions | collision_offset: order 11 10 | PASS | 142.84, 155.31 |
+| independent integration | collision_three: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| collisions | collision_three: total 21 | PASS | 21 spike(s) |
+| collisions | collision_three: last 90.71146 0.003 | PASS | 90.711419, expected 90.711460 |
+| collisions | collision_three: count 1 1 | PASS | 1 spike(s) |
+| collisions | collision_three: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| collisions | collision_three: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.98e-07 |
+| collisions | collision_three: count 3 1 | PASS | 1 spike(s) |
+| collisions | collision_three: arrival 3 48.19965 0.003 | PASS | 48.199580, expected 48.199650, off by -7.01e-05 |
+| collisions | collision_three: peak 3 56.710370 2e-4 | PASS | 56.71037, expected 56.71037, relative error 4.72e-09 |
+| collisions | collision_three: count 5 1 | PASS | 1 spike(s) |
+| collisions | collision_three: arrival 5 84.15822 0.003 | PASS | 84.158171, expected 84.158220, off by -4.87e-05 |
+| collisions | collision_three: peak 5 55.844387 2e-4 | PASS | 55.844377, expected 55.844387, relative error -1.87e-07 |
+| collisions | collision_three: count 8 1 | PASS | 1 spike(s) |
+| collisions | collision_three: arrival 8 66.32939 0.003 | PASS | 66.329354, expected 66.329390, off by -3.64e-05 |
+| collisions | collision_three: peak 8 56.716038 2e-4 | PASS | 56.716071, expected 56.716038, relative error 5.87e-07 |
+| collisions | collision_three: count 10 1 | PASS | 1 spike(s) |
+| collisions | collision_three: arrival 10 31.69867 0.003 | PASS | 31.698600, expected 31.698670, off by -6.99e-05 |
+| collisions | collision_three: peak 10 56.118415 2e-4 | PASS | 56.118417, expected 56.118415, relative error 2.94e-08 |
+| collisions | collision_three: count 12 1 | PASS | 1 spike(s) |
+| collisions | collision_three: arrival 12 31.69867 0.003 | PASS | 31.698600, expected 31.698670, off by -6.99e-05 |
+| collisions | collision_three: peak 12 56.118415 2e-4 | PASS | 56.118417, expected 56.118415, relative error 2.94e-08 |
+| collisions | collision_three: count 14 1 | PASS | 1 spike(s) |
+| collisions | collision_three: arrival 14 66.32939 0.003 | PASS | 66.329354, expected 66.329390, off by -3.64e-05 |
+| collisions | collision_three: peak 14 56.716038 2e-4 | PASS | 56.716071, expected 56.716038, relative error 5.87e-07 |
+| collisions | collision_three: count 17 1 | PASS | 1 spike(s) |
+| collisions | collision_three: arrival 17 84.15822 0.003 | PASS | 84.158171, expected 84.158220, off by -4.87e-05 |
+| collisions | collision_three: peak 17 55.844387 2e-4 | PASS | 55.844377, expected 55.844387, relative error -1.87e-07 |
+| collisions | collision_three: count 19 1 | PASS | 1 spike(s) |
+| collisions | collision_three: arrival 19 48.19965 0.003 | PASS | 48.199580, expected 48.199650, off by -7.01e-05 |
+| collisions | collision_three: peak 19 56.710370 2e-4 | PASS | 56.71037, expected 56.71037, relative error 4.72e-09 |
+| collisions | collision_three: count 21 1 | PASS | 1 spike(s) |
+| collisions | collision_three: arrival 21 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| collisions | collision_three: peak 21 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.98e-07 |
+| collisions | collision_three: each 1 21 1 | PASS | all as expected |
+| independent integration | defect_link030: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| defects | defect_link030: total 4 | PASS | 4 spike(s) |
+| defects | defect_link030: last 64.60504 0.003 | PASS | 64.604972, expected 64.605040 |
+| defects | defect_link030: count 1 1 | PASS | 1 spike(s) |
+| defects | defect_link030: arrival 1 12.96038 0.003 | PASS | 12.960318, expected 12.960380, off by -6.18e-05 |
+| defects | defect_link030: peak 1 58.058993 2e-4 | PASS | 58.058976, expected 58.058993, relative error -2.94e-07 |
+| defects | defect_link030: count 2 1 | PASS | 1 spike(s) |
+| defects | defect_link030: arrival 2 30.97674 0.003 | PASS | 30.976717, expected 30.976740, off by -2.35e-05 |
+| defects | defect_link030: peak 2 56.591389 2e-4 | PASS | 56.591424, expected 56.591389, relative error 6.26e-07 |
+| defects | defect_link030: count 3 1 | PASS | 1 spike(s) |
+| defects | defect_link030: arrival 3 48.22377 0.003 | PASS | 48.223744, expected 48.223770, off by -2.59e-05 |
+| defects | defect_link030: peak 3 56.695656 2e-4 | PASS | 56.695632, expected 56.695656, relative error -4.19e-07 |
+| defects | defect_link030: count 4 1 | PASS | 1 spike(s) |
+| defects | defect_link030: arrival 4 64.60504 0.003 | PASS | 64.604972, expected 64.605040, off by -6.80e-05 |
+| defects | defect_link030: peak 4 57.336174 2e-4 | PASS | 57.336165, expected 57.336174, relative error -1.52e-07 |
+| defects | defect_link030: count 5 0 | PASS | 0 spike(s) |
+| defects | defect_link030: count 6 0 | PASS | 0 spike(s) |
+| defects | defect_link030: count 7 0 | PASS | 0 spike(s) |
+| defects | defect_link030: count 8 0 | PASS | 0 spike(s) |
+| defects | defect_link030: count 9 0 | PASS | 0 spike(s) |
+| defects | defect_link030: each 1 4 1 | PASS | all as expected |
+| defects | defect_link030: silent 5 9 | PASS | all as expected |
+| independent integration | defect_link042: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| defects | defect_link042: total 4 | PASS | 4 spike(s) |
+| defects | defect_link042: last 64.86302 0.003 | PASS | 64.862963, expected 64.863020 |
+| defects | defect_link042: count 1 1 | PASS | 1 spike(s) |
+| defects | defect_link042: arrival 1 12.96038 0.003 | PASS | 12.960318, expected 12.960380, off by -6.17e-05 |
+| defects | defect_link042: peak 1 58.058995 2e-4 | PASS | 58.058978, expected 58.058995, relative error -2.90e-07 |
+| defects | defect_link042: count 2 1 | PASS | 1 spike(s) |
+| defects | defect_link042: arrival 2 30.97697 0.003 | PASS | 30.976943, expected 30.976970, off by -2.72e-05 |
+| defects | defect_link042: peak 2 56.590879 2e-4 | PASS | 56.590915, expected 56.590879, relative error 6.32e-07 |
+| defects | defect_link042: count 3 1 | PASS | 1 spike(s) |
+| defects | defect_link042: arrival 3 48.21544 0.003 | PASS | 48.215392, expected 48.215440, off by -4.85e-05 |
+| defects | defect_link042: peak 3 56.701180 2e-4 | PASS | 56.70116, expected 56.70118, relative error -3.59e-07 |
+| defects | defect_link042: count 4 1 | PASS | 1 spike(s) |
+| defects | defect_link042: arrival 4 64.86302 0.003 | PASS | 64.862963, expected 64.863020, off by -5.73e-05 |
+| defects | defect_link042: peak 4 57.139025 2e-4 | PASS | 57.139006, expected 57.139025, relative error -3.26e-07 |
+| defects | defect_link042: count 5 0 | PASS | 0 spike(s) |
+| defects | defect_link042: count 6 0 | PASS | 0 spike(s) |
+| defects | defect_link042: count 7 0 | PASS | 0 spike(s) |
+| defects | defect_link042: count 8 0 | PASS | 0 spike(s) |
+| defects | defect_link042: count 9 0 | PASS | 0 spike(s) |
+| defects | defect_link042: each 1 4 1 | PASS | all as expected |
+| defects | defect_link042: silent 5 9 | PASS | all as expected |
+| independent integration | defect_link045: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| defects | defect_link045: total 9 | PASS | 9 spike(s) |
+| defects | defect_link045: last 174.51271 0.003 | PASS | 174.512648, expected 174.512710 |
+| defects | defect_link045: count 1 1 | PASS | 1 spike(s) |
+| defects | defect_link045: arrival 1 12.96038 0.003 | PASS | 12.960318, expected 12.960380, off by -6.16e-05 |
+| defects | defect_link045: peak 1 58.058996 2e-4 | PASS | 58.058979, expected 58.058996, relative error -2.96e-07 |
+| defects | defect_link045: count 2 1 | PASS | 1 spike(s) |
+| defects | defect_link045: arrival 2 30.97704 0.003 | PASS | 30.977011, expected 30.977040, off by -2.92e-05 |
+| defects | defect_link045: peak 2 56.590727 2e-4 | PASS | 56.590762, expected 56.590727, relative error 6.26e-07 |
+| defects | defect_link045: count 3 1 | PASS | 1 spike(s) |
+| defects | defect_link045: arrival 3 48.21295 0.003 | PASS | 48.212896, expected 48.212950, off by -5.43e-05 |
+| defects | defect_link045: peak 3 56.702802 2e-4 | PASS | 56.702785, expected 56.702802, relative error -3.07e-07 |
+| defects | defect_link045: count 4 1 | PASS | 1 spike(s) |
+| defects | defect_link045: arrival 4 64.94311 0.003 | PASS | 64.943034, expected 64.943110, off by -7.61e-05 |
+| defects | defect_link045: peak 4 57.078771 2e-4 | PASS | 57.078783, expected 57.078771, relative error 2.15e-07 |
+| defects | defect_link045: count 5 1 | PASS | 1 spike(s) |
+| defects | defect_link045: arrival 5 106.10045 0.003 | PASS | 106.100379, expected 106.100450, off by -7.05e-05 |
+| defects | defect_link045: peak 5 55.299579 2e-4 | PASS | 55.299579, expected 55.299579, relative error -4.25e-09 |
+| defects | defect_link045: count 6 1 | PASS | 1 spike(s) |
+| defects | defect_link045: arrival 6 123.79561 0.003 | PASS | 123.795541, expected 123.795610, off by -6.93e-05 |
+| defects | defect_link045: peak 6 56.637897 2e-4 | PASS | 56.637904, expected 56.637897, relative error 1.27e-07 |
+| defects | defect_link045: count 7 1 | PASS | 1 spike(s) |
+| defects | defect_link045: arrival 7 141.13185 0.003 | PASS | 141.131802, expected 141.131850, off by -4.75e-05 |
+| defects | defect_link045: peak 7 56.697980 2e-4 | PASS | 56.69801, expected 56.69798, relative error 5.21e-07 |
+| defects | defect_link045: count 8 1 | PASS | 1 spike(s) |
+| defects | defect_link045: arrival 8 158.41309 0.003 | PASS | 158.413038, expected 158.413090, off by -5.20e-05 |
+| defects | defect_link045: peak 8 56.685764 2e-4 | PASS | 56.685746, expected 56.685764, relative error -3.09e-07 |
+| defects | defect_link045: count 9 1 | PASS | 1 spike(s) |
+| defects | defect_link045: arrival 9 174.51271 0.003 | PASS | 174.512648, expected 174.512710, off by -6.21e-05 |
+| defects | defect_link045: peak 9 57.540785 2e-4 | PASS | 57.540765, expected 57.540785, relative error -3.46e-07 |
+| defects | defect_link045: each 1 9 1 | PASS | all as expected |
+| independent integration | defect_link050: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| defects | defect_link050: total 9 | PASS | 9 spike(s) |
+| defects | defect_link050: last 159.83680 0.003 | PASS | 159.836730, expected 159.836800 |
+| defects | defect_link050: count 1 1 | PASS | 1 spike(s) |
+| defects | defect_link050: arrival 1 12.96038 0.003 | PASS | 12.960318, expected 12.960380, off by -6.16e-05 |
+| defects | defect_link050: peak 1 58.058997 2e-4 | PASS | 58.05898, expected 58.058997, relative error -2.93e-07 |
+| defects | defect_link050: count 2 1 | PASS | 1 spike(s) |
+| defects | defect_link050: arrival 2 30.97716 0.003 | PASS | 30.977134, expected 30.977160, off by -2.58e-05 |
+| defects | defect_link050: peak 2 56.590452 2e-4 | PASS | 56.590487, expected 56.590452, relative error 6.21e-07 |
+| defects | defect_link050: count 3 1 | PASS | 1 spike(s) |
+| defects | defect_link050: arrival 3 48.20845 0.003 | PASS | 48.208386, expected 48.208450, off by -6.41e-05 |
+| defects | defect_link050: peak 3 56.705702 2e-4 | PASS | 56.705689, expected 56.705702, relative error -2.24e-07 |
+| defects | defect_link050: count 4 1 | PASS | 1 spike(s) |
+| defects | defect_link050: arrival 4 65.09149 0.003 | PASS | 65.091423, expected 65.091490, off by -6.72e-05 |
+| defects | defect_link050: peak 4 56.968289 2e-4 | PASS | 56.968304, expected 56.968289, relative error 2.68e-07 |
+| defects | defect_link050: count 5 1 | PASS | 1 spike(s) |
+| defects | defect_link050: arrival 5 91.42004 0.003 | PASS | 91.420003, expected 91.420040, off by -3.72e-05 |
+| defects | defect_link050: peak 5 55.843024 2e-4 | PASS | 55.843002, expected 55.843024, relative error -4.01e-07 |
+| defects | defect_link050: count 6 1 | PASS | 1 spike(s) |
+| defects | defect_link050: arrival 6 109.09744 0.003 | PASS | 109.097370, expected 109.097440, off by -7.03e-05 |
+| defects | defect_link050: peak 6 56.637310 2e-4 | PASS | 56.637314, expected 56.63731, relative error 7.94e-08 |
+| defects | defect_link050: count 7 1 | PASS | 1 spike(s) |
+| defects | defect_link050: arrival 7 126.45154 0.003 | PASS | 126.451471, expected 126.451540, off by -6.95e-05 |
+| defects | defect_link050: peak 7 56.695344 2e-4 | PASS | 56.695342, expected 56.695344, relative error -3.59e-08 |
+| defects | defect_link050: count 8 1 | PASS | 1 spike(s) |
+| defects | defect_link050: arrival 8 143.73669 0.003 | PASS | 143.736633, expected 143.736690, off by -5.71e-05 |
+| defects | defect_link050: peak 8 56.685186 2e-4 | PASS | 56.685209, expected 56.685186, relative error 3.97e-07 |
+| defects | defect_link050: count 9 1 | PASS | 1 spike(s) |
+| defects | defect_link050: arrival 9 159.83680 0.003 | PASS | 159.836730, expected 159.836800, off by -7.01e-05 |
+| defects | defect_link050: peak 9 57.540667 2e-4 | PASS | 57.540692, expected 57.540667, relative error 4.33e-07 |
+| defects | defect_link050: each 1 9 1 | PASS | all as expected |
+| independent integration | defect_pump500: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| defects | defect_pump500: total 4 | PASS | 4 spike(s) |
+| defects | defect_pump500: last 64.46165 0.003 | PASS | 64.461584, expected 64.461650 |
+| defects | defect_pump500: count 1 1 | PASS | 1 spike(s) |
+| defects | defect_pump500: arrival 1 12.96038 0.003 | PASS | 12.960318, expected 12.960380, off by -6.18e-05 |
+| defects | defect_pump500: peak 1 58.058994 2e-4 | PASS | 58.058977, expected 58.058994, relative error -2.99e-07 |
+| defects | defect_pump500: count 2 1 | PASS | 1 spike(s) |
+| defects | defect_pump500: arrival 2 30.97662 0.003 | PASS | 30.976592, expected 30.976620, off by -2.81e-05 |
+| defects | defect_pump500: peak 2 56.591782 2e-4 | PASS | 56.591817, expected 56.591782, relative error 6.23e-07 |
+| defects | defect_pump500: count 3 1 | PASS | 1 spike(s) |
+| defects | defect_pump500: arrival 3 48.23483 0.003 | PASS | 48.234771, expected 48.234830, off by -5.91e-05 |
+| defects | defect_pump500: peak 3 56.688865 2e-4 | PASS | 56.68889, expected 56.688865, relative error 4.49e-07 |
+| defects | defect_pump500: count 4 1 | PASS | 1 spike(s) |
+| defects | defect_pump500: arrival 4 64.46165 0.003 | PASS | 64.461584, expected 64.461650, off by -6.60e-05 |
+| defects | defect_pump500: peak 4 57.315839 2e-4 | PASS | 57.315821, expected 57.315839, relative error -3.20e-07 |
+| defects | defect_pump500: count 5 0 | PASS | 0 spike(s) |
+| defects | defect_pump500: count 6 0 | PASS | 0 spike(s) |
+| defects | defect_pump500: count 7 0 | PASS | 0 spike(s) |
+| defects | defect_pump500: count 8 0 | PASS | 0 spike(s) |
+| defects | defect_pump500: count 9 0 | PASS | 0 spike(s) |
+| defects | defect_pump500: each 1 4 1 | PASS | all as expected |
+| defects | defect_pump500: silent 5 9 | PASS | all as expected |
+| independent integration | defect_pump630: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| defects | defect_pump630: total 4 | PASS | 4 spike(s) |
+| defects | defect_pump630: last 64.90492 0.003 | PASS | 64.904855, expected 64.904920 |
+| defects | defect_pump630: count 1 1 | PASS | 1 spike(s) |
+| defects | defect_pump630: arrival 1 12.96038 0.003 | PASS | 12.960318, expected 12.960380, off by -6.16e-05 |
+| defects | defect_pump630: peak 1 58.058999 2e-4 | PASS | 58.058982, expected 58.058999, relative error -2.93e-07 |
+| defects | defect_pump630: count 2 1 | PASS | 1 spike(s) |
+| defects | defect_pump630: arrival 2 30.97713 0.003 | PASS | 30.977098, expected 30.977130, off by -3.15e-05 |
+| defects | defect_pump630: peak 2 56.590858 2e-4 | PASS | 56.590893, expected 56.590858, relative error 6.20e-07 |
+| defects | defect_pump630: count 3 1 | PASS | 1 spike(s) |
+| defects | defect_pump630: arrival 3 48.22614 0.003 | PASS | 48.226121, expected 48.226140, off by -1.88e-05 |
+| defects | defect_pump630: peak 3 56.696971 2e-4 | PASS | 56.697007, expected 56.696971, relative error 6.37e-07 |
+| defects | defect_pump630: count 4 1 | PASS | 1 spike(s) |
+| defects | defect_pump630: arrival 4 64.90492 0.003 | PASS | 64.904855, expected 64.904920, off by -6.48e-05 |
+| defects | defect_pump630: peak 4 56.956677 2e-4 | PASS | 56.956669, expected 56.956677, relative error -1.39e-07 |
+| defects | defect_pump630: count 5 0 | PASS | 0 spike(s) |
+| defects | defect_pump630: count 6 0 | PASS | 0 spike(s) |
+| defects | defect_pump630: count 7 0 | PASS | 0 spike(s) |
+| defects | defect_pump630: count 8 0 | PASS | 0 spike(s) |
+| defects | defect_pump630: count 9 0 | PASS | 0 spike(s) |
+| defects | defect_pump630: each 1 4 1 | PASS | all as expected |
+| defects | defect_pump630: silent 5 9 | PASS | all as expected |
+| independent integration | defect_pump640: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| defects | defect_pump640: total 9 | PASS | 9 spike(s) |
+| defects | defect_pump640: last 180.98616 0.003 | PASS | 180.986092, expected 180.986160 |
+| defects | defect_pump640: count 1 1 | PASS | 1 spike(s) |
+| defects | defect_pump640: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.15e-05 |
+| defects | defect_pump640: peak 1 58.058999 2e-4 | PASS | 58.058983, expected 58.058999, relative error -2.84e-07 |
+| defects | defect_pump640: count 2 1 | PASS | 1 spike(s) |
+| defects | defect_pump640: arrival 2 30.97728 0.003 | PASS | 30.977249, expected 30.977280, off by -3.09e-05 |
+| defects | defect_pump640: peak 2 56.590416 2e-4 | PASS | 56.590451, expected 56.590416, relative error 6.23e-07 |
+| defects | defect_pump640: count 3 1 | PASS | 1 spike(s) |
+| defects | defect_pump640: arrival 3 48.21666 0.003 | PASS | 48.216619, expected 48.216660, off by -4.06e-05 |
+| defects | defect_pump640: peak 3 56.702966 2e-4 | PASS | 56.702945, expected 56.702966, relative error -3.77e-07 |
+| defects | defect_pump640: count 4 1 | PASS | 1 spike(s) |
+| defects | defect_pump640: arrival 4 65.10325 0.003 | PASS | 65.103178, expected 65.103250, off by -7.16e-05 |
+| defects | defect_pump640: peak 4 56.850550 2e-4 | PASS | 56.850545, expected 56.85055, relative error -9.09e-08 |
+| defects | defect_pump640: count 5 1 | PASS | 1 spike(s) |
+| defects | defect_pump640: arrival 5 112.70314 0.003 | PASS | 112.703096, expected 112.703140, off by -4.37e-05 |
+| defects | defect_pump640: peak 5 47.522218 2e-4 | PASS | 47.522216, expected 47.522218, relative error -4.92e-08 |
+| defects | defect_pump640: count 6 1 | PASS | 1 spike(s) |
+| defects | defect_pump640: arrival 6 130.25169 0.003 | PASS | 130.251624, expected 130.251690, off by -6.62e-05 |
+| defects | defect_pump640: peak 6 56.651287 2e-4 | PASS | 56.651284, expected 56.651287, relative error -5.24e-08 |
+| defects | defect_pump640: count 7 1 | PASS | 1 spike(s) |
+| defects | defect_pump640: arrival 7 147.60948 0.003 | PASS | 147.609425, expected 147.609480, off by -5.54e-05 |
+| defects | defect_pump640: peak 7 56.695441 2e-4 | PASS | 56.695427, expected 56.695441, relative error -2.46e-07 |
+| defects | defect_pump640: count 8 1 | PASS | 1 spike(s) |
+| defects | defect_pump640: arrival 8 164.88729 0.003 | PASS | 164.887228, expected 164.887290, off by -6.17e-05 |
+| defects | defect_pump640: peak 8 56.686327 2e-4 | PASS | 56.686349, expected 56.686327, relative error 3.88e-07 |
+| defects | defect_pump640: count 9 1 | PASS | 1 spike(s) |
+| defects | defect_pump640: arrival 9 180.98616 0.003 | PASS | 180.986092, expected 180.986160, off by -6.80e-05 |
+| defects | defect_pump640: peak 9 57.540828 2e-4 | PASS | 57.540854, expected 57.540828, relative error 4.56e-07 |
+| defects | defect_pump640: each 1 9 1 | PASS | all as expected |
+| independent integration | defect_pump670: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| defects | defect_pump670: total 9 | PASS | 9 spike(s) |
+| defects | defect_pump670: last 145.68228 0.003 | PASS | 145.682224, expected 145.682280 |
+| defects | defect_pump670: count 1 1 | PASS | 1 spike(s) |
+| defects | defect_pump670: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.13e-05 |
+| defects | defect_pump670: peak 1 58.058999 2e-4 | PASS | 58.058982, expected 58.058999, relative error -2.98e-07 |
+| defects | defect_pump670: count 2 1 | PASS | 1 spike(s) |
+| defects | defect_pump670: arrival 2 30.97763 0.003 | PASS | 30.977596, expected 30.977630, off by -3.42e-05 |
+| defects | defect_pump670: peak 2 56.589517 2e-4 | PASS | 56.589552, expected 56.589517, relative error 6.13e-07 |
+| defects | defect_pump670: count 3 1 | PASS | 1 spike(s) |
+| defects | defect_pump670: arrival 3 48.16293 0.003 | PASS | 48.162881, expected 48.162930, off by -4.88e-05 |
+| defects | defect_pump670: peak 3 56.701201 2e-4 | PASS | 56.701183, expected 56.701201, relative error -3.12e-07 |
+| defects | defect_pump670: count 4 1 | PASS | 1 spike(s) |
+| defects | defect_pump670: arrival 4 65.81296 0.003 | PASS | 65.812907, expected 65.812960, off by -5.26e-05 |
+| defects | defect_pump670: peak 4 57.061983 2e-4 | PASS | 57.061965, expected 57.061983, relative error -3.17e-07 |
+| defects | defect_pump670: count 5 1 | PASS | 1 spike(s) |
+| defects | defect_pump670: arrival 5 76.00760 0.003 | PASS | 76.007484, expected 76.007600, off by -1.16e-04 |
+| defects | defect_pump670: peak 5 72.662589 2e-4 | PASS | 72.662555, expected 72.662589, relative error -4.74e-07 |
+| defects | defect_pump670: count 6 1 | PASS | 1 spike(s) |
+| defects | defect_pump670: arrival 6 94.90562 0.003 | PASS | 94.905552, expected 94.905620, off by -6.81e-05 |
+| defects | defect_pump670: peak 6 56.433374 2e-4 | PASS | 56.433366, expected 56.433374, relative error -1.44e-07 |
+| defects | defect_pump670: count 7 1 | PASS | 1 spike(s) |
+| defects | defect_pump670: arrival 7 112.26830 0.003 | PASS | 112.268256, expected 112.268300, off by -4.36e-05 |
+| defects | defect_pump670: peak 7 56.693761 2e-4 | PASS | 56.693739, expected 56.693761, relative error -3.93e-07 |
+| defects | defect_pump670: count 8 1 | PASS | 1 spike(s) |
+| defects | defect_pump670: arrival 8 129.57527 0.003 | PASS | 129.575249, expected 129.575270, off by -2.10e-05 |
+| defects | defect_pump670: peak 8 56.681964 2e-4 | PASS | 56.682001, expected 56.681964, relative error 6.56e-07 |
+| defects | defect_pump670: count 9 1 | PASS | 1 spike(s) |
+| defects | defect_pump670: arrival 9 145.68228 0.003 | PASS | 145.682224, expected 145.682280, off by -5.63e-05 |
+| defects | defect_pump670: peak 9 57.539707 2e-4 | PASS | 57.53974, expected 57.539707, relative error 5.73e-07 |
+| defects | defect_pump670: each 1 9 1 | PASS | all as expected |
+| independent integration | diode_backward: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| diode | diode_backward: total 17 | PASS | 17 spike(s) |
+| diode | diode_backward: last 384.96169 0.003 | PASS | 384.961625, expected 384.961690 |
+| diode | diode_backward: count 13 1 | PASS | 1 spike(s) |
+| diode | diode_backward: arrival 13 12.31711 0.003 | PASS | 12.317014, expected 12.317110, off by -9.61e-05 |
+| diode | diode_backward: peak 13 61.929579 2e-4 | PASS | 61.929532, expected 61.929579, relative error -7.52e-07 |
+| diode | diode_backward: count 10 1 | PASS | 1 spike(s) |
+| diode | diode_backward: arrival 10 138.82274 0.003 | PASS | 138.822723, expected 138.822740, off by -1.73e-05 |
+| diode | diode_backward: peak 10 54.588657 2e-4 | PASS | 54.588641, expected 54.588657, relative error -2.92e-07 |
+| diode | diode_backward: count 5 1 | PASS | 1 spike(s) |
+| diode | diode_backward: arrival 5 180.26829 0.003 | PASS | 180.268252, expected 180.268290, off by -3.84e-05 |
+| diode | diode_backward: peak 5 55.683693 2e-4 | PASS | 55.683671, expected 55.683693, relative error -3.93e-07 |
+| diode | diode_backward: count 1 1 | PASS | 1 spike(s) |
+| diode | diode_backward: arrival 1 384.96169 0.003 | PASS | 384.961625, expected 384.961690, off by -6.54e-05 |
+| diode | diode_backward: peak 1 55.906141 2e-4 | PASS | 55.906124, expected 55.906141, relative error -3.06e-07 |
+| diode | diode_backward: each 1 17 1 | PASS | all as expected |
+| independent integration | diode_forward: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| diode | diode_forward: total 5 | PASS | 5 spike(s) |
+| diode | diode_forward: last 231.34194 0.003 | PASS | 231.341868, expected 231.341940 |
+| diode | diode_forward: count 1 1 | PASS | 1 spike(s) |
+| diode | diode_forward: arrival 1 12.77173 0.003 | PASS | 12.771700, expected 12.771730, off by -2.95e-05 |
+| diode | diode_forward: peak 1 58.401923 2e-4 | PASS | 58.401894, expected 58.401923, relative error -5.00e-07 |
+| diode | diode_forward: count 5 1 | PASS | 1 spike(s) |
+| diode | diode_forward: arrival 5 231.34194 0.003 | PASS | 231.341868, expected 231.341940, off by -7.16e-05 |
+| diode | diode_forward: peak 5 55.360062 2e-4 | PASS | 55.360075, expected 55.360062, relative error 2.42e-07 |
+| diode | diode_forward: count 10 0 | PASS | 0 spike(s) |
+| diode | diode_forward: count 13 0 | PASS | 0 spike(s) |
+| diode | diode_forward: each 1 5 1 | PASS | all as expected |
+| diode | diode_forward: silent 6 17 | PASS | all as expected |
+| independent integration | diode_open: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| diode | diode_open: total 17 | PASS | 17 spike(s) |
+| diode | diode_open: last 255.59212 0.003 | PASS | 255.592057, expected 255.592120 |
+| diode | diode_open: count 1 1 | PASS | 1 spike(s) |
+| diode | diode_open: arrival 1 12.84079 0.003 | PASS | 12.840711, expected 12.840790, off by -7.87e-05 |
+| diode | diode_open: peak 1 58.275548 2e-4 | PASS | 58.275566, expected 58.275548, relative error 3.08e-07 |
+| diode | diode_open: count 5 1 | PASS | 1 spike(s) |
+| diode | diode_open: arrival 5 119.51887 0.003 | PASS | 119.518833, expected 119.518870, off by -3.68e-05 |
+| diode | diode_open: peak 5 56.002642 2e-4 | PASS | 56.00262, expected 56.002642, relative error -4.02e-07 |
+| diode | diode_open: count 10 1 | PASS | 1 spike(s) |
+| diode | diode_open: arrival 10 151.64286 0.003 | PASS | 151.642798, expected 151.642860, off by -6.16e-05 |
+| diode | diode_open: peak 10 54.886997 2e-4 | PASS | 54.887007, expected 54.886997, relative error 1.80e-07 |
+| diode | diode_open: count 13 1 | PASS | 1 spike(s) |
+| diode | diode_open: arrival 13 249.19019 0.003 | PASS | 249.190152, expected 249.190190, off by -3.79e-05 |
+| diode | diode_open: peak 13 53.202791 2e-4 | PASS | 53.2028, expected 53.202791, relative error 1.62e-07 |
+| diode | diode_open: each 1 17 1 | PASS | all as expected |
+| independent integration | grid_centre: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| lattices | grid_centre: total 50 | PASS | 50 spike(s) |
+| lattices | grid_centre: last 103.45761 0.003 | PASS | 103.457562, expected 103.457610 |
+| lattices | grid_centre: count 25 2 | PASS | 2 spike(s) |
+| lattices | grid_centre: arrival 25 14.31757 0.003 | PASS | 14.317540, expected 14.317570, off by -2.98e-05 |
+| lattices | grid_centre: peak 25 55.876510 2e-4 | PASS | 55.876494, expected 55.87651, relative error -2.91e-07 |
+| lattices | grid_centre: count 24 1 | PASS | 1 spike(s) |
+| lattices | grid_centre: arrival 24 43.55809 0.003 | PASS | 43.558071, expected 43.558090, off by -1.87e-05 |
+| lattices | grid_centre: peak 24 51.718317 2e-4 | PASS | 51.718314, expected 51.718317, relative error -6.06e-08 |
+| lattices | grid_centre: count 18 1 | PASS | 1 spike(s) |
+| lattices | grid_centre: arrival 18 43.55809 0.003 | PASS | 43.558071, expected 43.558090, off by -1.87e-05 |
+| lattices | grid_centre: peak 18 51.718317 2e-4 | PASS | 51.718314, expected 51.718317, relative error -6.06e-08 |
+| lattices | grid_centre: count 17 1 | PASS | 1 spike(s) |
+| lattices | grid_centre: arrival 17 50.57823 0.003 | PASS | 50.578207, expected 50.578230, off by -2.31e-05 |
+| lattices | grid_centre: peak 17 60.326179 2e-4 | PASS | 60.326206, expected 60.326179, relative error 4.41e-07 |
+| lattices | grid_centre: count 4 1 | PASS | 1 spike(s) |
+| lattices | grid_centre: arrival 4 85.90945 0.003 | PASS | 85.909450, expected 85.909450, off by -4.44e-07 |
+| lattices | grid_centre: peak 4 57.029747 2e-4 | PASS | 57.029747, expected 57.029747, relative error -2.90e-09 |
+| lattices | grid_centre: count 1 1 | PASS | 1 spike(s) |
+| lattices | grid_centre: arrival 1 103.45761 0.003 | PASS | 103.457562, expected 103.457610, off by -4.83e-05 |
+| lattices | grid_centre: peak 1 61.987394 2e-4 | PASS | 61.987385, expected 61.987394, relative error -1.44e-07 |
+| lattices | grid_centre: count 49 1 | PASS | 1 spike(s) |
+| lattices | grid_centre: arrival 49 103.45761 0.003 | PASS | 103.457562, expected 103.457610, off by -4.83e-05 |
+| lattices | grid_centre: peak 49 61.987394 2e-4 | PASS | 61.987385, expected 61.987394, relative error -1.44e-07 |
+| lattices | grid_centre: each 1 24 1 | PASS | all as expected |
+| lattices | grid_centre: each 26 49 1 | PASS | all as expected |
+| lattices | grid_centre: count 25 2 | PASS | 2 spike(s) |
+| lattices | grid_centre: together 1 49 1e-6 | PASS | apart by -5.258e-13 |
+| lattices | grid_centre: together 7 43 1e-6 | PASS | apart by 0.000e+00 |
+| lattices | grid_centre: together 1 7 1e-6 | PASS | apart by 1.080e-12 |
+| independent integration | grid_corner: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| lattices | grid_corner: total 36 | PASS | 36 spike(s) |
+| lattices | grid_corner: last 133.13706 0.003 | PASS | 133.137013, expected 133.137060 |
+| lattices | grid_corner: count 1 1 | PASS | 1 spike(s) |
+| lattices | grid_corner: arrival 1 13.37378 0.003 | PASS | 13.373757, expected 13.373780, off by -2.33e-05 |
+| lattices | grid_corner: peak 1 57.325453 2e-4 | PASS | 57.325429, expected 57.325453, relative error -4.20e-07 |
+| lattices | grid_corner: count 2 1 | PASS | 1 spike(s) |
+| lattices | grid_corner: arrival 2 34.75234 0.003 | PASS | 34.752291, expected 34.752340, off by -4.91e-05 |
+| lattices | grid_corner: peak 2 54.331755 2e-4 | PASS | 54.331753, expected 54.331755, relative error -4.38e-08 |
+| lattices | grid_corner: count 7 1 | PASS | 1 spike(s) |
+| lattices | grid_corner: arrival 7 34.75234 0.003 | PASS | 34.752291, expected 34.752340, off by -4.91e-05 |
+| lattices | grid_corner: peak 7 54.331755 2e-4 | PASS | 54.331753, expected 54.331755, relative error -4.38e-08 |
+| lattices | grid_corner: count 8 1 | PASS | 1 spike(s) |
+| lattices | grid_corner: arrival 8 41.34940 0.003 | PASS | 41.349360, expected 41.349400, off by -3.99e-05 |
+| lattices | grid_corner: peak 8 60.836436 2e-4 | PASS | 60.836436, expected 60.836436, relative error 4.04e-09 |
+| lattices | grid_corner: count 15 1 | PASS | 1 spike(s) |
+| lattices | grid_corner: arrival 15 65.64934 0.003 | PASS | 65.649287, expected 65.649340, off by -5.27e-05 |
+| lattices | grid_corner: peak 15 61.809386 2e-4 | PASS | 61.809387, expected 61.809386, relative error 1.47e-08 |
+| lattices | grid_corner: count 22 1 | PASS | 1 spike(s) |
+| lattices | grid_corner: arrival 22 86.11772 0.003 | PASS | 86.117683, expected 86.117720, off by -3.67e-05 |
+| lattices | grid_corner: peak 22 62.073557 2e-4 | PASS | 62.073536, expected 62.073557, relative error -3.45e-07 |
+| lattices | grid_corner: count 29 1 | PASS | 1 spike(s) |
+| lattices | grid_corner: arrival 29 108.11686 0.003 | PASS | 108.116829, expected 108.116860, off by -3.08e-05 |
+| lattices | grid_corner: peak 29 61.402317 2e-4 | PASS | 61.402301, expected 61.402317, relative error -2.65e-07 |
+| lattices | grid_corner: count 36 1 | PASS | 1 spike(s) |
+| lattices | grid_corner: arrival 36 133.13706 0.003 | PASS | 133.137013, expected 133.137060, off by -4.69e-05 |
+| lattices | grid_corner: peak 36 61.816533 2e-4 | PASS | 61.816553, expected 61.816533, relative error 3.21e-07 |
+| lattices | grid_corner: each 1 36 1 | PASS | all as expected |
+| lattices | grid_corner: together 2 7 1e-6 | PASS | apart by -1.421e-13 |
+| lattices | grid_corner: together 6 31 1e-6 | PASS | apart by -8.669e-13 |
+| independent integration | grid_strip: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| lattices | grid_strip: total 31 | PASS | 31 spike(s) |
+| lattices | grid_strip: last 187.24420 0.003 | PASS | 187.244208, expected 187.244200 |
+| lattices | grid_strip: count 1 1 | PASS | 1 spike(s) |
+| lattices | grid_strip: arrival 1 13.32608 0.003 | PASS | 13.326058, expected 13.326080, off by -2.19e-05 |
+| lattices | grid_strip: peak 1 53.137531 2e-4 | PASS | 53.137566, expected 53.137531, relative error 6.55e-07 |
+| lattices | grid_strip: count 11 1 | PASS | 1 spike(s) |
+| lattices | grid_strip: arrival 11 12.24817 0.003 | PASS | 12.247941, expected 12.248170, off by -2.29e-04 |
+| lattices | grid_strip: peak 11 58.352540 2e-4 | PASS | 58.352548, expected 58.35254, relative error 1.33e-07 |
+| lattices | grid_strip: count 5 1 | PASS | 1 spike(s) |
+| lattices | grid_strip: arrival 5 92.46571 0.003 | PASS | 92.465656, expected 92.465710, off by -5.38e-05 |
+| lattices | grid_strip: peak 5 58.874716 2e-4 | PASS | 58.874694, expected 58.874716, relative error -3.76e-07 |
+| lattices | grid_strip: count 15 1 | PASS | 1 spike(s) |
+| lattices | grid_strip: arrival 15 84.93301 0.003 | PASS | 84.932976, expected 84.933010, off by -3.40e-05 |
+| lattices | grid_strip: peak 15 56.678752 2e-4 | PASS | 56.678771, expected 56.678752, relative error 3.43e-07 |
+| lattices | grid_strip: count 10 1 | PASS | 1 spike(s) |
+| lattices | grid_strip: arrival 10 187.24420 0.003 | PASS | 187.244208, expected 187.244200, off by 7.74e-06 |
+| lattices | grid_strip: peak 10 53.703781 2e-4 | PASS | 53.703809, expected 53.703781, relative error 5.23e-07 |
+| lattices | grid_strip: count 20 1 | PASS | 1 spike(s) |
+| lattices | grid_strip: arrival 20 181.40522 0.003 | PASS | 181.405149, expected 181.405220, off by -7.14e-05 |
+| lattices | grid_strip: peak 20 59.755562 2e-4 | PASS | 59.755695, expected 59.755562, relative error 2.22e-06 |
+| lattices | grid_strip: count 30 1 | PASS | 1 spike(s) |
+| lattices | grid_strip: arrival 30 187.24420 0.003 | PASS | 187.244208, expected 187.244200, off by 7.74e-06 |
+| lattices | grid_strip: peak 30 53.703781 2e-4 | PASS | 53.703809, expected 53.703781, relative error 5.23e-07 |
+| lattices | grid_strip: each 1 11 1 | PASS | all as expected |
+| lattices | grid_strip: count 12 2 | PASS | 2 spike(s) |
+| lattices | grid_strip: each 13 30 1 | PASS | all as expected |
+| lattices | grid_strip: together 10 30 1e-6 | PASS | apart by -6.509e-12 |
+| independent integration | grid_two_corners: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| lattices | grid_two_corners: total 36 | PASS | 36 spike(s) |
+| lattices | grid_two_corners: last 97.32757 0.003 | PASS | 97.327541, expected 97.327570 |
+| lattices | grid_two_corners: count 1 1 | PASS | 1 spike(s) |
+| lattices | grid_two_corners: arrival 1 13.37378 0.003 | PASS | 13.373756, expected 13.373780, off by -2.39e-05 |
+| lattices | grid_two_corners: peak 1 57.325431 2e-4 | PASS | 57.325406, expected 57.325431, relative error -4.30e-07 |
+| lattices | grid_two_corners: count 8 1 | PASS | 1 spike(s) |
+| lattices | grid_two_corners: arrival 8 41.33954 0.003 | PASS | 41.339499, expected 41.339540, off by -4.13e-05 |
+| lattices | grid_two_corners: peak 8 60.838949 2e-4 | PASS | 60.838962, expected 60.838949, relative error 2.07e-07 |
+| lattices | grid_two_corners: count 15 1 | PASS | 1 spike(s) |
+| lattices | grid_two_corners: arrival 15 65.89734 0.003 | PASS | 65.897308, expected 65.897340, off by -3.16e-05 |
+| lattices | grid_two_corners: peak 15 61.027844 2e-4 | PASS | 61.027846, expected 61.027844, relative error 3.78e-08 |
+| lattices | grid_two_corners: count 6 1 | PASS | 1 spike(s) |
+| lattices | grid_two_corners: arrival 6 97.32757 0.003 | PASS | 97.327541, expected 97.327570, off by -2.91e-05 |
+| lattices | grid_two_corners: peak 6 61.698736 2e-4 | PASS | 61.698772, expected 61.698736, relative error 5.85e-07 |
+| lattices | grid_two_corners: count 31 1 | PASS | 1 spike(s) |
+| lattices | grid_two_corners: arrival 31 97.32757 0.003 | PASS | 97.327541, expected 97.327570, off by -2.91e-05 |
+| lattices | grid_two_corners: peak 31 61.698736 2e-4 | PASS | 61.698772, expected 61.698736, relative error 5.85e-07 |
+| lattices | grid_two_corners: count 22 1 | PASS | 1 spike(s) |
+| lattices | grid_two_corners: arrival 22 65.89734 0.003 | PASS | 65.897308, expected 65.897340, off by -3.16e-05 |
+| lattices | grid_two_corners: peak 22 61.027844 2e-4 | PASS | 61.027846, expected 61.027844, relative error 3.78e-08 |
+| lattices | grid_two_corners: count 36 1 | PASS | 1 spike(s) |
+| lattices | grid_two_corners: arrival 36 13.37378 0.003 | PASS | 13.373756, expected 13.373780, off by -2.39e-05 |
+| lattices | grid_two_corners: peak 36 57.325431 2e-4 | PASS | 57.325406, expected 57.325431, relative error -4.30e-07 |
+| lattices | grid_two_corners: each 1 36 1 | PASS | all as expected |
+| lattices | grid_two_corners: together 1 36 1e-6 | PASS | apart by -5.329e-15 |
+| lattices | grid_two_corners: together 6 31 1e-6 | PASS | apart by 2.842e-14 |
+| independent integration | grid_weak: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| lattices | grid_weak: total 1 | PASS | 1 spike(s) |
+| lattices | grid_weak: last 9.04620 0.003 | PASS | 9.046115, expected 9.046200 |
+| lattices | grid_weak: count 1 1 | PASS | 1 spike(s) |
+| lattices | grid_weak: arrival 1 9.04620 0.003 | PASS | 9.046115, expected 9.046200, off by -8.48e-05 |
+| lattices | grid_weak: peak 1 60.504492 2e-4 | PASS | 60.504501, expected 60.504492, relative error 1.49e-07 |
+| lattices | grid_weak: count 2 0 | PASS | 0 spike(s) |
+| lattices | grid_weak: count 6 0 | PASS | 0 spike(s) |
+| lattices | grid_weak: count 25 0 | PASS | 0 spike(s) |
+| lattices | grid_weak: total 1 | PASS | 1 spike(s) |
+| independent integration | junction_and_antiphase: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| junctions | junction_and_antiphase: total 10 | PASS | 10 spike(s) |
+| junctions | junction_and_antiphase: last 81.57065 0.003 | PASS | 81.570616, expected 81.570650 |
+| junctions | junction_and_antiphase: count 1 1 | PASS | 1 spike(s) |
+| junctions | junction_and_antiphase: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| junctions | junction_and_antiphase: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.96e-07 |
+| junctions | junction_and_antiphase: count 3 1 | PASS | 1 spike(s) |
+| junctions | junction_and_antiphase: arrival 3 48.19706 0.003 | PASS | 48.196988, expected 48.197060, off by -7.16e-05 |
+| junctions | junction_and_antiphase: peak 3 56.713883 2e-4 | PASS | 56.713888, expected 56.713883, relative error 9.57e-08 |
+| junctions | junction_and_antiphase: count 4 1 | PASS | 1 spike(s) |
+| junctions | junction_and_antiphase: arrival 4 65.47521 0.003 | PASS | 65.475194, expected 65.475210, off by -1.60e-05 |
+| junctions | junction_and_antiphase: peak 4 56.685949 2e-4 | PASS | 56.685986, expected 56.685949, relative error 6.50e-07 |
+| junctions | junction_and_antiphase: count 6 1 | PASS | 1 spike(s) |
+| junctions | junction_and_antiphase: arrival 6 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| junctions | junction_and_antiphase: peak 6 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.96e-07 |
+| junctions | junction_and_antiphase: count 8 1 | PASS | 1 spike(s) |
+| junctions | junction_and_antiphase: arrival 8 48.19706 0.003 | PASS | 48.196988, expected 48.197060, off by -7.16e-05 |
+| junctions | junction_and_antiphase: peak 8 56.713883 2e-4 | PASS | 56.713888, expected 56.713883, relative error 9.57e-08 |
+| junctions | junction_and_antiphase: count 9 1 | PASS | 1 spike(s) |
+| junctions | junction_and_antiphase: arrival 9 65.47521 0.003 | PASS | 65.475194, expected 65.475210, off by -1.60e-05 |
+| junctions | junction_and_antiphase: peak 9 56.685949 2e-4 | PASS | 56.685986, expected 56.685949, relative error 6.50e-07 |
+| junctions | junction_and_antiphase: count 11 0 | PASS | 0 spike(s) |
+| junctions | junction_and_antiphase: count 13 0 | PASS | 0 spike(s) |
+| junctions | junction_and_antiphase: count 14 0 | PASS | 0 spike(s) |
+| junctions | junction_and_antiphase: count 16 0 | PASS | 0 spike(s) |
+| junctions | junction_and_antiphase: each 1 10 1 | PASS | all as expected |
+| junctions | junction_and_antiphase: silent 11 16 | PASS | all as expected |
+| independent integration | junction_and_both: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| junctions | junction_and_both: total 16 | PASS | 16 spike(s) |
+| junctions | junction_and_both: last 184.14538 0.003 | PASS | 184.145303, expected 184.145380 |
+| junctions | junction_and_both: count 1 1 | PASS | 1 spike(s) |
+| junctions | junction_and_both: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| junctions | junction_and_both: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.96e-07 |
+| junctions | junction_and_both: count 3 1 | PASS | 1 spike(s) |
+| junctions | junction_and_both: arrival 3 48.19762 0.003 | PASS | 48.197550, expected 48.197620, off by -7.04e-05 |
+| junctions | junction_and_both: peak 3 56.713010 2e-4 | PASS | 56.713014, expected 56.71301, relative error 6.27e-08 |
+| junctions | junction_and_both: count 4 1 | PASS | 1 spike(s) |
+| junctions | junction_and_both: arrival 4 65.46218 0.003 | PASS | 65.462124, expected 65.462180, off by -5.62e-05 |
+| junctions | junction_and_both: peak 4 56.697282 2e-4 | PASS | 56.697265, expected 56.697282, relative error -3.03e-07 |
+| junctions | junction_and_both: count 6 1 | PASS | 1 spike(s) |
+| junctions | junction_and_both: arrival 6 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| junctions | junction_and_both: peak 6 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.96e-07 |
+| junctions | junction_and_both: count 8 1 | PASS | 1 spike(s) |
+| junctions | junction_and_both: arrival 8 48.19762 0.003 | PASS | 48.197550, expected 48.197620, off by -7.04e-05 |
+| junctions | junction_and_both: peak 8 56.713010 2e-4 | PASS | 56.713014, expected 56.71301, relative error 6.27e-08 |
+| junctions | junction_and_both: count 9 1 | PASS | 1 spike(s) |
+| junctions | junction_and_both: arrival 9 65.46218 0.003 | PASS | 65.462124, expected 65.462180, off by -5.62e-05 |
+| junctions | junction_and_both: peak 9 56.697282 2e-4 | PASS | 56.697265, expected 56.697282, relative error -3.03e-07 |
+| junctions | junction_and_both: count 11 1 | PASS | 1 spike(s) |
+| junctions | junction_and_both: arrival 11 99.16577 0.003 | PASS | 99.165725, expected 99.165770, off by -4.51e-05 |
+| junctions | junction_and_both: peak 11 56.955514 2e-4 | PASS | 56.955492, expected 56.955514, relative error -3.79e-07 |
+| junctions | junction_and_both: count 13 1 | PASS | 1 spike(s) |
+| junctions | junction_and_both: arrival 13 133.55844 0.003 | PASS | 133.558381, expected 133.558440, off by -5.86e-05 |
+| junctions | junction_and_both: peak 13 56.712295 2e-4 | PASS | 56.712283, expected 56.712295, relative error -2.14e-07 |
+| junctions | junction_and_both: count 14 1 | PASS | 1 spike(s) |
+| junctions | junction_and_both: arrival 14 150.79068 0.003 | PASS | 150.790612, expected 150.790680, off by -6.83e-05 |
+| junctions | junction_and_both: peak 14 56.711729 2e-4 | PASS | 56.711745, expected 56.711729, relative error 2.81e-07 |
+| junctions | junction_and_both: count 16 1 | PASS | 1 spike(s) |
+| junctions | junction_and_both: arrival 16 184.14538 0.003 | PASS | 184.145303, expected 184.145380, off by -7.70e-05 |
+| junctions | junction_and_both: peak 16 57.541846 2e-4 | PASS | 57.541855, expected 57.541846, relative error 1.49e-07 |
+| junctions | junction_and_both: each 1 16 1 | PASS | all as expected |
+| independent integration | junction_and_first: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| junctions | junction_and_first: total 5 | PASS | 5 spike(s) |
+| junctions | junction_and_first: last 81.83045 0.003 | PASS | 81.830407, expected 81.830450 |
+| junctions | junction_and_first: count 1 1 | PASS | 1 spike(s) |
+| junctions | junction_and_first: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| junctions | junction_and_first: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.96e-07 |
+| junctions | junction_and_first: count 3 1 | PASS | 1 spike(s) |
+| junctions | junction_and_first: arrival 3 48.19734 0.003 | PASS | 48.197269, expected 48.197340, off by -7.10e-05 |
+| junctions | junction_and_first: peak 3 56.713447 2e-4 | PASS | 56.713451, expected 56.713447, relative error 7.03e-08 |
+| junctions | junction_and_first: count 4 1 | PASS | 1 spike(s) |
+| junctions | junction_and_first: arrival 4 65.46869 0.003 | PASS | 65.468656, expected 65.468690, off by -3.39e-05 |
+| junctions | junction_and_first: peak 4 56.691659 2e-4 | PASS | 56.691637, expected 56.691659, relative error -3.97e-07 |
+| junctions | junction_and_first: count 6 0 | PASS | 0 spike(s) |
+| junctions | junction_and_first: count 8 0 | PASS | 0 spike(s) |
+| junctions | junction_and_first: count 9 0 | PASS | 0 spike(s) |
+| junctions | junction_and_first: count 11 0 | PASS | 0 spike(s) |
+| junctions | junction_and_first: count 13 0 | PASS | 0 spike(s) |
+| junctions | junction_and_first: count 14 0 | PASS | 0 spike(s) |
+| junctions | junction_and_first: count 16 0 | PASS | 0 spike(s) |
+| junctions | junction_and_first: each 1 5 1 | PASS | all as expected |
+| junctions | junction_and_first: silent 6 16 | PASS | all as expected |
+| independent integration | junction_and_offset02: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| junctions | junction_and_offset02: total 16 | PASS | 16 spike(s) |
+| junctions | junction_and_offset02: last 187.17988 0.003 | PASS | 187.179840, expected 187.179880 |
+| junctions | junction_and_offset02: count 1 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset02: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| junctions | junction_and_offset02: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| junctions | junction_and_offset02: count 3 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset02: arrival 3 48.19780 0.003 | PASS | 48.197724, expected 48.197800, off by -7.63e-05 |
+| junctions | junction_and_offset02: peak 3 56.712969 2e-4 | PASS | 56.712973, expected 56.712969, relative error 6.57e-08 |
+| junctions | junction_and_offset02: count 4 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset02: arrival 4 65.45904 0.003 | PASS | 65.458975, expected 65.459040, off by -6.46e-05 |
+| junctions | junction_and_offset02: peak 4 56.698005 2e-4 | PASS | 56.697992, expected 56.698005, relative error -2.36e-07 |
+| junctions | junction_and_offset02: count 6 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset02: arrival 6 14.96038 0.003 | PASS | 14.960319, expected 14.960380, off by -6.14e-05 |
+| junctions | junction_and_offset02: peak 6 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| junctions | junction_and_offset02: count 8 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset02: arrival 8 50.19722 0.003 | PASS | 50.197145, expected 50.197220, off by -7.49e-05 |
+| junctions | junction_and_offset02: peak 8 56.713193 2e-4 | PASS | 56.713198, expected 56.713193, relative error 8.20e-08 |
+| junctions | junction_and_offset02: count 9 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset02: arrival 9 67.46782 0.003 | PASS | 67.467781, expected 67.467820, off by -3.87e-05 |
+| junctions | junction_and_offset02: peak 9 56.695488 2e-4 | PASS | 56.695466, expected 56.695488, relative error -3.82e-07 |
+| junctions | junction_and_offset02: count 11 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset02: arrival 11 102.07471 0.003 | PASS | 102.074688, expected 102.074710, off by -2.15e-05 |
+| junctions | junction_and_offset02: peak 11 56.665427 2e-4 | PASS | 56.665402, expected 56.665427, relative error -4.49e-07 |
+| junctions | junction_and_offset02: count 13 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset02: arrival 13 136.58075 0.003 | PASS | 136.580705, expected 136.580750, off by -4.47e-05 |
+| junctions | junction_and_offset02: peak 13 56.704181 2e-4 | PASS | 56.704212, expected 56.704181, relative error 5.52e-07 |
+| junctions | junction_and_offset02: count 14 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset02: arrival 14 153.82199 0.003 | PASS | 153.821962, expected 153.821990, off by -2.83e-05 |
+| junctions | junction_and_offset02: peak 14 56.710622 2e-4 | PASS | 56.710598, expected 56.710622, relative error -4.26e-07 |
+| junctions | junction_and_offset02: count 16 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset02: arrival 16 187.17988 0.003 | PASS | 187.179840, expected 187.179880, off by -4.00e-05 |
+| junctions | junction_and_offset02: peak 16 57.541686 2e-4 | PASS | 57.541722, expected 57.541686, relative error 6.28e-07 |
+| junctions | junction_and_offset02: each 1 16 1 | PASS | all as expected |
+| independent integration | junction_and_offset05: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| junctions | junction_and_offset05: total 16 | PASS | 16 spike(s) |
+| junctions | junction_and_offset05: last 206.56130 0.003 | PASS | 206.561237, expected 206.561300 |
+| junctions | junction_and_offset05: count 1 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset05: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| junctions | junction_and_offset05: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.96e-07 |
+| junctions | junction_and_offset05: count 3 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset05: arrival 3 48.19771 0.003 | PASS | 48.197636, expected 48.197710, off by -7.35e-05 |
+| junctions | junction_and_offset05: peak 3 56.713093 2e-4 | PASS | 56.713097, expected 56.713093, relative error 7.50e-08 |
+| junctions | junction_and_offset05: count 4 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset05: arrival 4 65.45891 0.003 | PASS | 65.458846, expected 65.458910, off by -6.37e-05 |
+| junctions | junction_and_offset05: peak 4 56.695743 2e-4 | PASS | 56.69573, expected 56.695743, relative error -2.27e-07 |
+| junctions | junction_and_offset05: count 6 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset05: arrival 6 17.96038 0.003 | PASS | 17.960319, expected 17.960380, off by -6.14e-05 |
+| junctions | junction_and_offset05: peak 6 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.99e-07 |
+| junctions | junction_and_offset05: count 8 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset05: arrival 8 53.19634 0.003 | PASS | 53.196265, expected 53.196340, off by -7.49e-05 |
+| junctions | junction_and_offset05: peak 8 56.713704 2e-4 | PASS | 56.71371, expected 56.713704, relative error 1.01e-07 |
+| junctions | junction_and_offset05: count 9 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset05: arrival 9 70.48002 0.003 | PASS | 70.479985, expected 70.480020, off by -3.55e-05 |
+| junctions | junction_and_offset05: peak 9 56.692502 2e-4 | PASS | 56.692534, expected 56.692502, relative error 5.67e-07 |
+| junctions | junction_and_offset05: count 11 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset05: arrival 11 120.80774 0.003 | PASS | 120.807675, expected 120.807740, off by -6.50e-05 |
+| junctions | junction_and_offset05: peak 11 55.507941 2e-4 | PASS | 55.50793, expected 55.507941, relative error -1.90e-07 |
+| junctions | junction_and_offset05: count 13 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset05: arrival 13 155.94298 0.003 | PASS | 155.942910, expected 155.942980, off by -7.05e-05 |
+| junctions | junction_and_offset05: peak 13 56.696501 2e-4 | PASS | 56.696513, expected 56.696501, relative error 2.10e-07 |
+| junctions | junction_and_offset05: count 14 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset05: arrival 14 173.19959 0.003 | PASS | 173.199514, expected 173.199590, off by -7.61e-05 |
+| junctions | junction_and_offset05: peak 14 56.708522 2e-4 | PASS | 56.708523, expected 56.708522, relative error 1.37e-08 |
+| junctions | junction_and_offset05: count 16 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset05: arrival 16 206.56130 0.003 | PASS | 206.561237, expected 206.561300, off by -6.28e-05 |
+| junctions | junction_and_offset05: peak 16 57.541562 2e-4 | PASS | 57.541544, expected 57.541562, relative error -3.16e-07 |
+| junctions | junction_and_offset05: each 1 16 1 | PASS | all as expected |
+| independent integration | junction_and_offset10: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| junctions | junction_and_offset10: total 10 | PASS | 10 spike(s) |
+| junctions | junction_and_offset10: last 91.64954 0.003 | PASS | 91.649466, expected 91.649540 |
+| junctions | junction_and_offset10: count 1 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset10: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| junctions | junction_and_offset10: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| junctions | junction_and_offset10: count 3 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset10: arrival 3 48.19735 0.003 | PASS | 48.197279, expected 48.197350, off by -7.13e-05 |
+| junctions | junction_and_offset10: peak 3 56.713444 2e-4 | PASS | 56.713448, expected 56.713444, relative error 7.22e-08 |
+| junctions | junction_and_offset10: count 4 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset10: arrival 4 65.46561 0.003 | PASS | 65.465564, expected 65.465610, off by -4.60e-05 |
+| junctions | junction_and_offset10: peak 4 56.690864 2e-4 | PASS | 56.690843, expected 56.690864, relative error -3.62e-07 |
+| junctions | junction_and_offset10: count 6 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset10: arrival 6 22.96038 0.003 | PASS | 22.960319, expected 22.960380, off by -6.14e-05 |
+| junctions | junction_and_offset10: peak 6 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.90e-07 |
+| junctions | junction_and_offset10: count 8 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset10: arrival 8 58.19555 0.003 | PASS | 58.195478, expected 58.195550, off by -7.17e-05 |
+| junctions | junction_and_offset10: peak 8 56.714725 2e-4 | PASS | 56.714732, expected 56.714725, relative error 1.27e-07 |
+| junctions | junction_and_offset10: count 9 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset10: arrival 9 75.50210 0.003 | PASS | 75.502034, expected 75.502100, off by -6.57e-05 |
+| junctions | junction_and_offset10: peak 9 56.675973 2e-4 | PASS | 56.67597, expected 56.675973, relative error -5.96e-08 |
+| junctions | junction_and_offset10: count 11 0 | PASS | 0 spike(s) |
+| junctions | junction_and_offset10: count 13 0 | PASS | 0 spike(s) |
+| junctions | junction_and_offset10: count 14 0 | PASS | 0 spike(s) |
+| junctions | junction_and_offset10: count 16 0 | PASS | 0 spike(s) |
+| junctions | junction_and_offset10: silent 11 16 | PASS | all as expected |
+| independent integration | junction_and_offset40: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| junctions | junction_and_offset40: total 10 | PASS | 10 spike(s) |
+| junctions | junction_and_offset40: last 121.54577 0.003 | PASS | 121.545693, expected 121.545770 |
+| junctions | junction_and_offset40: count 1 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset40: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| junctions | junction_and_offset40: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.96e-07 |
+| junctions | junction_and_offset40: count 3 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset40: arrival 3 48.19734 0.003 | PASS | 48.197269, expected 48.197340, off by -7.10e-05 |
+| junctions | junction_and_offset40: peak 3 56.713447 2e-4 | PASS | 56.713451, expected 56.713447, relative error 7.33e-08 |
+| junctions | junction_and_offset40: count 4 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset40: arrival 4 65.46874 0.003 | PASS | 65.468701, expected 65.468740, off by -3.85e-05 |
+| junctions | junction_and_offset40: peak 4 56.691433 2e-4 | PASS | 56.691411, expected 56.691433, relative error -3.85e-07 |
+| junctions | junction_and_offset40: count 6 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset40: arrival 6 52.96041 0.003 | PASS | 52.960345, expected 52.960410, off by -6.53e-05 |
+| junctions | junction_and_offset40: peak 6 58.059018 2e-4 | PASS | 58.059001, expected 58.059018, relative error -2.98e-07 |
+| junctions | junction_and_offset40: count 8 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset40: arrival 8 88.17410 0.003 | PASS | 88.174082, expected 88.174100, off by -1.82e-05 |
+| junctions | junction_and_offset40: peak 8 56.735185 2e-4 | PASS | 56.735161, expected 56.735185, relative error -4.25e-07 |
+| junctions | junction_and_offset40: count 9 1 | PASS | 1 spike(s) |
+| junctions | junction_and_offset40: arrival 9 106.01192 0.003 | PASS | 106.011862, expected 106.011920, off by -5.81e-05 |
+| junctions | junction_and_offset40: peak 9 56.560269 2e-4 | PASS | 56.560252, expected 56.560269, relative error -2.97e-07 |
+| junctions | junction_and_offset40: count 11 0 | PASS | 0 spike(s) |
+| junctions | junction_and_offset40: count 13 0 | PASS | 0 spike(s) |
+| junctions | junction_and_offset40: count 14 0 | PASS | 0 spike(s) |
+| junctions | junction_and_offset40: count 16 0 | PASS | 0 spike(s) |
+| junctions | junction_and_offset40: silent 11 16 | PASS | all as expected |
+| independent integration | junction_and_quadrature: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| junctions | junction_and_quadrature: total 16 | PASS | 16 spike(s) |
+| junctions | junction_and_quadrature: last 215.47098 0.003 | PASS | 215.470944, expected 215.470980 |
+| junctions | junction_and_quadrature: count 1 1 | PASS | 1 spike(s) |
+| junctions | junction_and_quadrature: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| junctions | junction_and_quadrature: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.96e-07 |
+| junctions | junction_and_quadrature: count 3 1 | PASS | 1 spike(s) |
+| junctions | junction_and_quadrature: arrival 3 48.19667 0.003 | PASS | 48.196603, expected 48.196670, off by -6.74e-05 |
+| junctions | junction_and_quadrature: peak 3 56.713803 2e-4 | PASS | 56.713808, expected 56.713803, relative error 9.41e-08 |
+| junctions | junction_and_quadrature: count 4 1 | PASS | 1 spike(s) |
+| junctions | junction_and_quadrature: arrival 4 65.48145 0.003 | PASS | 65.481401, expected 65.481450, off by -4.85e-05 |
+| junctions | junction_and_quadrature: peak 4 56.691001 2e-4 | PASS | 56.691032, expected 56.691001, relative error 5.41e-07 |
+| junctions | junction_and_quadrature: count 6 1 | PASS | 1 spike(s) |
+| junctions | junction_and_quadrature: arrival 6 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| junctions | junction_and_quadrature: peak 6 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.96e-07 |
+| junctions | junction_and_quadrature: count 8 1 | PASS | 1 spike(s) |
+| junctions | junction_and_quadrature: arrival 8 48.19801 0.003 | PASS | 48.197936, expected 48.198010, off by -7.44e-05 |
+| junctions | junction_and_quadrature: peak 8 56.713090 2e-4 | PASS | 56.713093, expected 56.71309, relative error 6.05e-08 |
+| junctions | junction_and_quadrature: count 9 1 | PASS | 1 spike(s) |
+| junctions | junction_and_quadrature: arrival 9 65.45601 0.003 | PASS | 65.455946, expected 65.456010, off by -6.38e-05 |
+| junctions | junction_and_quadrature: peak 9 56.692169 2e-4 | PASS | 56.69216, expected 56.692169, relative error -1.66e-07 |
+| junctions | junction_and_quadrature: count 11 1 | PASS | 1 spike(s) |
+| junctions | junction_and_quadrature: arrival 11 129.82507 0.003 | PASS | 129.825047, expected 129.825070, off by -2.26e-05 |
+| junctions | junction_and_quadrature: peak 11 55.174592 2e-4 | PASS | 55.174626, expected 55.174592, relative error 6.13e-07 |
+| junctions | junction_and_quadrature: count 13 1 | PASS | 1 spike(s) |
+| junctions | junction_and_quadrature: arrival 13 164.85556 0.003 | PASS | 164.855490, expected 164.855560, off by -7.02e-05 |
+| junctions | junction_and_quadrature: peak 13 56.696490 2e-4 | PASS | 56.696482, expected 56.69649, relative error -1.47e-07 |
+| junctions | junction_and_quadrature: count 14 1 | PASS | 1 spike(s) |
+| junctions | junction_and_quadrature: arrival 14 182.10957 0.003 | PASS | 182.109510, expected 182.109570, off by -5.97e-05 |
+| junctions | junction_and_quadrature: peak 14 56.708901 2e-4 | PASS | 56.708887, expected 56.708901, relative error -2.39e-07 |
+| junctions | junction_and_quadrature: count 16 1 | PASS | 1 spike(s) |
+| junctions | junction_and_quadrature: arrival 16 215.47098 0.003 | PASS | 215.470944, expected 215.470980, off by -3.55e-05 |
+| junctions | junction_and_quadrature: peak 16 57.541597 2e-4 | PASS | 57.54157, expected 57.541597, relative error -4.61e-07 |
+| junctions | junction_and_quadrature: each 1 16 1 | PASS | all as expected |
+| independent integration | junction_and_second: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| junctions | junction_and_second: total 5 | PASS | 5 spike(s) |
+| junctions | junction_and_second: last 81.83045 0.003 | PASS | 81.830407, expected 81.830450 |
+| junctions | junction_and_second: count 1 0 | PASS | 0 spike(s) |
+| junctions | junction_and_second: count 3 0 | PASS | 0 spike(s) |
+| junctions | junction_and_second: count 4 0 | PASS | 0 spike(s) |
+| junctions | junction_and_second: count 6 1 | PASS | 1 spike(s) |
+| junctions | junction_and_second: arrival 6 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| junctions | junction_and_second: peak 6 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.96e-07 |
+| junctions | junction_and_second: count 8 1 | PASS | 1 spike(s) |
+| junctions | junction_and_second: arrival 8 48.19734 0.003 | PASS | 48.197269, expected 48.197340, off by -7.10e-05 |
+| junctions | junction_and_second: peak 8 56.713447 2e-4 | PASS | 56.713451, expected 56.713447, relative error 7.03e-08 |
+| junctions | junction_and_second: count 9 1 | PASS | 1 spike(s) |
+| junctions | junction_and_second: arrival 9 65.46869 0.003 | PASS | 65.468656, expected 65.468690, off by -3.39e-05 |
+| junctions | junction_and_second: peak 9 56.691659 2e-4 | PASS | 56.691637, expected 56.691659, relative error -3.97e-07 |
+| junctions | junction_and_second: count 11 0 | PASS | 0 spike(s) |
+| junctions | junction_and_second: count 13 0 | PASS | 0 spike(s) |
+| junctions | junction_and_second: count 14 0 | PASS | 0 spike(s) |
+| junctions | junction_and_second: count 16 0 | PASS | 0 spike(s) |
+| junctions | junction_and_second: each 6 10 1 | PASS | all as expected |
+| junctions | junction_and_second: silent 11 16 | PASS | all as expected |
+| junctions | junction_and_second: silent 1 5 | PASS | all as expected |
+| independent integration | junction_fanout: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| junctions | junction_fanout: total 16 | PASS | 16 spike(s) |
+| junctions | junction_fanout: last 187.10103 0.003 | PASS | 187.100950, expected 187.101030 |
+| junctions | junction_fanout: count 1 1 | PASS | 1 spike(s) |
+| junctions | junction_fanout: arrival 1 187.10103 0.003 | PASS | 187.100950, expected 187.101030, off by -7.97e-05 |
+| junctions | junction_fanout: peak 1 57.541246 2e-4 | PASS | 57.541245, expected 57.541246, relative error -2.60e-08 |
+| junctions | junction_fanout: count 3 1 | PASS | 1 spike(s) |
+| junctions | junction_fanout: arrival 3 153.73441 0.003 | PASS | 153.734358, expected 153.734410, off by -5.23e-05 |
+| junctions | junction_fanout: peak 3 56.703253 2e-4 | PASS | 56.703279, expected 56.703253, relative error 4.57e-07 |
+| junctions | junction_fanout: count 4 1 | PASS | 1 spike(s) |
+| junctions | junction_fanout: arrival 4 136.44755 0.003 | PASS | 136.447482, expected 136.447550, off by -6.82e-05 |
+| junctions | junction_fanout: peak 4 56.705163 2e-4 | PASS | 56.705167, expected 56.705163, relative error 7.62e-08 |
+| junctions | junction_fanout: count 6 1 | PASS | 1 spike(s) |
+| junctions | junction_fanout: arrival 6 187.10103 0.003 | PASS | 187.100950, expected 187.101030, off by -7.97e-05 |
+| junctions | junction_fanout: peak 6 57.541246 2e-4 | PASS | 57.541245, expected 57.541246, relative error -2.60e-08 |
+| junctions | junction_fanout: count 8 1 | PASS | 1 spike(s) |
+| junctions | junction_fanout: arrival 8 153.73441 0.003 | PASS | 153.734358, expected 153.734410, off by -5.23e-05 |
+| junctions | junction_fanout: peak 8 56.703253 2e-4 | PASS | 56.703279, expected 56.703253, relative error 4.57e-07 |
+| junctions | junction_fanout: count 9 1 | PASS | 1 spike(s) |
+| junctions | junction_fanout: arrival 9 136.44755 0.003 | PASS | 136.447482, expected 136.447550, off by -6.82e-05 |
+| junctions | junction_fanout: peak 9 56.705163 2e-4 | PASS | 56.705167, expected 56.705163, relative error 7.62e-08 |
+| junctions | junction_fanout: count 11 1 | PASS | 1 spike(s) |
+| junctions | junction_fanout: arrival 11 101.21776 0.003 | PASS | 101.217728, expected 101.217760, off by -3.24e-05 |
+| junctions | junction_fanout: peak 11 55.857628 2e-4 | PASS | 55.857609, expected 55.857628, relative error -3.38e-07 |
+| junctions | junction_fanout: count 13 1 | PASS | 1 spike(s) |
+| junctions | junction_fanout: arrival 13 65.44907 0.003 | PASS | 65.448995, expected 65.449070, off by -7.47e-05 |
+| junctions | junction_fanout: peak 13 56.706168 2e-4 | PASS | 56.706169, expected 56.706168, relative error 2.24e-08 |
+| junctions | junction_fanout: count 14 1 | PASS | 1 spike(s) |
+| junctions | junction_fanout: arrival 14 48.19815 0.003 | PASS | 48.198078, expected 48.198150, off by -7.16e-05 |
+| junctions | junction_fanout: peak 14 56.712196 2e-4 | PASS | 56.712199, expected 56.712196, relative error 5.55e-08 |
+| junctions | junction_fanout: count 16 1 | PASS | 1 spike(s) |
+| junctions | junction_fanout: arrival 16 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| junctions | junction_fanout: peak 16 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| junctions | junction_fanout: each 1 16 1 | PASS | all as expected |
+| junctions | junction_fanout: together 1 6 1e-6 | PASS | apart by 0.000e+00 |
+| independent integration | junction_or_both: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| junctions | junction_or_both: total 16 | PASS | 16 spike(s) |
+| junctions | junction_or_both: last 176.02242 0.003 | PASS | 176.022390, expected 176.022420 |
+| junctions | junction_or_both: count 1 1 | PASS | 1 spike(s) |
+| junctions | junction_or_both: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| junctions | junction_or_both: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.98e-07 |
+| junctions | junction_or_both: count 3 1 | PASS | 1 spike(s) |
+| junctions | junction_or_both: arrival 3 48.19924 0.003 | PASS | 48.199169, expected 48.199240, off by -7.15e-05 |
+| junctions | junction_or_both: peak 3 56.710509 2e-4 | PASS | 56.71051, expected 56.710509, relative error 2.16e-08 |
+| junctions | junction_or_both: count 4 1 | PASS | 1 spike(s) |
+| junctions | junction_or_both: arrival 4 65.42292 0.003 | PASS | 65.422895, expected 65.422920, off by -2.46e-05 |
+| junctions | junction_or_both: peak 4 56.726008 2e-4 | PASS | 56.725984, expected 56.726008, relative error -4.17e-07 |
+| junctions | junction_or_both: count 6 1 | PASS | 1 spike(s) |
+| junctions | junction_or_both: arrival 6 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| junctions | junction_or_both: peak 6 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.98e-07 |
+| junctions | junction_or_both: count 8 1 | PASS | 1 spike(s) |
+| junctions | junction_or_both: arrival 8 48.19924 0.003 | PASS | 48.199169, expected 48.199240, off by -7.15e-05 |
+| junctions | junction_or_both: peak 8 56.710509 2e-4 | PASS | 56.71051, expected 56.710509, relative error 2.16e-08 |
+| junctions | junction_or_both: count 9 1 | PASS | 1 spike(s) |
+| junctions | junction_or_both: arrival 9 65.42292 0.003 | PASS | 65.422895, expected 65.422920, off by -2.46e-05 |
+| junctions | junction_or_both: peak 9 56.726008 2e-4 | PASS | 56.725984, expected 56.726008, relative error -4.17e-07 |
+| junctions | junction_or_both: count 11 1 | PASS | 1 spike(s) |
+| junctions | junction_or_both: arrival 11 90.45607 0.003 | PASS | 90.456036, expected 90.456070, off by -3.40e-05 |
+| junctions | junction_or_both: peak 11 60.372488 2e-4 | PASS | 60.372483, expected 60.372488, relative error -8.27e-08 |
+| junctions | junction_or_both: count 13 1 | PASS | 1 spike(s) |
+| junctions | junction_or_both: arrival 13 125.39731 0.003 | PASS | 125.397241, expected 125.397310, off by -6.95e-05 |
+| junctions | junction_or_both: peak 13 56.662505 2e-4 | PASS | 56.66251, expected 56.662505, relative error 8.29e-08 |
+| junctions | junction_or_both: count 14 1 | PASS | 1 spike(s) |
+| junctions | junction_or_both: arrival 14 142.65497 0.003 | PASS | 142.654899, expected 142.654970, off by -7.09e-05 |
+| junctions | junction_or_both: peak 14 56.708885 2e-4 | PASS | 56.708877, expected 56.708885, relative error -1.45e-07 |
+| junctions | junction_or_both: count 16 1 | PASS | 1 spike(s) |
+| junctions | junction_or_both: arrival 16 176.02242 0.003 | PASS | 176.022390, expected 176.022420, off by -2.95e-05 |
+| junctions | junction_or_both: peak 16 57.541410 2e-4 | PASS | 57.541382, expected 57.54141, relative error -4.84e-07 |
+| junctions | junction_or_both: each 1 16 1 | PASS | all as expected |
+| independent integration | junction_or_one: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| junctions | junction_or_one: total 16 | PASS | 16 spike(s) |
+| junctions | junction_or_one: last 187.10103 0.003 | PASS | 187.100950, expected 187.101030 |
+| junctions | junction_or_one: count 1 1 | PASS | 1 spike(s) |
+| junctions | junction_or_one: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| junctions | junction_or_one: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| junctions | junction_or_one: count 3 1 | PASS | 1 spike(s) |
+| junctions | junction_or_one: arrival 3 48.19815 0.003 | PASS | 48.198078, expected 48.198150, off by -7.16e-05 |
+| junctions | junction_or_one: peak 3 56.712196 2e-4 | PASS | 56.712199, expected 56.712196, relative error 5.55e-08 |
+| junctions | junction_or_one: count 4 1 | PASS | 1 spike(s) |
+| junctions | junction_or_one: arrival 4 65.44907 0.003 | PASS | 65.448995, expected 65.449070, off by -7.47e-05 |
+| junctions | junction_or_one: peak 4 56.706168 2e-4 | PASS | 56.706169, expected 56.706168, relative error 2.24e-08 |
+| junctions | junction_or_one: count 6 1 | PASS | 1 spike(s) |
+| junctions | junction_or_one: arrival 6 187.10103 0.003 | PASS | 187.100950, expected 187.101030, off by -7.97e-05 |
+| junctions | junction_or_one: peak 6 57.541246 2e-4 | PASS | 57.541245, expected 57.541246, relative error -2.60e-08 |
+| junctions | junction_or_one: count 8 1 | PASS | 1 spike(s) |
+| junctions | junction_or_one: arrival 8 153.73441 0.003 | PASS | 153.734358, expected 153.734410, off by -5.23e-05 |
+| junctions | junction_or_one: peak 8 56.703253 2e-4 | PASS | 56.703279, expected 56.703253, relative error 4.57e-07 |
+| junctions | junction_or_one: count 9 1 | PASS | 1 spike(s) |
+| junctions | junction_or_one: arrival 9 136.44755 0.003 | PASS | 136.447482, expected 136.447550, off by -6.82e-05 |
+| junctions | junction_or_one: peak 9 56.705163 2e-4 | PASS | 56.705167, expected 56.705163, relative error 7.62e-08 |
+| junctions | junction_or_one: count 11 1 | PASS | 1 spike(s) |
+| junctions | junction_or_one: arrival 11 101.21776 0.003 | PASS | 101.217728, expected 101.217760, off by -3.24e-05 |
+| junctions | junction_or_one: peak 11 55.857628 2e-4 | PASS | 55.857609, expected 55.857628, relative error -3.38e-07 |
+| junctions | junction_or_one: count 13 1 | PASS | 1 spike(s) |
+| junctions | junction_or_one: arrival 13 136.44755 0.003 | PASS | 136.447482, expected 136.447550, off by -6.82e-05 |
+| junctions | junction_or_one: peak 13 56.705163 2e-4 | PASS | 56.705167, expected 56.705163, relative error 7.62e-08 |
+| junctions | junction_or_one: count 14 1 | PASS | 1 spike(s) |
+| junctions | junction_or_one: arrival 14 153.73441 0.003 | PASS | 153.734358, expected 153.734410, off by -5.23e-05 |
+| junctions | junction_or_one: peak 14 56.703253 2e-4 | PASS | 56.703279, expected 56.703253, relative error 4.57e-07 |
+| junctions | junction_or_one: count 16 1 | PASS | 1 spike(s) |
+| junctions | junction_or_one: arrival 16 187.10103 0.003 | PASS | 187.100950, expected 187.101030, off by -7.97e-05 |
+| junctions | junction_or_one: peak 16 57.541246 2e-4 | PASS | 57.541245, expected 57.541246, relative error -2.60e-08 |
+| junctions | junction_or_one: each 1 16 1 | PASS | all as expected |
+| junctions | junction_or_one: order 11 10 9 8 7 6 | PASS | 101.22, 119.04, 136.45, 153.73, 171.00, 187.10 |
+| independent integration | junction_xor: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| junctions | junction_xor: total 10 | PASS | 10 spike(s) |
+| junctions | junction_xor: last 81.57065 0.003 | PASS | 81.570616, expected 81.570650 |
+| junctions | junction_xor: count 1 1 | PASS | 1 spike(s) |
+| junctions | junction_xor: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| junctions | junction_xor: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.96e-07 |
+| junctions | junction_xor: count 3 1 | PASS | 1 spike(s) |
+| junctions | junction_xor: arrival 3 48.19706 0.003 | PASS | 48.196988, expected 48.197060, off by -7.16e-05 |
+| junctions | junction_xor: peak 3 56.713883 2e-4 | PASS | 56.713888, expected 56.713883, relative error 9.57e-08 |
+| junctions | junction_xor: count 4 1 | PASS | 1 spike(s) |
+| junctions | junction_xor: arrival 4 65.47521 0.003 | PASS | 65.475194, expected 65.475210, off by -1.60e-05 |
+| junctions | junction_xor: peak 4 56.685949 2e-4 | PASS | 56.685986, expected 56.685949, relative error 6.50e-07 |
+| junctions | junction_xor: count 6 1 | PASS | 1 spike(s) |
+| junctions | junction_xor: arrival 6 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| junctions | junction_xor: peak 6 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.96e-07 |
+| junctions | junction_xor: count 8 1 | PASS | 1 spike(s) |
+| junctions | junction_xor: arrival 8 48.19706 0.003 | PASS | 48.196988, expected 48.197060, off by -7.16e-05 |
+| junctions | junction_xor: peak 8 56.713883 2e-4 | PASS | 56.713888, expected 56.713883, relative error 9.57e-08 |
+| junctions | junction_xor: count 9 1 | PASS | 1 spike(s) |
+| junctions | junction_xor: arrival 9 65.47521 0.003 | PASS | 65.475194, expected 65.475210, off by -1.60e-05 |
+| junctions | junction_xor: peak 9 56.685949 2e-4 | PASS | 56.685986, expected 56.685949, relative error 6.50e-07 |
+| junctions | junction_xor: count 11 0 | PASS | 0 spike(s) |
+| junctions | junction_xor: count 13 0 | PASS | 0 spike(s) |
+| junctions | junction_xor: count 14 0 | PASS | 0 spike(s) |
+| junctions | junction_xor: count 16 0 | PASS | 0 spike(s) |
+| junctions | junction_xor: each 1 10 1 | PASS | all as expected |
+| junctions | junction_xor: silent 11 16 | PASS | all as expected |
+| independent integration | linear_chain3: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| dark regime | linear_chain3: total 0 | PASS | 0 spike(s) |
+| dark regime | linear_chain3: count 1 0 | PASS | 0 spike(s) |
+| dark regime | linear_chain3: count 2 0 | PASS | 0 spike(s) |
+| dark regime | linear_chain3: count 3 0 | PASS | 0 spike(s) |
+| dark regime | linear_chain3: intensity 1 6 1.14023754e-07 2e-3 | PASS | 1.140238e-07, expected 1.1402375e-07, relative error 4.14e-07 |
+| dark regime | linear_chain3: intensity 2 6 4.65285274e-08 2e-3 | PASS | 4.6528535e-08, expected 4.6528527e-08, relative error 1.69e-07 |
+| dark regime | linear_chain3: intensity 3 6 4.74660716e-09 2e-3 | PASS | 4.7466077e-09, expected 4.7466072e-09, relative error 1.19e-07 |
+| dark regime | linear_chain3: intensity 3 15 6.44304264e-09 2e-3 | PASS | 6.4430453e-09, expected 6.4430426e-09, relative error 4.07e-07 |
+| dark regime | linear_chain3: intensity 1 22 7.18700631e-17 2e-3 | PASS | 7.194098e-17, expected 7.1870063e-17, relative error 9.87e-04 |
+| dark regime | linear_chain3: total 0 | PASS | 0 spike(s) |
+| independent integration | linear_grid3: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| dark regime | linear_grid3: total 0 | PASS | 0 spike(s) |
+| dark regime | linear_grid3: count 1 0 | PASS | 0 spike(s) |
+| dark regime | linear_grid3: count 2 0 | PASS | 0 spike(s) |
+| dark regime | linear_grid3: count 3 0 | PASS | 0 spike(s) |
+| dark regime | linear_grid3: count 4 0 | PASS | 0 spike(s) |
+| dark regime | linear_grid3: count 5 0 | PASS | 0 spike(s) |
+| dark regime | linear_grid3: count 6 0 | PASS | 0 spike(s) |
+| dark regime | linear_grid3: count 7 0 | PASS | 0 spike(s) |
+| dark regime | linear_grid3: count 8 0 | PASS | 0 spike(s) |
+| dark regime | linear_grid3: count 9 0 | PASS | 0 spike(s) |
+| dark regime | linear_grid3: intensity 1 8 3.88211204e-08 2e-3 | PASS | 3.8821147e-08, expected 3.882112e-08, relative error 6.86e-07 |
+| dark regime | linear_grid3: intensity 2 8 1.83540285e-08 2e-3 | PASS | 1.8354034e-08, expected 1.8354029e-08, relative error 2.87e-07 |
+| dark regime | linear_grid3: intensity 5 8 8.67750234e-09 2e-3 | PASS | 8.6775037e-09, expected 8.6775023e-09, relative error 1.59e-07 |
+| dark regime | linear_grid3: intensity 9 8 1.21227579e-10 2e-3 | PASS | 1.2122758e-10, expected 1.2122758e-10, relative error 4.28e-08 |
+| dark regime | linear_grid3: intensity 9 20 1.11533994e-09 2e-3 | PASS | 1.1153403e-09, expected 1.1153399e-09, relative error 3.66e-07 |
+| dark regime | linear_grid3: total 0 | PASS | 0 spike(s) |
+| independent integration | linear_pair_alpha0: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| dark regime | linear_pair_alpha0: total 0 | PASS | 0 spike(s) |
+| dark regime | linear_pair_alpha0: count 1 0 | PASS | 0 spike(s) |
+| dark regime | linear_pair_alpha0: count 2 0 | PASS | 0 spike(s) |
+| dark regime | linear_pair_alpha0: intensity 1 5 1.71843950e-07 2e-3 | PASS | 1.71844e-07, expected 1.7184395e-07, relative error 3.12e-07 |
+| dark regime | linear_pair_alpha0: intensity 2 5 5.12862101e-08 2e-3 | PASS | 5.1286217e-08, expected 5.128621e-08, relative error 1.39e-07 |
+| dark regime | linear_pair_alpha0: intensity 2 15 1.10534099e-08 2e-3 | PASS | 1.1053417e-08, expected 1.105341e-08, relative error 6.58e-07 |
+| dark regime | linear_pair_alpha0: intensity 1 20 4.29265814e-10 2e-3 | PASS | 4.2926583e-10, expected 4.2926581e-10, relative error 3.83e-08 |
+| dark regime | linear_pair_alpha0: total 0 | PASS | 0 spike(s) |
+| independent integration | linear_pair_alpha5: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| dark regime | linear_pair_alpha5: total 0 | PASS | 0 spike(s) |
+| dark regime | linear_pair_alpha5: count 1 0 | PASS | 0 spike(s) |
+| dark regime | linear_pair_alpha5: count 2 0 | PASS | 0 spike(s) |
+| dark regime | linear_pair_alpha5: intensity 1 5 1.71843950e-07 2e-3 | PASS | 1.71844e-07, expected 1.7184395e-07, relative error 3.19e-07 |
+| dark regime | linear_pair_alpha5: intensity 2 5 5.12862101e-08 2e-3 | PASS | 5.1286216e-08, expected 5.128621e-08, relative error 1.20e-07 |
+| dark regime | linear_pair_alpha5: intensity 2 15 1.10534099e-08 2e-3 | PASS | 1.1053417e-08, expected 1.105341e-08, relative error 6.72e-07 |
+| dark regime | linear_pair_alpha5: intensity 1 20 4.29265814e-10 2e-3 | PASS | 4.2926583e-10, expected 4.2926581e-10, relative error 3.91e-08 |
+| dark regime | linear_pair_alpha5: total 0 | PASS | 0 spike(s) |
+| independent integration | linear_pair_detuned: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| dark regime | linear_pair_detuned: total 0 | PASS | 0 spike(s) |
+| dark regime | linear_pair_detuned: count 1 0 | PASS | 0 spike(s) |
+| dark regime | linear_pair_detuned: count 2 0 | PASS | 0 spike(s) |
+| dark regime | linear_pair_detuned: intensity 1 5 1.98310520e-07 2e-3 | PASS | 1.9831058e-07, expected 1.9831052e-07, relative error 3.21e-07 |
+| dark regime | linear_pair_detuned: intensity 2 5 1.00603160e-08 2e-3 | PASS | 1.0060316e-08, expected 1.0060316e-08, relative error 1.91e-08 |
+| dark regime | linear_pair_detuned: intensity 2 15 2.64831428e-10 2e-3 | PASS | 2.6483172e-10, expected 2.6483143e-10, relative error 1.12e-06 |
+| dark regime | linear_pair_detuned: intensity 1 20 1.76694430e-09 2e-3 | PASS | 1.7669478e-09, expected 1.7669443e-09, relative error 1.98e-06 |
+| dark regime | linear_pair_detuned: total 0 | PASS | 0 spike(s) |
+| independent integration | linear_pair_k005: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| dark regime | linear_pair_k005: total 0 | PASS | 0 spike(s) |
+| dark regime | linear_pair_k005: count 1 0 | PASS | 0 spike(s) |
+| dark regime | linear_pair_k005: count 2 0 | PASS | 0 spike(s) |
+| dark regime | linear_pair_k005: intensity 1 10 3.83435681e-08 2e-3 | PASS | 3.8343602e-08, expected 3.8343568e-08, relative error 8.75e-07 |
+| dark regime | linear_pair_k005: intensity 2 10 1.14435003e-08 2e-3 | PASS | 1.1443504e-08, expected 1.14435e-08, relative error 3.46e-07 |
+| dark regime | linear_pair_k005: intensity 1 25 5.49921791e-11 2e-3 | PASS | 5.4992409e-11, expected 5.4992179e-11, relative error 4.19e-06 |
+| dark regime | linear_pair_k005: intensity 2 25 4.98092191e-10 2e-3 | PASS | 4.9809279e-10, expected 4.9809219e-10, relative error 1.20e-06 |
+| dark regime | linear_pair_k005: intensity 2 40 5.08016878e-12 2e-3 | PASS | 5.0801799e-12, expected 5.0801688e-12, relative error 2.19e-06 |
+| dark regime | linear_pair_k005: total 0 | PASS | 0 spike(s) |
+| independent integration | linear_pair_k020: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| dark regime | linear_pair_k020: total 0 | PASS | 0 spike(s) |
+| dark regime | linear_pair_k020: count 1 0 | PASS | 0 spike(s) |
+| dark regime | linear_pair_k020: count 2 0 | PASS | 0 spike(s) |
+| dark regime | linear_pair_k020: intensity 1 3 2.76946664e-07 2e-3 | PASS | 2.769467e-07, expected 2.7694666e-07, relative error 1.32e-07 |
+| dark regime | linear_pair_k020: intensity 2 3 1.29622995e-07 2e-3 | PASS | 1.29623e-07, expected 1.29623e-07, relative error 5.65e-08 |
+| dark regime | linear_pair_k020: intensity 1 8 7.73472249e-11 2e-3 | PASS | 7.7346871e-11, expected 7.7347225e-11, relative error -4.57e-06 |
+| dark regime | linear_pair_k020: intensity 2 8 9.06406061e-08 2e-3 | PASS | 9.0640633e-08, expected 9.0640606e-08, relative error 2.97e-07 |
+| dark regime | linear_pair_k020: intensity 1 12 1.48572602e-08 2e-3 | PASS | 1.4857266e-08, expected 1.485726e-08, relative error 3.92e-07 |
+| dark regime | linear_pair_k020: total 0 | PASS | 0 spike(s) |
+| independent integration | linear_ring4: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| dark regime | linear_ring4: total 0 | PASS | 0 spike(s) |
+| dark regime | linear_ring4: count 1 0 | PASS | 0 spike(s) |
+| dark regime | linear_ring4: count 2 0 | PASS | 0 spike(s) |
+| dark regime | linear_ring4: count 3 0 | PASS | 0 spike(s) |
+| dark regime | linear_ring4: count 4 0 | PASS | 0 spike(s) |
+| dark regime | linear_ring4: intensity 1 6 7.66994549e-08 2e-3 | PASS | 7.669949e-08, expected 7.6699455e-08, relative error 4.51e-07 |
+| dark regime | linear_ring4: intensity 2 6 3.58986562e-08 2e-3 | PASS | 3.5898662e-08, expected 3.5898656e-08, relative error 1.74e-07 |
+| dark regime | linear_ring4: intensity 3 6 1.68021209e-08 2e-3 | PASS | 1.6802122e-08, expected 1.6802121e-08, relative error 7.37e-08 |
+| dark regime | linear_ring4: intensity 4 6 3.58986562e-08 2e-3 | PASS | 3.5898662e-08, expected 3.5898656e-08, relative error 1.74e-07 |
+| dark regime | linear_ring4: intensity 3 14 1.41416823e-08 2e-3 | PASS | 1.4141688e-08, expected 1.4141682e-08, relative error 3.68e-07 |
+| dark regime | linear_ring4: total 0 | PASS | 0 spike(s) |
+| independent integration | ring_memory_n20: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| rings | ring_memory_n20: total 104 | PASS | 104 spike(s) |
+| rings | ring_memory_n20: last 1847.00525 0.003 | PASS | 1847.005191, expected 1847.005250 |
+| rings | ring_memory_n20: count 1 6 | PASS | 6 spike(s) |
+| rings | ring_memory_n20: arrival 1 13.36751 0.003 | PASS | 13.367469, expected 13.367510, off by -4.11e-05 |
+| rings | ring_memory_n20: peak 1 57.331798 2e-4 | PASS | 57.331776, expected 57.331798, relative error -3.76e-07 |
+| rings | ring_memory_n20: count 3 6 | PASS | 6 spike(s) |
+| rings | ring_memory_n20: arrival 3 49.04074 0.003 | PASS | 49.040675, expected 49.040740, off by -6.54e-05 |
+| rings | ring_memory_n20: peak 3 56.716871 2e-4 | PASS | 56.716887, expected 56.716871, relative error 2.83e-07 |
+| rings | ring_memory_n20: count 5 5 | PASS | 5 spike(s) |
+| rings | ring_memory_n20: arrival 5 83.57282 0.003 | PASS | 83.572796, expected 83.572820, off by -2.40e-05 |
+| rings | ring_memory_n20: peak 5 56.708837 2e-4 | PASS | 56.708813, expected 56.708837, relative error -4.23e-07 |
+| rings | ring_memory_n20: count 7 5 | PASS | 5 spike(s) |
+| rings | ring_memory_n20: arrival 7 118.04592 0.003 | PASS | 118.045844, expected 118.045920, off by -7.58e-05 |
+| rings | ring_memory_n20: peak 7 56.709718 2e-4 | PASS | 56.709725, expected 56.709718, relative error 1.20e-07 |
+| rings | ring_memory_n20: count 9 5 | PASS | 5 spike(s) |
+| rings | ring_memory_n20: arrival 9 152.48804 0.003 | PASS | 152.487981, expected 152.488040, off by -5.86e-05 |
+| rings | ring_memory_n20: peak 9 56.731273 2e-4 | PASS | 56.731294, expected 56.731273, relative error 3.66e-07 |
+| rings | ring_memory_n20: count 12 5 | PASS | 5 spike(s) |
+| rings | ring_memory_n20: arrival 12 171.27789 0.003 | PASS | 171.277863, expected 171.277890, off by -2.69e-05 |
+| rings | ring_memory_n20: peak 12 55.685564 2e-4 | PASS | 55.685592, expected 55.685564, relative error 5.04e-07 |
+| rings | ring_memory_n20: count 14 5 | PASS | 5 spike(s) |
+| rings | ring_memory_n20: arrival 14 135.28085 0.003 | PASS | 135.280807, expected 135.280850, off by -4.31e-05 |
+| rings | ring_memory_n20: peak 14 56.708212 2e-4 | PASS | 56.708244, expected 56.708212, relative error 5.56e-07 |
+| rings | ring_memory_n20: count 16 5 | PASS | 5 spike(s) |
+| rings | ring_memory_n20: arrival 16 100.81022 0.003 | PASS | 100.810161, expected 100.810220, off by -5.93e-05 |
+| rings | ring_memory_n20: peak 16 56.709509 2e-4 | PASS | 56.709495, expected 56.709509, relative error -2.52e-07 |
+| rings | ring_memory_n20: count 18 5 | PASS | 5 spike(s) |
+| rings | ring_memory_n20: arrival 18 66.33062 0.003 | PASS | 66.330580, expected 66.330620, off by -3.95e-05 |
+| rings | ring_memory_n20: peak 18 56.701317 2e-4 | PASS | 56.701348, expected 56.701317, relative error 5.48e-07 |
+| rings | ring_memory_n20: count 20 6 | PASS | 6 spike(s) |
+| rings | ring_memory_n20: arrival 20 31.69868 0.003 | PASS | 31.698616, expected 31.698680, off by -6.45e-05 |
+| rings | ring_memory_n20: peak 20 56.118361 2e-4 | PASS | 56.118363, expected 56.118361, relative error 4.30e-08 |
+| independent integration | ring_second_kick150: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| rings | ring_second_kick150: total 12 | PASS | 12 spike(s) |
+| rings | ring_second_kick150: last 108.44071 0.003 | PASS | 108.440662, expected 108.440710 |
+| rings | ring_second_kick150: count 1 1 | PASS | 1 spike(s) |
+| rings | ring_second_kick150: arrival 1 13.36751 0.003 | PASS | 13.367469, expected 13.367510, off by -4.11e-05 |
+| rings | ring_second_kick150: peak 1 57.331798 2e-4 | PASS | 57.331776, expected 57.331798, relative error -3.75e-07 |
+| rings | ring_second_kick150: count 2 1 | PASS | 1 spike(s) |
+| rings | ring_second_kick150: arrival 2 31.69868 0.003 | PASS | 31.698616, expected 31.698680, off by -6.44e-05 |
+| rings | ring_second_kick150: peak 2 56.118360 2e-4 | PASS | 56.118362, expected 56.11836, relative error 3.29e-08 |
+| rings | ring_second_kick150: count 3 1 | PASS | 1 spike(s) |
+| rings | ring_second_kick150: arrival 3 49.04076 0.003 | PASS | 49.040696, expected 49.040760, off by -6.45e-05 |
+| rings | ring_second_kick150: peak 3 56.716878 2e-4 | PASS | 56.716894, expected 56.716878, relative error 2.82e-07 |
+| rings | ring_second_kick150: count 5 1 | PASS | 1 spike(s) |
+| rings | ring_second_kick150: arrival 5 83.54564 0.003 | PASS | 83.545568, expected 83.545640, off by -7.16e-05 |
+| rings | ring_second_kick150: peak 5 56.730037 2e-4 | PASS | 56.730044, expected 56.730037, relative error 1.28e-07 |
+| rings | ring_second_kick150: count 6 1 | PASS | 1 spike(s) |
+| rings | ring_second_kick150: arrival 6 102.33548 0.003 | PASS | 102.335434, expected 102.335480, off by -4.64e-05 |
+| rings | ring_second_kick150: peak 6 55.685603 2e-4 | PASS | 55.685623, expected 55.685603, relative error 3.54e-07 |
+| rings | ring_second_kick150: count 7 1 | PASS | 1 spike(s) |
+| rings | ring_second_kick150: arrival 7 108.44071 0.003 | PASS | 108.440662, expected 108.440710, off by -4.83e-05 |
+| rings | ring_second_kick150: peak 7 61.230977 2e-4 | PASS | 61.230989, expected 61.230977, relative error 1.92e-07 |
+| rings | ring_second_kick150: count 8 1 | PASS | 1 spike(s) |
+| rings | ring_second_kick150: arrival 8 102.33548 0.003 | PASS | 102.335434, expected 102.335480, off by -4.64e-05 |
+| rings | ring_second_kick150: peak 8 55.685603 2e-4 | PASS | 55.685623, expected 55.685603, relative error 3.54e-07 |
+| rings | ring_second_kick150: count 10 1 | PASS | 1 spike(s) |
+| rings | ring_second_kick150: arrival 10 66.32990 0.003 | PASS | 66.329862, expected 66.329900, off by -3.84e-05 |
+| rings | ring_second_kick150: peak 10 56.699942 2e-4 | PASS | 56.699974, expected 56.699942, relative error 5.63e-07 |
+| rings | ring_second_kick150: count 11 1 | PASS | 1 spike(s) |
+| rings | ring_second_kick150: arrival 11 49.04076 0.003 | PASS | 49.040696, expected 49.040760, off by -6.45e-05 |
+| rings | ring_second_kick150: peak 11 56.716878 2e-4 | PASS | 56.716894, expected 56.716878, relative error 2.82e-07 |
+| rings | ring_second_kick150: count 12 1 | PASS | 1 spike(s) |
+| rings | ring_second_kick150: arrival 12 31.69868 0.003 | PASS | 31.698616, expected 31.698680, off by -6.44e-05 |
+| rings | ring_second_kick150: peak 12 56.118360 2e-4 | PASS | 56.118362, expected 56.11836, relative error 3.29e-08 |
+| rings | ring_second_kick150: total 12 | PASS | 12 spike(s) |
+| independent integration | ring_second_kick185: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| rings | ring_second_kick185: total 83 | PASS | 83 spike(s) |
+| rings | ring_second_kick185: last 1847.61148 0.003 | PASS | 1847.611449, expected 1847.611480 |
+| rings | ring_second_kick185: count 1 7 | PASS | 7 spike(s) |
+| rings | ring_second_kick185: arrival 1 13.36751 0.003 | PASS | 13.367469, expected 13.367510, off by -4.11e-05 |
+| rings | ring_second_kick185: peak 1 57.331798 2e-4 | PASS | 57.331776, expected 57.331798, relative error -3.75e-07 |
+| rings | ring_second_kick185: count 2 7 | PASS | 7 spike(s) |
+| rings | ring_second_kick185: arrival 2 31.69868 0.003 | PASS | 31.698616, expected 31.698680, off by -6.44e-05 |
+| rings | ring_second_kick185: peak 2 56.118360 2e-4 | PASS | 56.118362, expected 56.11836, relative error 3.29e-08 |
+| rings | ring_second_kick185: count 3 7 | PASS | 7 spike(s) |
+| rings | ring_second_kick185: arrival 3 49.04076 0.003 | PASS | 49.040696, expected 49.040760, off by -6.45e-05 |
+| rings | ring_second_kick185: peak 3 56.716878 2e-4 | PASS | 56.716894, expected 56.716878, relative error 2.82e-07 |
+| rings | ring_second_kick185: count 5 7 | PASS | 7 spike(s) |
+| rings | ring_second_kick185: arrival 5 83.54564 0.003 | PASS | 83.545568, expected 83.545640, off by -7.16e-05 |
+| rings | ring_second_kick185: peak 5 56.730037 2e-4 | PASS | 56.730044, expected 56.730037, relative error 1.28e-07 |
+| rings | ring_second_kick185: count 6 7 | PASS | 7 spike(s) |
+| rings | ring_second_kick185: arrival 6 102.33548 0.003 | PASS | 102.335434, expected 102.335480, off by -4.64e-05 |
+| rings | ring_second_kick185: peak 6 55.685603 2e-4 | PASS | 55.685623, expected 55.685603, relative error 3.54e-07 |
+| rings | ring_second_kick185: count 7 7 | PASS | 7 spike(s) |
+| rings | ring_second_kick185: arrival 7 108.44071 0.003 | PASS | 108.440662, expected 108.440710, off by -4.83e-05 |
+| rings | ring_second_kick185: peak 7 61.230977 2e-4 | PASS | 61.230989, expected 61.230977, relative error 1.92e-07 |
+| rings | ring_second_kick185: count 8 7 | PASS | 7 spike(s) |
+| rings | ring_second_kick185: arrival 8 102.33548 0.003 | PASS | 102.335434, expected 102.335480, off by -4.64e-05 |
+| rings | ring_second_kick185: peak 8 55.685603 2e-4 | PASS | 55.685623, expected 55.685603, relative error 3.54e-07 |
+| rings | ring_second_kick185: count 10 7 | PASS | 7 spike(s) |
+| rings | ring_second_kick185: arrival 10 66.32990 0.003 | PASS | 66.329862, expected 66.329900, off by -3.84e-05 |
+| rings | ring_second_kick185: peak 10 56.699942 2e-4 | PASS | 56.699974, expected 56.699942, relative error 5.63e-07 |
+| rings | ring_second_kick185: count 11 6 | PASS | 6 spike(s) |
+| rings | ring_second_kick185: arrival 11 49.04076 0.003 | PASS | 49.040696, expected 49.040760, off by -6.45e-05 |
+| rings | ring_second_kick185: peak 11 56.716878 2e-4 | PASS | 56.716894, expected 56.716878, relative error 2.82e-07 |
+| rings | ring_second_kick185: count 12 7 | PASS | 7 spike(s) |
+| rings | ring_second_kick185: arrival 12 31.69868 0.003 | PASS | 31.698616, expected 31.698680, off by -6.44e-05 |
+| rings | ring_second_kick185: peak 12 56.118360 2e-4 | PASS | 56.118362, expected 56.11836, relative error 3.29e-08 |
+| independent integration | ring_second_kick230: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| rings | ring_second_kick230: total 24 | PASS | 24 spike(s) |
+| rings | ring_second_kick230: last 395.63030 0.003 | PASS | 395.630255, expected 395.630300 |
+| rings | ring_second_kick230: count 1 2 | PASS | 2 spike(s) |
+| rings | ring_second_kick230: arrival 1 13.36751 0.003 | PASS | 13.367469, expected 13.367510, off by -4.11e-05 |
+| rings | ring_second_kick230: peak 1 57.331798 2e-4 | PASS | 57.331776, expected 57.331798, relative error -3.75e-07 |
+| rings | ring_second_kick230: count 2 2 | PASS | 2 spike(s) |
+| rings | ring_second_kick230: arrival 2 31.69868 0.003 | PASS | 31.698616, expected 31.698680, off by -6.44e-05 |
+| rings | ring_second_kick230: peak 2 56.118360 2e-4 | PASS | 56.118362, expected 56.11836, relative error 3.29e-08 |
+| rings | ring_second_kick230: count 3 2 | PASS | 2 spike(s) |
+| rings | ring_second_kick230: arrival 3 49.04076 0.003 | PASS | 49.040696, expected 49.040760, off by -6.45e-05 |
+| rings | ring_second_kick230: peak 3 56.716878 2e-4 | PASS | 56.716894, expected 56.716878, relative error 2.82e-07 |
+| rings | ring_second_kick230: count 5 2 | PASS | 2 spike(s) |
+| rings | ring_second_kick230: arrival 5 83.54564 0.003 | PASS | 83.545568, expected 83.545640, off by -7.16e-05 |
+| rings | ring_second_kick230: peak 5 56.730037 2e-4 | PASS | 56.730044, expected 56.730037, relative error 1.28e-07 |
+| rings | ring_second_kick230: count 6 2 | PASS | 2 spike(s) |
+| rings | ring_second_kick230: arrival 6 102.33548 0.003 | PASS | 102.335434, expected 102.335480, off by -4.64e-05 |
+| rings | ring_second_kick230: peak 6 55.685603 2e-4 | PASS | 55.685623, expected 55.685603, relative error 3.54e-07 |
+| rings | ring_second_kick230: count 7 2 | PASS | 2 spike(s) |
+| rings | ring_second_kick230: arrival 7 108.44071 0.003 | PASS | 108.440662, expected 108.440710, off by -4.83e-05 |
+| rings | ring_second_kick230: peak 7 61.230977 2e-4 | PASS | 61.230989, expected 61.230977, relative error 1.92e-07 |
+| rings | ring_second_kick230: count 8 2 | PASS | 2 spike(s) |
+| rings | ring_second_kick230: arrival 8 102.33548 0.003 | PASS | 102.335434, expected 102.335480, off by -4.64e-05 |
+| rings | ring_second_kick230: peak 8 55.685603 2e-4 | PASS | 55.685623, expected 55.685603, relative error 3.54e-07 |
+| rings | ring_second_kick230: count 10 2 | PASS | 2 spike(s) |
+| rings | ring_second_kick230: arrival 10 66.32990 0.003 | PASS | 66.329862, expected 66.329900, off by -3.84e-05 |
+| rings | ring_second_kick230: peak 10 56.699942 2e-4 | PASS | 56.699974, expected 56.699942, relative error 5.63e-07 |
+| rings | ring_second_kick230: count 11 2 | PASS | 2 spike(s) |
+| rings | ring_second_kick230: arrival 11 49.04076 0.003 | PASS | 49.040696, expected 49.040760, off by -6.45e-05 |
+| rings | ring_second_kick230: peak 11 56.716878 2e-4 | PASS | 56.716894, expected 56.716878, relative error 2.82e-07 |
+| rings | ring_second_kick230: count 12 2 | PASS | 2 spike(s) |
+| rings | ring_second_kick230: arrival 12 31.69868 0.003 | PASS | 31.698616, expected 31.698680, off by -6.44e-05 |
+| rings | ring_second_kick230: peak 12 56.118360 2e-4 | PASS | 56.118362, expected 56.11836, relative error 3.29e-08 |
+| rings | ring_second_kick230: total 24 | PASS | 24 spike(s) |
+| independent integration | ring_single_n12: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| rings | ring_single_n12: total 12 | PASS | 12 spike(s) |
+| rings | ring_single_n12: last 108.44071 0.003 | PASS | 108.440662, expected 108.440710 |
+| rings | ring_single_n12: count 1 1 | PASS | 1 spike(s) |
+| rings | ring_single_n12: arrival 1 13.36751 0.003 | PASS | 13.367469, expected 13.367510, off by -4.11e-05 |
+| rings | ring_single_n12: peak 1 57.331798 2e-4 | PASS | 57.331776, expected 57.331798, relative error -3.75e-07 |
+| rings | ring_single_n12: count 2 1 | PASS | 1 spike(s) |
+| rings | ring_single_n12: arrival 2 31.69868 0.003 | PASS | 31.698616, expected 31.698680, off by -6.44e-05 |
+| rings | ring_single_n12: peak 2 56.118360 2e-4 | PASS | 56.118362, expected 56.11836, relative error 3.29e-08 |
+| rings | ring_single_n12: count 3 1 | PASS | 1 spike(s) |
+| rings | ring_single_n12: arrival 3 49.04076 0.003 | PASS | 49.040696, expected 49.040760, off by -6.45e-05 |
+| rings | ring_single_n12: peak 3 56.716878 2e-4 | PASS | 56.716894, expected 56.716878, relative error 2.82e-07 |
+| rings | ring_single_n12: count 5 1 | PASS | 1 spike(s) |
+| rings | ring_single_n12: arrival 5 83.54564 0.003 | PASS | 83.545568, expected 83.545640, off by -7.16e-05 |
+| rings | ring_single_n12: peak 5 56.730037 2e-4 | PASS | 56.730044, expected 56.730037, relative error 1.28e-07 |
+| rings | ring_single_n12: count 6 1 | PASS | 1 spike(s) |
+| rings | ring_single_n12: arrival 6 102.33548 0.003 | PASS | 102.335434, expected 102.335480, off by -4.64e-05 |
+| rings | ring_single_n12: peak 6 55.685603 2e-4 | PASS | 55.685623, expected 55.685603, relative error 3.54e-07 |
+| rings | ring_single_n12: count 7 1 | PASS | 1 spike(s) |
+| rings | ring_single_n12: arrival 7 108.44071 0.003 | PASS | 108.440662, expected 108.440710, off by -4.83e-05 |
+| rings | ring_single_n12: peak 7 61.230977 2e-4 | PASS | 61.230989, expected 61.230977, relative error 1.92e-07 |
+| rings | ring_single_n12: count 8 1 | PASS | 1 spike(s) |
+| rings | ring_single_n12: arrival 8 102.33548 0.003 | PASS | 102.335434, expected 102.335480, off by -4.64e-05 |
+| rings | ring_single_n12: peak 8 55.685603 2e-4 | PASS | 55.685623, expected 55.685603, relative error 3.54e-07 |
+| rings | ring_single_n12: count 10 1 | PASS | 1 spike(s) |
+| rings | ring_single_n12: arrival 10 66.32990 0.003 | PASS | 66.329862, expected 66.329900, off by -3.84e-05 |
+| rings | ring_single_n12: peak 10 56.699942 2e-4 | PASS | 56.699974, expected 56.699942, relative error 5.63e-07 |
+| rings | ring_single_n12: count 11 1 | PASS | 1 spike(s) |
+| rings | ring_single_n12: arrival 11 49.04076 0.003 | PASS | 49.040696, expected 49.040760, off by -6.45e-05 |
+| rings | ring_single_n12: peak 11 56.716878 2e-4 | PASS | 56.716894, expected 56.716878, relative error 2.82e-07 |
+| rings | ring_single_n12: count 12 1 | PASS | 1 spike(s) |
+| rings | ring_single_n12: arrival 12 31.69868 0.003 | PASS | 31.698616, expected 31.698680, off by -6.44e-05 |
+| rings | ring_single_n12: peak 12 56.118360 2e-4 | PASS | 56.118362, expected 56.11836, relative error 3.29e-08 |
+| rings | ring_single_n12: each 1 12 1 | PASS | all as expected |
+| independent integration | ring_single_n13: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| rings | ring_single_n13: total 13 | PASS | 13 spike(s) |
+| rings | ring_single_n13: last 117.35437 0.003 | PASS | 117.354299, expected 117.354370 |
+| rings | ring_single_n13: count 1 1 | PASS | 1 spike(s) |
+| rings | ring_single_n13: arrival 1 13.36751 0.003 | PASS | 13.367469, expected 13.367510, off by -4.11e-05 |
+| rings | ring_single_n13: peak 1 57.331798 2e-4 | PASS | 57.331776, expected 57.331798, relative error -3.75e-07 |
+| rings | ring_single_n13: count 2 1 | PASS | 1 spike(s) |
+| rings | ring_single_n13: arrival 2 31.69868 0.003 | PASS | 31.698616, expected 31.698680, off by -6.45e-05 |
+| rings | ring_single_n13: peak 2 56.118362 2e-4 | PASS | 56.118364, expected 56.118362, relative error 3.27e-08 |
+| rings | ring_single_n13: count 4 1 | PASS | 1 spike(s) |
+| rings | ring_single_n13: arrival 4 66.32998 0.003 | PASS | 66.329940, expected 66.329980, off by -3.96e-05 |
+| rings | ring_single_n13: peak 4 56.701717 2e-4 | PASS | 56.701749, expected 56.701717, relative error 5.69e-07 |
+| rings | ring_single_n13: count 5 1 | PASS | 1 spike(s) |
+| rings | ring_single_n13: arrival 5 83.58479 0.003 | PASS | 83.584738, expected 83.584790, off by -5.18e-05 |
+| rings | ring_single_n13: peak 5 56.706170 2e-4 | PASS | 56.706196, expected 56.70617, relative error 4.53e-07 |
+| rings | ring_single_n13: count 6 1 | PASS | 1 spike(s) |
+| rings | ring_single_n13: arrival 6 100.62382 0.003 | PASS | 100.623801, expected 100.623820, off by -1.91e-05 |
+| rings | ring_single_n13: peak 6 56.785908 2e-4 | PASS | 56.785884, expected 56.785908, relative error -4.30e-07 |
+| rings | ring_single_n13: count 8 1 | PASS | 1 spike(s) |
+| rings | ring_single_n13: arrival 8 117.35437 0.003 | PASS | 117.354299, expected 117.354370, off by -7.12e-05 |
+| rings | ring_single_n13: peak 8 57.444052 2e-4 | PASS | 57.444044, expected 57.444052, relative error -1.38e-07 |
+| rings | ring_single_n13: count 9 1 | PASS | 1 spike(s) |
+| rings | ring_single_n13: arrival 9 100.62382 0.003 | PASS | 100.623801, expected 100.623820, off by -1.91e-05 |
+| rings | ring_single_n13: peak 9 56.785908 2e-4 | PASS | 56.785884, expected 56.785908, relative error -4.30e-07 |
+| rings | ring_single_n13: count 10 1 | PASS | 1 spike(s) |
+| rings | ring_single_n13: arrival 10 83.58479 0.003 | PASS | 83.584738, expected 83.584790, off by -5.18e-05 |
+| rings | ring_single_n13: peak 10 56.706170 2e-4 | PASS | 56.706196, expected 56.70617, relative error 4.53e-07 |
+| rings | ring_single_n13: count 12 1 | PASS | 1 spike(s) |
+| rings | ring_single_n13: arrival 12 49.04076 0.003 | PASS | 49.040695, expected 49.040760, off by -6.45e-05 |
+| rings | ring_single_n13: peak 12 56.716844 2e-4 | PASS | 56.71686, expected 56.716844, relative error 2.77e-07 |
+| rings | ring_single_n13: count 13 1 | PASS | 1 spike(s) |
+| rings | ring_single_n13: arrival 13 31.69868 0.003 | PASS | 31.698616, expected 31.698680, off by -6.45e-05 |
+| rings | ring_single_n13: peak 13 56.118362 2e-4 | PASS | 56.118364, expected 56.118362, relative error 3.27e-08 |
+| rings | ring_single_n13: each 1 13 1 | PASS | all as expected |
+| independent integration | single_kick10: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| single pillar | single_kick10: total 0 | PASS | 0 spike(s) |
+| single pillar | single_kick10: count 1 0 | PASS | 0 spike(s) |
+| single pillar | single_kick10: fired 1 no | PASS | 0 spike(s) |
+| independent integration | single_kick12: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| single pillar | single_kick12: total 0 | PASS | 0 spike(s) |
+| single pillar | single_kick12: count 1 0 | PASS | 0 spike(s) |
+| single pillar | single_kick12: fired 1 no | PASS | 0 spike(s) |
+| independent integration | single_kick14: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| single pillar | single_kick14: total 1 | PASS | 1 spike(s) |
+| single pillar | single_kick14: last 28.98159 0.003 | PASS | 28.981535, expected 28.981590 |
+| single pillar | single_kick14: count 1 1 | PASS | 1 spike(s) |
+| single pillar | single_kick14: arrival 1 28.98159 0.003 | PASS | 28.981535, expected 28.981590, off by -5.51e-05 |
+| single pillar | single_kick14: peak 1 56.560724 2e-4 | PASS | 56.560757, expected 56.560724, relative error 5.85e-07 |
+| single pillar | single_kick14: fired 1 yes | PASS | 1 spike(s) |
+| independent integration | single_kick16: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| single pillar | single_kick16: total 1 | PASS | 1 spike(s) |
+| single pillar | single_kick16: last 19.54802 0.003 | PASS | 19.547940, expected 19.548020 |
+| single pillar | single_kick16: count 1 1 | PASS | 1 spike(s) |
+| single pillar | single_kick16: arrival 1 19.54802 0.003 | PASS | 19.547940, expected 19.548020, off by -8.00e-05 |
+| single pillar | single_kick16: peak 1 57.255932 2e-4 | PASS | 57.255936, expected 57.255932, relative error 6.35e-08 |
+| single pillar | single_kick16: fired 1 yes | PASS | 1 spike(s) |
+| independent integration | single_kick20: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| single pillar | single_kick20: total 1 | PASS | 1 spike(s) |
+| single pillar | single_kick20: last 12.58257 0.003 | PASS | 12.582515, expected 12.582570 |
+| single pillar | single_kick20: count 1 1 | PASS | 1 spike(s) |
+| single pillar | single_kick20: arrival 1 12.58257 0.003 | PASS | 12.582515, expected 12.582570, off by -5.52e-05 |
+| single pillar | single_kick20: peak 1 58.753057 2e-4 | PASS | 58.753092, expected 58.753057, relative error 5.96e-07 |
+| single pillar | single_kick20: fired 1 yes | PASS | 1 spike(s) |
+| independent integration | single_kick30: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| single pillar | single_kick30: total 1 | PASS | 1 spike(s) |
+| single pillar | single_kick30: last 6.93647 0.003 | PASS | 6.936392, expected 6.936470 |
+| single pillar | single_kick30: count 1 1 | PASS | 1 spike(s) |
+| single pillar | single_kick30: arrival 1 6.93647 0.003 | PASS | 6.936392, expected 6.936470, off by -7.84e-05 |
+| single pillar | single_kick30: peak 1 63.768024 2e-4 | PASS | 63.76806, expected 63.768024, relative error 5.72e-07 |
+| single pillar | single_kick30: fired 1 yes | PASS | 1 spike(s) |
+| independent integration | single_phase: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| single pillar | single_phase: total 1 | PASS | 1 spike(s) |
+| single pillar | single_phase: last 12.58257 0.003 | PASS | 12.582515, expected 12.582570 |
+| single pillar | single_phase: count 1 1 | PASS | 1 spike(s) |
+| single pillar | single_phase: arrival 1 12.58257 0.003 | PASS | 12.582515, expected 12.582570, off by -5.52e-05 |
+| single pillar | single_phase: peak 1 58.753057 2e-4 | PASS | 58.753092, expected 58.753057, relative error 5.96e-07 |
+| single pillar | single_phase: arrival 1 12.58251 0.003 | PASS | 12.582515, expected 12.582510, off by 4.80e-06 |
+| independent integration | single_refractory_dt080: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| single pillar | single_refractory_dt080: total 1 | PASS | 1 spike(s) |
+| single pillar | single_refractory_dt080: last 12.58257 0.003 | PASS | 12.582515, expected 12.582570 |
+| single pillar | single_refractory_dt080: count 1 1 | PASS | 1 spike(s) |
+| single pillar | single_refractory_dt080: arrival 1 12.58257 0.003 | PASS | 12.582515, expected 12.582570, off by -5.52e-05 |
+| single pillar | single_refractory_dt080: peak 1 58.753056 2e-4 | PASS | 58.753092, expected 58.753056, relative error 6.13e-07 |
+| single pillar | single_refractory_dt080: count 1 1 | PASS | 1 spike(s) |
+| independent integration | single_refractory_dt140: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| single pillar | single_refractory_dt140: total 1 | PASS | 1 spike(s) |
+| single pillar | single_refractory_dt140: last 12.58257 0.003 | PASS | 12.582515, expected 12.582570 |
+| single pillar | single_refractory_dt140: count 1 1 | PASS | 1 spike(s) |
+| single pillar | single_refractory_dt140: arrival 1 12.58257 0.003 | PASS | 12.582515, expected 12.582570, off by -5.52e-05 |
+| single pillar | single_refractory_dt140: peak 1 58.753057 2e-4 | PASS | 58.753092, expected 58.753057, relative error 5.96e-07 |
+| single pillar | single_refractory_dt140: count 1 1 | PASS | 1 spike(s) |
+| independent integration | single_refractory_dt160: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| single pillar | single_refractory_dt160: total 2 | PASS | 2 spike(s) |
+| single pillar | single_refractory_dt160: last 192.94211 0.003 | PASS | 192.942103, expected 192.942110 |
+| single pillar | single_refractory_dt160: count 1 2 | PASS | 2 spike(s) |
+| single pillar | single_refractory_dt160: arrival 1 12.58257 0.003 | PASS | 12.582515, expected 12.582570, off by -5.52e-05 |
+| single pillar | single_refractory_dt160: peak 1 58.753056 2e-4 | PASS | 58.753092, expected 58.753056, relative error 6.13e-07 |
+| single pillar | single_refractory_dt160: count 1 2 | PASS | 2 spike(s) |
+| independent integration | single_refractory_dt300: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| single pillar | single_refractory_dt300: total 2 | PASS | 2 spike(s) |
+| single pillar | single_refractory_dt300: last 314.49874 0.003 | PASS | 314.498687, expected 314.498740 |
+| single pillar | single_refractory_dt300: count 1 2 | PASS | 2 spike(s) |
+| single pillar | single_refractory_dt300: arrival 1 12.58257 0.003 | PASS | 12.582515, expected 12.582570, off by -5.52e-05 |
+| single pillar | single_refractory_dt300: peak 1 58.753057 2e-4 | PASS | 58.753092, expected 58.753057, relative error 5.96e-07 |
+| single pillar | single_refractory_dt300: count 1 2 | PASS | 2 spike(s) |
+| independent integration | single_sum_dt005: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| single pillar | single_sum_dt005: total 1 | PASS | 1 spike(s) |
+| single pillar | single_sum_dt005: last 24.81171 0.003 | PASS | 24.811644, expected 24.811710 |
+| single pillar | single_sum_dt005: count 1 1 | PASS | 1 spike(s) |
+| single pillar | single_sum_dt005: arrival 1 24.81171 0.003 | PASS | 24.811644, expected 24.811710, off by -6.61e-05 |
+| single pillar | single_sum_dt005: peak 1 57.079525 2e-4 | PASS | 57.079506, expected 57.079525, relative error -3.32e-07 |
+| single pillar | single_sum_dt005: fired 1 yes | PASS | 1 spike(s) |
+| independent integration | single_sum_dt020: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| single pillar | single_sum_dt020: total 1 | PASS | 1 spike(s) |
+| single pillar | single_sum_dt020: last 63.99504 0.003 | PASS | 63.994958, expected 63.995040 |
+| single pillar | single_sum_dt020: count 1 1 | PASS | 1 spike(s) |
+| single pillar | single_sum_dt020: arrival 1 63.99504 0.003 | PASS | 63.994958, expected 63.995040, off by -8.17e-05 |
+| single pillar | single_sum_dt020: peak 1 56.017689 2e-4 | PASS | 56.017698, expected 56.017689, relative error 1.56e-07 |
+| single pillar | single_sum_dt020: fired 1 yes | PASS | 1 spike(s) |
+| independent integration | single_sum_dt050: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| single pillar | single_sum_dt050: total 1 | PASS | 1 spike(s) |
+| single pillar | single_sum_dt050: last 89.47857 0.003 | PASS | 89.478527, expected 89.478570 |
+| single pillar | single_sum_dt050: count 1 1 | PASS | 1 spike(s) |
+| single pillar | single_sum_dt050: arrival 1 89.47857 0.003 | PASS | 89.478527, expected 89.478570, off by -4.28e-05 |
+| single pillar | single_sum_dt050: peak 1 56.098889 2e-4 | PASS | 56.098924, expected 56.098889, relative error 6.31e-07 |
+| single pillar | single_sum_dt050: fired 1 yes | PASS | 1 spike(s) |
+| independent integration | single_sum_dt100: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| single pillar | single_sum_dt100: total 0 | PASS | 0 spike(s) |
+| single pillar | single_sum_dt100: count 1 0 | PASS | 0 spike(s) |
+| single pillar | single_sum_dt100: fired 1 no | PASS | 0 spike(s) |
+| independent integration | train_dt100: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| pulse trains | train_dt100: total 16 | PASS | 16 spike(s) |
+| pulse trains | train_dt100: last 417.31349 0.003 | PASS | 417.313461, expected 417.313490 |
+| pulse trains | train_dt100: count 1 2 | PASS | 2 spike(s) |
+| pulse trains | train_dt100: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| pulse trains | train_dt100: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| pulse trains | train_dt100: count 2 2 | PASS | 2 spike(s) |
+| pulse trains | train_dt100: arrival 2 30.97745 0.003 | PASS | 30.977418, expected 30.977450, off by -3.21e-05 |
+| pulse trains | train_dt100: peak 2 56.589824 2e-4 | PASS | 56.589859, expected 56.589824, relative error 6.19e-07 |
+| pulse trains | train_dt100: count 3 2 | PASS | 2 spike(s) |
+| pulse trains | train_dt100: arrival 3 48.19817 0.003 | PASS | 48.198100, expected 48.198170, off by -7.01e-05 |
+| pulse trains | train_dt100: peak 3 56.712156 2e-4 | PASS | 56.712159, expected 56.712156, relative error 5.87e-08 |
+| pulse trains | train_dt100: count 4 2 | PASS | 2 spike(s) |
+| pulse trains | train_dt100: arrival 4 65.44909 0.003 | PASS | 65.449023, expected 65.449090, off by -6.68e-05 |
+| pulse trains | train_dt100: peak 4 56.707651 2e-4 | PASS | 56.707652, expected 56.707651, relative error 2.10e-08 |
+| pulse trains | train_dt100: count 5 2 | PASS | 2 spike(s) |
+| pulse trains | train_dt100: arrival 5 82.68565 0.003 | PASS | 82.685596, expected 82.685650, off by -5.39e-05 |
+| pulse trains | train_dt100: peak 5 56.709544 2e-4 | PASS | 56.709568, expected 56.709544, relative error 4.26e-07 |
+| pulse trains | train_dt100: count 6 2 | PASS | 2 spike(s) |
+| pulse trains | train_dt100: arrival 6 99.92155 0.003 | PASS | 99.921516, expected 99.921550, off by -3.39e-05 |
+| pulse trains | train_dt100: peak 6 56.711250 2e-4 | PASS | 56.711226, expected 56.71125, relative error -4.22e-07 |
+| pulse trains | train_dt100: count 7 2 | PASS | 2 spike(s) |
+| pulse trains | train_dt100: arrival 7 117.18481 0.003 | PASS | 117.184756, expected 117.184810, off by -5.37e-05 |
+| pulse trains | train_dt100: peak 7 56.688044 2e-4 | PASS | 56.688069, expected 56.688044, relative error 4.39e-07 |
+| pulse trains | train_dt100: count 8 2 | PASS | 2 spike(s) |
+| pulse trains | train_dt100: arrival 8 133.27746 0.003 | PASS | 133.277427, expected 133.277460, off by -3.26e-05 |
+| pulse trains | train_dt100: peak 8 57.541748 2e-4 | PASS | 57.541787, expected 57.541748, relative error 6.76e-07 |
+| pulse trains | train_dt100: each 2 8 2 | PASS | all as expected |
+| pulse trains | train_dt100: count 1 2 | PASS | 2 spike(s) |
+| independent integration | train_dt150: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| pulse trains | train_dt150: total 17 | PASS | 17 spike(s) |
+| pulse trains | train_dt150: last 497.69050 0.003 | PASS | 497.690440, expected 497.690500 |
+| pulse trains | train_dt150: count 1 3 | PASS | 3 spike(s) |
+| pulse trains | train_dt150: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| pulse trains | train_dt150: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| pulse trains | train_dt150: count 2 2 | PASS | 2 spike(s) |
+| pulse trains | train_dt150: arrival 2 30.97745 0.003 | PASS | 30.977418, expected 30.977450, off by -3.21e-05 |
+| pulse trains | train_dt150: peak 2 56.589824 2e-4 | PASS | 56.589859, expected 56.589824, relative error 6.19e-07 |
+| pulse trains | train_dt150: count 3 2 | PASS | 2 spike(s) |
+| pulse trains | train_dt150: arrival 3 48.19817 0.003 | PASS | 48.198100, expected 48.198170, off by -7.01e-05 |
+| pulse trains | train_dt150: peak 3 56.712156 2e-4 | PASS | 56.712159, expected 56.712156, relative error 5.87e-08 |
+| pulse trains | train_dt150: count 4 2 | PASS | 2 spike(s) |
+| pulse trains | train_dt150: arrival 4 65.44909 0.003 | PASS | 65.449023, expected 65.449090, off by -6.68e-05 |
+| pulse trains | train_dt150: peak 4 56.707651 2e-4 | PASS | 56.707652, expected 56.707651, relative error 2.10e-08 |
+| pulse trains | train_dt150: count 5 2 | PASS | 2 spike(s) |
+| pulse trains | train_dt150: arrival 5 82.68565 0.003 | PASS | 82.685596, expected 82.685650, off by -5.39e-05 |
+| pulse trains | train_dt150: peak 5 56.709544 2e-4 | PASS | 56.709568, expected 56.709544, relative error 4.26e-07 |
+| pulse trains | train_dt150: count 6 2 | PASS | 2 spike(s) |
+| pulse trains | train_dt150: arrival 6 99.92155 0.003 | PASS | 99.921516, expected 99.921550, off by -3.39e-05 |
+| pulse trains | train_dt150: peak 6 56.711250 2e-4 | PASS | 56.711226, expected 56.71125, relative error -4.22e-07 |
+| pulse trains | train_dt150: count 7 2 | PASS | 2 spike(s) |
+| pulse trains | train_dt150: arrival 7 117.18481 0.003 | PASS | 117.184758, expected 117.184810, off by -5.19e-05 |
+| pulse trains | train_dt150: peak 7 56.687880 2e-4 | PASS | 56.687905, expected 56.68788, relative error 4.43e-07 |
+| pulse trains | train_dt150: count 8 2 | PASS | 2 spike(s) |
+| pulse trains | train_dt150: arrival 8 133.27745 0.003 | PASS | 133.277420, expected 133.277450, off by -2.96e-05 |
+| pulse trains | train_dt150: peak 8 57.541762 2e-4 | PASS | 57.541801, expected 57.541762, relative error 6.73e-07 |
+| pulse trains | train_dt150: each 2 8 2 | PASS | all as expected |
+| pulse trains | train_dt150: count 1 3 | PASS | 3 spike(s) |
+| independent integration | train_dt200: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| pulse trains | train_dt200: total 32 | PASS | 32 spike(s) |
+| pulse trains | train_dt200: last 883.37441 0.003 | PASS | 883.374403, expected 883.374410 |
+| pulse trains | train_dt200: count 1 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt200: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| pulse trains | train_dt200: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| pulse trains | train_dt200: count 2 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt200: arrival 2 30.97745 0.003 | PASS | 30.977418, expected 30.977450, off by -3.21e-05 |
+| pulse trains | train_dt200: peak 2 56.589824 2e-4 | PASS | 56.589859, expected 56.589824, relative error 6.19e-07 |
+| pulse trains | train_dt200: count 3 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt200: arrival 3 48.19817 0.003 | PASS | 48.198100, expected 48.198170, off by -7.01e-05 |
+| pulse trains | train_dt200: peak 3 56.712156 2e-4 | PASS | 56.712159, expected 56.712156, relative error 5.87e-08 |
+| pulse trains | train_dt200: count 4 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt200: arrival 4 65.44909 0.003 | PASS | 65.449023, expected 65.449090, off by -6.68e-05 |
+| pulse trains | train_dt200: peak 4 56.707651 2e-4 | PASS | 56.707652, expected 56.707651, relative error 2.10e-08 |
+| pulse trains | train_dt200: count 5 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt200: arrival 5 82.68565 0.003 | PASS | 82.685596, expected 82.685650, off by -5.39e-05 |
+| pulse trains | train_dt200: peak 5 56.709544 2e-4 | PASS | 56.709568, expected 56.709544, relative error 4.26e-07 |
+| pulse trains | train_dt200: count 6 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt200: arrival 6 99.92155 0.003 | PASS | 99.921516, expected 99.921550, off by -3.39e-05 |
+| pulse trains | train_dt200: peak 6 56.711250 2e-4 | PASS | 56.711226, expected 56.71125, relative error -4.22e-07 |
+| pulse trains | train_dt200: count 7 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt200: arrival 7 117.18481 0.003 | PASS | 117.184758, expected 117.184810, off by -5.19e-05 |
+| pulse trains | train_dt200: peak 7 56.687880 2e-4 | PASS | 56.687905, expected 56.68788, relative error 4.43e-07 |
+| pulse trains | train_dt200: count 8 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt200: arrival 8 133.27745 0.003 | PASS | 133.277420, expected 133.277450, off by -2.96e-05 |
+| pulse trains | train_dt200: peak 8 57.541762 2e-4 | PASS | 57.541801, expected 57.541762, relative error 6.73e-07 |
+| pulse trains | train_dt200: each 2 8 4 | PASS | all as expected |
+| pulse trains | train_dt200: count 1 4 | PASS | 4 spike(s) |
+| independent integration | train_dt300: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| pulse trains | train_dt300: total 32 | PASS | 32 spike(s) |
+| pulse trains | train_dt300: last 1064.12211 0.003 | PASS | 1064.122090, expected 1064.122110 |
+| pulse trains | train_dt300: count 1 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt300: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| pulse trains | train_dt300: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| pulse trains | train_dt300: count 2 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt300: arrival 2 30.97745 0.003 | PASS | 30.977418, expected 30.977450, off by -3.21e-05 |
+| pulse trains | train_dt300: peak 2 56.589824 2e-4 | PASS | 56.589859, expected 56.589824, relative error 6.19e-07 |
+| pulse trains | train_dt300: count 3 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt300: arrival 3 48.19817 0.003 | PASS | 48.198100, expected 48.198170, off by -7.01e-05 |
+| pulse trains | train_dt300: peak 3 56.712156 2e-4 | PASS | 56.712159, expected 56.712156, relative error 5.87e-08 |
+| pulse trains | train_dt300: count 4 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt300: arrival 4 65.44909 0.003 | PASS | 65.449023, expected 65.449090, off by -6.68e-05 |
+| pulse trains | train_dt300: peak 4 56.707651 2e-4 | PASS | 56.707652, expected 56.707651, relative error 2.10e-08 |
+| pulse trains | train_dt300: count 5 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt300: arrival 5 82.68565 0.003 | PASS | 82.685596, expected 82.685650, off by -5.39e-05 |
+| pulse trains | train_dt300: peak 5 56.709544 2e-4 | PASS | 56.709568, expected 56.709544, relative error 4.26e-07 |
+| pulse trains | train_dt300: count 6 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt300: arrival 6 99.92155 0.003 | PASS | 99.921516, expected 99.921550, off by -3.39e-05 |
+| pulse trains | train_dt300: peak 6 56.711250 2e-4 | PASS | 56.711226, expected 56.71125, relative error -4.22e-07 |
+| pulse trains | train_dt300: count 7 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt300: arrival 7 117.18481 0.003 | PASS | 117.184758, expected 117.184810, off by -5.19e-05 |
+| pulse trains | train_dt300: peak 7 56.687880 2e-4 | PASS | 56.687905, expected 56.68788, relative error 4.43e-07 |
+| pulse trains | train_dt300: count 8 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt300: arrival 8 133.27745 0.003 | PASS | 133.277420, expected 133.277450, off by -2.96e-05 |
+| pulse trains | train_dt300: peak 8 57.541762 2e-4 | PASS | 57.541801, expected 57.541762, relative error 6.73e-07 |
+| pulse trains | train_dt300: each 2 8 4 | PASS | all as expected |
+| pulse trains | train_dt300: count 1 4 | PASS | 4 spike(s) |
+| independent integration | train_dt500: the same spikes, at the same times and heights, from the reference | PASS | agree |
+| pulse trains | train_dt500: total 32 | PASS | 32 spike(s) |
+| pulse trains | train_dt500: last 1636.51842 0.003 | PASS | 1636.518380, expected 1636.518420 |
+| pulse trains | train_dt500: count 1 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt500: arrival 1 12.96038 0.003 | PASS | 12.960319, expected 12.960380, off by -6.14e-05 |
+| pulse trains | train_dt500: peak 1 58.059000 2e-4 | PASS | 58.058983, expected 58.059, relative error -2.97e-07 |
+| pulse trains | train_dt500: count 2 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt500: arrival 2 30.97745 0.003 | PASS | 30.977418, expected 30.977450, off by -3.21e-05 |
+| pulse trains | train_dt500: peak 2 56.589824 2e-4 | PASS | 56.589859, expected 56.589824, relative error 6.19e-07 |
+| pulse trains | train_dt500: count 3 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt500: arrival 3 48.19817 0.003 | PASS | 48.198100, expected 48.198170, off by -7.01e-05 |
+| pulse trains | train_dt500: peak 3 56.712156 2e-4 | PASS | 56.712159, expected 56.712156, relative error 5.87e-08 |
+| pulse trains | train_dt500: count 4 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt500: arrival 4 65.44909 0.003 | PASS | 65.449023, expected 65.449090, off by -6.68e-05 |
+| pulse trains | train_dt500: peak 4 56.707651 2e-4 | PASS | 56.707652, expected 56.707651, relative error 2.10e-08 |
+| pulse trains | train_dt500: count 5 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt500: arrival 5 82.68565 0.003 | PASS | 82.685596, expected 82.685650, off by -5.39e-05 |
+| pulse trains | train_dt500: peak 5 56.709544 2e-4 | PASS | 56.709568, expected 56.709544, relative error 4.26e-07 |
+| pulse trains | train_dt500: count 6 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt500: arrival 6 99.92155 0.003 | PASS | 99.921516, expected 99.921550, off by -3.39e-05 |
+| pulse trains | train_dt500: peak 6 56.711250 2e-4 | PASS | 56.711226, expected 56.71125, relative error -4.22e-07 |
+| pulse trains | train_dt500: count 7 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt500: arrival 7 117.18481 0.003 | PASS | 117.184758, expected 117.184810, off by -5.19e-05 |
+| pulse trains | train_dt500: peak 7 56.687880 2e-4 | PASS | 56.687905, expected 56.68788, relative error 4.43e-07 |
+| pulse trains | train_dt500: count 8 4 | PASS | 4 spike(s) |
+| pulse trains | train_dt500: arrival 8 133.27745 0.003 | PASS | 133.277420, expected 133.277450, off by -2.96e-05 |
+| pulse trains | train_dt500: peak 8 57.541762 2e-4 | PASS | 57.541801, expected 57.541762, relative error 6.73e-07 |
+| pulse trains | train_dt500: each 2 8 4 | PASS | all as expected |
+| pulse trains | train_dt500: count 1 4 | PASS | 4 spike(s) |
+| speed | the delay per site shortens steadily as the coupling grows | PASS | 86.8 photon lifetimes at 0.042, 7.1 at 0.12 |
+| speed | the critical coupling found by bisection lies between the failing and the passing chain of the library | PASS | 0.04186 |
+| critical coupling | a pillar pumped closer to threshold needs less coupling | PASS | 0.0584 at A = 6.4, 0.0148 at 6.7 |
+| refractory time | a pillar that has just fired needs about a carrier lifetime before it can fire again | PASS | 88 to 205 photon lifetimes, carrier lifetime 100 |
+| refractory time | the weakest kick has to wait longest | PASS | 205 photon lifetimes for a kick of 1.6 |
+| annihilation | when pulses meet they annihilate: every site fires exactly once, nothing passes through | PASS | 8 cases |
+| rings | a pulse held in a ring runs into its own wake: it is slower than in an open chain, more so in a shorter ring | PASS | 10 sites: 253.2 per round trip, 1.469 of the open-chain delay per site, 12 sites: 276.7 per round trip, 1.338 of the open-chain delay per site, 16 sites: 325.3 per round trip, 1.180 of the open-chain delay per site, 20 sites: 377.8 per round trip, 1.096 of the open-chain delay per site, 30 sites: 527.1 per round trip, 1.019 of the open-chain delay per site |
+| rings | the round trip has settled by the end of the run | PASS | last two round trips differ by at most 1.8e-05 |
+| junctions | the weak junction answers only to two pulses in phase, the strong one to one pulse or two in phase, neither to two in antiphase | PASS | 7 cases |
+| symmetry | a common phase on every kick changes nothing | PASS | spike times move by 3.6e-09 |
+| symmetry | the mirror image of a chain gives the mirror image of the spikes | PASS | spike times differ by 8.2e-13 |
+| integration | a fixed-step fourth-order integration converges to the adaptive one at fourth order | PASS | orders 3.98, 3.99, difference 1.5e-08 at step 0.05 |
